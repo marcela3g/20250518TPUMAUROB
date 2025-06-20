@@ -1,158 +1,85 @@
-%  archivo con cabecera para libros, compilar con LuaLaTeX
-
-\documentclass{book}
-\usepackage[spanish]{babel}
-\usepackage{fontspec}
-\setmainfont{Libertinus Serif}
-\usepackage{graphicx}
-\usepackage{xcolor}
-\usepackage{longtable}
-\usepackage{caption}
-\usepackage{hyperref}
-
+% referencias
+\addbibresource{./files/gbTeXbib-20250518TPUMAUROB.bib}
+% glosarios
+\input{./files/gbTeXglo-20250518TPUMAUROB.tex}
+\ifPDF
+% separata de capítulos solo en pdf de pantalla
+\input{./files/gbTeXseparata-20250518TPUMAUROB.tex}
+% control de inconsistencias de principio y fin de linea
+\usepackage[hyphenation,homeoarchy,homeoarchywordcolor=orange, homeoarchycharcolor=orange,draft]{impnattypo}
+\usepackage[allcolors=magenta, colorlinks, unicode]{hyperref}
+\usepackage{easyReview}
+\usepackage{hyperxmp}
+\input{./files/gbTeXmeta-20250518TPUMAUROB.tex}
+	\else
+	\ifBNPDF
+	\usepackage[width=18truecm,height=25.5truecm,cam,center]{crop}
+	\newcommand*\infofont[1]{\sf{\footnotesize #1 (alberto.alejandro.moyano@gmail.com)}}
+	\crop[font=infofont]
+	\usepackage[hidelinks, unicode]{hyperref}
+	\usepackage{hyperxmp}
+	\input{./files/gbTeXmeta-seminarioUBA.tex}
+		\else
+		\ifPNGEPUB
+		\usepackage[hidelinks, unicode]{hyperref}
+			\else
+			\ifHTMLEPUB
+			\usepackage[allcolors=blue,colorlinks,hyperindex=true,unicode]{hyperref}
+			\fi
+		\fi
+	\fi
+\fi
 
 \begin{document}
-
 \frontmatter
 
-\Chapter
-
-\textbf{Maestría en Periodismo}
-
-\textbf{Facultad de Ciencias Sociales}
-
-\textbf{Universidad de Buenos Aires}
-
-\textbf{Tesis de Maestría}
-
-\textbf{Periodistas en Debate. Aportes al Estudio del Campo Periodístico}
-
-\textbf{(2009 -- 2015)}
-
-\textbf{Mauro David Dobruskin}
-
-\textbf{Director: Dr. Julio Moyano}
-
-\textbf{Septiembre 2020}
-
-\textbf{\hfill\break
-}
-
-\chapter{resumen}{%
+%\textbf{Maestría en Periodismo}
+%
+%\textbf{Facultad de Ciencias Sociales}
+%
+%\textbf{Universidad de Buenos Aires}
+%
+%\textbf{Tesis de Maestría}
+%
+%\textbf{Periodistas en Debate. Aportes al Estudio del Campo Periodístico}
+%
+%\textbf{(2009 -- 2015)}
+%
+%\textbf{Mauro David Dobruskin}
+%
+%\textbf{Director: Dr. Julio Moyano}
+%
+%\textbf{Septiembre 2020}
 
 
-Entre los años 2009 y 2015, el debate entre periodistas sobre el periodismo y el quehacer periodístico adoptó, en Argentina, un volumen e intensidad con pocos antecedentes. Mesas redondas, jornadas, nuevos programas periodísticos en canales de aire y de cable, innumerables artículos periodísticos de crítica y defensa de periodistas se desplegaron en la prensa cotidiana y en revistas políticas. Sin embargo, este debate se destacó por la edición de un gran número de libros escritos por periodistas sobre el periodismo, los periodistas o las empresas periodísticas.
-
-Este fenómeno estuvo inscripto en el conflicto entre el gobierno de Cristina Fernández de Kirchner (2007-2015) y los principales medios de comunicación (Arrueta, 2013; Stefoni, 2013; Gindin, 2014; Ure y Schwarz, 2014; Mastrini y Becerra, 2017), que se vio reflejado en una intensa producción y circulación de este tipo de libros de no ficción.
-
-Estas tensiones y conflictos no han sido exclusivos o propios del gobierno de Cristina Fernández de Kirchner. Ruiz (2014), en \emph{Guerras Mediáticas}, reseña la sucesión de conflictos entre el poder político y los medios de comunicación en Argentina desde sus orígenes; lo novedoso del período es que este conflicto se trasladó al interior del colectivo de los periodistas, produciendo disputas discursivas y críticas recíprocas alrededor de la deontología de la actividad, su función en la sociedad y la democracia y los principios que la deben regir, personalizando en colegas y/o medios la crítica sobre el quehacer de la profesión.
-
-Este trabajo se propone analizar el debate entre periodistas sobre el periodismo y lo periodístico a los efectos de identificar algunos de los argumentos que los periodistas desplegaron para describir y disputar la voz legítima dentro del campo periodístico. Estrictamente, estudiar el discurso metaperiodístico a fin de avanzar, en el conocimiento de los mecanismos regulatorios del campo, en los aspectos de su identidad profesional y sus intereses latentes y manifiestos, como así también en las dinámicas de legitimación y reconocimiento del campo periodístico argentino contemporáneo que se configuran en la producción ensayística de los periodistas entre los años 2009 y 2015.
-
-%\hypertarget{palabras-clave}{%{}
-\section{Palabras clave}\label{palabras-clave}}
-
-Campo periodístico; Metaperiodismo; Legitimación; Independencia; Libertad de expresión
-
-\hypertarget{summary}{%
-\section{Summary}\label{summary}}
-
-Between 2009 and 2015, the~debate~among journalists about journalism and the journalistic work adopted, in Argentine, a volume and intensity with few background. Round tables, conferences, new journalistic TV programs on air and cable~tv, countless journalistic articles on criticism and defense of journalists were deployed in the daily press and in political magazines. However, this debate was highlighted, above all, by the edition of a large number of books written by journalists about journalism, journalists or media enterprises.
-
-This phenomenon was inscribed in the conflict between the government of Cristina Fernández de Kirchner (2007-2015) and the main media (Arrueta, 2013; Stefoni, 2013; Gindin, 2014; Ure y Schwarz, 2014; Mastrini y Becerra, 2017), which was reflected in an intense production and circulation of this type of non-fiction books.
-
-These tensions and conflicts have not been exclusive of the Government of Cristina Fernández de Kirchner. Ruiz (2014), in \emph{Guerras Mediáticas}, summarizes~a~number~of conflicts between political power and the media in Argentina since its origins. The novelty of the period is that this conflict moved within the collective of journalists, producing discursive disputes and reciprocal criticisms around the deontology of the activity, its role in society and democracy and the principles that should govern it, personalizing in colleagues and / or media, the criticism of the work of the profession.
-
-This thesis intends to analyze the debate among journalists about journalism itself~in order to identify some of the arguments that journalists deployed to describe and dispute the legitimate voice inside the journalistic field. Specifically, I intend to analyze the meta journalistic discourse in order to advance in the knowledge of the regulatory mechanisms of the field, in the aspects of their professional identity and their latent and manifest interests, as well as to describe the dynamics of legitimation and~recognition of the contemporary Argentine journalistic field~that are configured in the essay production of journalists between 2009 and 2015.
-
-\textbf{Keywords}
-
-Journalistic field; Meta journalism; Legitimation; Independence; Freedom of expression
-
-INDICE
-
-%\protect\hyperlink{resumen}{Resumen \protect\hyperlink{resumen}{2}}
+%{resumen}% Es un componente propio de la presentacion de la tesis pero no  espertinente para el libro.
 %
-%\protect\hyperlink{palabras-clave}{Palabras clave \protect\hyperlink{palabras-clave}{2}}
+%Entre los años 2009 y 2015, el debate entre periodistas sobre el periodismo y el quehacer periodístico adoptó, en Argentina, un volumen e intensidad con pocos antecedentes. Mesas redondas, jornadas, nuevos programas periodísticos en canales de aire y de cable, innumerables artículos periodísticos de crítica y defensa de periodistas se desplegaron en la prensa cotidiana y en revistas políticas. Sin embargo, este debate se destacó por la edición de un gran número de libros escritos por periodistas sobre el periodismo, los periodistas o las empresas periodísticas.
 %
-%\protect\hyperlink{summary}{Summary \protect\hyperlink{summary}{3}}
+%Este fenómeno estuvo inscripto en el conflicto entre el gobierno de Cristina Fernández de Kirchner (2007-2015) y los principales medios de comunicación (Arrueta, 2013; Stefoni, 2013; Gindin, 2014; Ure y Schwarz, 2014; Mastrini y Becerra, 2017), que se vio reflejado en una intensa producción y circulación de este tipo de libros de no ficción.
 %
-%\protect\hyperlink{pre-texto}{Pre texto \protect\hyperlink{pre-texto}{7}}
+%Estas tensiones y conflictos no han sido exclusivos o propios del gobierno de Cristina Fernández de Kirchner. Ruiz (2014), en \emph{Guerras Mediáticas}, reseña la sucesión de conflictos entre el poder político y los medios de comunicación en Argentina desde sus orígenes; lo novedoso del período es que este conflicto se trasladó al interior del colectivo de los periodistas, produciendo disputas discursivas y críticas recíprocas alrededor de la deontología de la actividad, su función en la sociedad y la democracia y los principios que la deben regir, personalizando en colegas y/o medios la crítica sobre el quehacer de la profesión.
 %
-%\protect\hyperlink{periodistas-en-debate.}{Periodistas en Debate. \protect\hyperlink{periodistas-en-debate.}{8}}
+%Este trabajo se propone analizar el debate entre periodistas sobre el periodismo y lo periodístico a los efectos de identificar algunos de los argumentos que los periodistas desplegaron para describir y disputar la voz legítima dentro del campo periodístico. Estrictamente, estudiar el discurso metaperiodístico a fin de avanzar, en el conocimiento de los mecanismos regulatorios del campo, en los aspectos de su identidad profesional y sus intereses latentes y manifiestos, como así también en las dinámicas de legitimación y reconocimiento del campo periodístico argentino contemporáneo que se configuran en la producción ensayística de los periodistas entre los años 2009 y 2015.
 %
-%\protect\hyperlink{aportes-al-estudio-del-campo-perioduxedstico}{Aportes al estudio del campo periodístico \protect\hyperlink{aportes-al-estudio-del-campo-perioduxedstico}{8}}
+%%\section{Summary}
 %
-%\protect\hyperlink{introducciuxf3n}{1. Introducción \protect\hyperlink{introducciuxf3n}{8}}
+%Between 2009 and 2015, the~debate~among journalists about journalism and the journalistic work adopted, in Argentine, a volume and intensity with few background. Round tables, conferences, new journalistic TV programs on air and cable~tv, countless journalistic articles on criticism and defense of journalists were deployed in the daily press and in political magazines. However, this debate was highlighted, above all, by the edition of a large number of books written by journalists about journalism, journalists or media enterprises.
 %
-%\protect\hyperlink{planteo-del-problema-de-investigaciuxf3n}{1.1. Planteo del problema de investigación \protect\hyperlink{planteo-del-problema-de-investigaciuxf3n}{8}}
+%This phenomenon was inscribed in the conflict between the government of Cristina Fernández de Kirchner (2007-2015) and the main media (Arrueta, 2013; Stefoni, 2013; Gindin, 2014; Ure y Schwarz, 2014; Mastrini y Becerra, 2017), which was reflected in an intense production and circulation of this type of non-fiction books.
 %
-%\protect\hyperlink{_Toc50463137}{1. 2. Objetivos y supuestos de la investigación \protect\hyperlink{_Toc50463137}{12}}
+%These tensions and conflicts have not been exclusive of the Government of Cristina Fernández de Kirchner. Ruiz (2014), in \emph{Guerras Mediáticas}, summarizes~a~number~of conflicts between political power and the media in Argentina since its origins. The novelty of the period is that this conflict moved within the collective of journalists, producing discursive disputes and reciprocal criticisms around the deontology of the activity, its role in society and democracy and the principles that should govern it, personalizing in colleagues and / or media, the criticism of the work of the profession.
 %
-%\protect\hyperlink{consideraciones-preliminares}{1. 3. Consideraciones preliminares \protect\hyperlink{consideraciones-preliminares}{12}}
-%
-%\protect\hyperlink{cambio-tecnoluxf3gico-y-crisis-de-financiamiento}{1. 3. 1. Cambio tecnológico y crisis de financiamiento \protect\hyperlink{cambio-tecnoluxf3gico-y-crisis-de-financiamiento}{14}}
-%
-%\protect\hyperlink{el-peruxedodo-dorado}{1. 3. 2. El período dorado \protect\hyperlink{el-peruxedodo-dorado}{18}}
-%
-%\protect\hyperlink{fin-de-la-uxe9poca-dorada}{1. 3. 3. Fin de la época dorada \protect\hyperlink{fin-de-la-uxe9poca-dorada}{19}}
-%
-%\protect\hyperlink{abordaje-metodoluxf3gico}{1. 4. Abordaje Metodológico \protect\hyperlink{abordaje-metodoluxf3gico}{22}}
-%
-%\protect\hyperlink{_Toc50463143}{2. Estado de la cuestión y consideraciones teórico-metodológicas \protect\hyperlink{_Toc50463143}{24}}
-%
-%\protect\hyperlink{antecedentes-sobre-la-temuxe1tica}{2. 1. Antecedentes sobre la temática \protect\hyperlink{antecedentes-sobre-la-temuxe1tica}{24}}
-%
-%\protect\hyperlink{el-campo-perioduxedstico}{2. 2. 1 El campo periodístico \protect\hyperlink{el-campo-perioduxedstico}{29}}
-%
-%\protect\hyperlink{la-credibilidad}{2. 2. 2. La credibilidad \protect\hyperlink{la-credibilidad}{30}}
-%
-%\protect\hyperlink{la-legitimidad-del-campo-perioduxedstico}{2. 2. 3. La legitimidad del campo periodístico \protect\hyperlink{la-legitimidad-del-campo-perioduxedstico}{38}}
-%
-%\protect\hyperlink{autonomizaciuxf3n-del-campo-perioduxedstico}{2. 2. 4. Autonomización del campo periodístico \protect\hyperlink{autonomizaciuxf3n-del-campo-perioduxedstico}{39}}
-%
-%\protect\hyperlink{_Toc50463149}{3. Descripción del campo periodístico en la Argentina, 2009 - 2015 \protect\hyperlink{_Toc50463149}{44}}
-%
-%\protect\hyperlink{los-periodistas-y-el-fenuxf3meno-editorial}{3. 1. Los periodistas y el fenómeno editorial \protect\hyperlink{los-periodistas-y-el-fenuxf3meno-editorial}{44}}
-%
-%\protect\hyperlink{el-contexto-poluxedtico-del-conflicto-en-la-mirada-de-la-prensa}{3.2. El contexto político del conflicto en la mirada de la prensa \protect\hyperlink{el-contexto-poluxedtico-del-conflicto-en-la-mirada-de-la-prensa}{45}}
-%
-%\protect\hyperlink{acerca-del-campo-perioduxedstico}{3. 3. Acerca del campo periodístico \protect\hyperlink{acerca-del-campo-perioduxedstico}{48}}
-%
-%\protect\hyperlink{propuesta-de-clasificaciuxf3n-de-periodistas-seguxfan-su-lugar-en-el-campo}{3. 3. 1. Propuesta de clasificación de periodistas según su lugar en el campo \protect\hyperlink{propuesta-de-clasificaciuxf3n-de-periodistas-seguxfan-su-lugar-en-el-campo}{49}}
-%
-%\protect\hyperlink{categoruxedas-de-periodistas}{3. 3. 2. Categorías de periodistas \protect\hyperlink{categoruxedas-de-periodistas}{51}}
-%
-%\protect\hyperlink{pseudoperiodistas}{3. 3. 3. Pseudoperiodistas \protect\hyperlink{pseudoperiodistas}{53}}
-%
-%\protect\hyperlink{_Toc50463156}{4. Análisis de Contenido del \emph{Corpus} Bibliográfico \protect\hyperlink{_Toc50463156}{54}}
-%
-%\protect\hyperlink{corpus-de-anuxe1lisis}{4.1. Corpus de Análisis \protect\hyperlink{corpus-de-anuxe1lisis}{54}}
-%
-%\protect\hyperlink{periodizaciuxf3n}{4. 2. Periodización \protect\hyperlink{periodizaciuxf3n}{56}}
-%
-%\protect\hyperlink{etapa-preparatoria}{4. 2. 1. Etapa Preparatoria \protect\hyperlink{etapa-preparatoria}{56}}
-%
-%\protect\hyperlink{_Toc50463160}{4. 2. 2. Periodismo de Guerra \protect\hyperlink{_Toc50463160}{74}}
-%
-%\protect\hyperlink{conclusiones}{5 Conclusiones \protect\hyperlink{conclusiones}{136}}
-%
-%\protect\hyperlink{presentaciuxf3n}{5.1. Presentación \protect\hyperlink{presentaciuxf3n}{136}}
-%
-%\protect\hyperlink{composiciuxf3n-del-campo}{5. 2. Composición del campo \protect\hyperlink{composiciuxf3n-del-campo}{137}}
-%
-%\protect\hyperlink{estrategias-de-protecciuxf3n-de-la-legitimidad-del-campo-perioduxedstico}{5. 3. Estrategias de protección de la legitimidad del campo periodístico \protect\hyperlink{estrategias-de-protecciuxf3n-de-la-legitimidad-del-campo-perioduxedstico}{141}}
-%
-%\protect\hyperlink{protecciuxf3n-de-la-legitimidad-del-campo.-libertad-de-expresiuxf3n}{5. 3. 1. Protección de la legitimidad del campo. Libertad de expresión \protect\hyperlink{protecciuxf3n-de-la-legitimidad-del-campo.-libertad-de-expresiuxf3n}{141}}
-%
-%\protect\hyperlink{protecciuxf3n-de-la-legitimidad-del-campo-perioduxedstico.-la-independencia}{5. 3. 2. Protección de la legitimidad del campo periodístico. La independencia \protect\hyperlink{protecciuxf3n-de-la-legitimidad-del-campo-perioduxedstico.-la-independencia}{144}}
-%
-%\protect\hyperlink{_Toc50463167}{Post scriptum \protect\hyperlink{_Toc50463167}{146}}
-
-%\protect\hyperlink{bibliografuxeda}{BIBLIOGRAFÍA \protect\hyperlink{bibliografuxeda}{147}}
+%This thesis intends to analyze the debate among journalists about journalism itself~in order to identify some of the arguments that journalists deployed to describe and dispute the legitimate voice inside the journalistic field. Specifically, I intend to analyze the meta journalistic discourse in order to advance in the knowledge of the regulatory mechanisms of the field, in the aspects of their professional identity and their latent and manifest interests, as well as to describe the dynamics of legitimation and~recognition of the contemporary Argentine journalistic field~that are configured in the essay production of journalists between 2009 and 2015.
 
 
-AGRADECIMIENTOS
+
+%INDICE
+
+
+
+
+\chapter{Agradecimientos}
 
 A los docentes de la Maestría y en particular a Nadia Koziner, por haberme devuelto la alegría de estudiar
 
@@ -164,8 +91,8 @@ A Esther Jodice, por haberme acompañado en lo mejor de mi vida
 
 
 
-%\hypertarget{pre-texto}{%
-\section{Pre texto}\label{pre-texto}}
+
+\chapter{Pre texto}
 
 Cuando durante 2015 comencé a dar forma al proyecto de tesis, la bibliografía sobre sociología del periodismo argentino era escasa y/o fragmentaria. De hecho, distintos autores que estudiaban el tema lo presentaban como un déficit a subsanar. Por otra parte ese año, y los precedentes, habían dado lugar a una producción desusada de libros sobre la actividad periodística como expresión del conflicto, inicialmente, entre el gobierno y uno de los grandes grupos de medios de Argentina, pero luego el conflicto se extendió, en apariencia, a todo el periodismo argentino. A la luz de ese conflicto, creí observar la estructuración de un discurso, que daba cuenta del hacer y del sentir del conglomerado de periodistas que intervenían en la serie editorial y que, a mi entender, permitiría descubrir, o al menos reconocer, las formas que la acción del campo periodístico adopta, de manera especial, en una situación de conflicto abierto.
 
@@ -173,18 +100,11 @@ Pierre Bourdieu (2008) plantea que en todo campo hay conflicto, pero que el camp
 
 Mientras los medios gráficos poseían la exclusividad como medios de información, estos detentaban una unidad discursiva estructural, es decir los periodistas no eran públicamente reconocidos, ya que escasamente firmaban sus notas, por lo que la responsabilidad del periódico residía en los editores y el director. Sin embargo, el advenimiento de los medios audiovisuales promovió el proceso de identificación y autonomización de un número significativo de periodistas, fortaleciendo, a mi entender, el campo periodístico. Sin embargo, el conflicto del que damos cuenta en la tesis parece haber puesto en crisis esa creencia colectiva, haciendo que la existencia misma del campo se halle en riesgo.
 
-\maintmatter
+\mainmatter
 
+\chapter*{}
 
-{Periodistas en Debate.}\label{periodistas-en-debate.}}%Es el título del libro.
-
-{Aportes al estudio del campo periodístico}%Subtítulo del libro como se indica  periodístico}\label{aportes-al-estudio-del-campo-perioduxedstico}}
-
-%\hypertarget{section}{%
-%\section{}\label{section}}
-
-\begin{quote}
-``-¿Y si se rompe la ilusión? -dije con un hilo de voz.
+\epigraph{``-¿Y si se rompe la ilusión? -dije con un hilo de voz.
 
 -Qué se va a romper -me tranquilizó.
 
@@ -194,16 +114,49 @@ Lo juro por mi adhesión personal, por mi lealtad al equipo, por usted, por Lima
 
 -Diga lo que se le dé la gana, nadie le va a creer.''
 
-\emph{Esse est percipi} (Ser es ser percibido)
+\emph{Esse est percipi} (Ser es ser percibido)} {Borges y Bioy Casares, 1967}
 
-(Borges y Bioy Casares, 1967)
-\end{quote}
+\chapter{Introducción} %1
 
-%\hypertarget{introducciuxf3n}{%
-\chapter{Introducción}\label{introducciuxf3n}}%1
-
-%\hypertarget{planteo-del-problema-de-investigaciuxf3n}{%
-\section{Planteo del problema de investigación}\label{planteo-del-problema-de-investigaciuxf3n}} %1.1
+\section{Planteo del problema de investigación}
+%@article{ID,
+%	author = {author},
+%	title = {title},
+%	journaltitle = {journaltitle},
+%	date = {date},
+%	OPTtranslator = {translator},
+%	OPTannotator = {annotator},
+%	OPTcommentator = {commentator},
+%	OPTsubtitle = {subtitle},
+%	OPTtitleaddon = {titleaddon},
+%	OPTeditor = {editor},
+%	OPTeditora = {editora},
+%	OPTeditorb = {editorb},
+%	OPTeditorc = {editorc},
+%	OPTjournalsubtitle = {journalsubtitle},
+%	OPTissuetitle = {issuetitle},
+%	OPTissuesubtitle = {issuesubtitle},
+%	OPTlanguage = {language},
+%	OPToriglanguage = {origlanguage},
+%	OPTseries = {series},
+%	OPTvolume = {volume},
+%	OPTnumber = {number},
+%	OPTeid = {eid},
+%	OPTissue = {issue},
+%	OPTmonth = {month},
+%	OPTpages = {pages},
+%	OPTversion = {version},
+%	OPTnote = {note},
+%	OPTissn = {issn},
+%	OPTaddendum = {addendum},
+%	OPTpubstate = {pubstate},
+%	OPTdoi = {doi},
+%	OPTeprint = {eprint},
+%	OPTeprintclass = {eprintclass},
+%	OPTeprinttype = {eprinttype},
+%	OPTurl = {url},
+%	OPTurldate = {urldate},
+%}
 
 En Argentina, la intervención de periodistas como autores de libros que discuten sobre el campo periodístico y su legitimidad cuenta con una larga tradición desde los inicios mismos de la Nación\footnote{Entre otros estudios sobre debates en torno a la construcción y legitimación del campo periodístico desde los orígenes de la prensa argentina, Cfr. Rivera (1968, 1990, 1998), Molina (2012), Alonso (1997, 2004), Moyano (1996, 2008, 2013), Ojeda y Moyano (2015, 2019), Ojeda (2010), De Marco (2006), Díaz, (2012), Auza (1978}. Sin embargo, el período que transcurre entre los años 2009 y 2015 fue especialmente pródigo en la cantidad y diversidad de material que se produjo sobre el tema, con especial énfasis en la crítica a colegas y/o a medios de comunicación.
 
@@ -249,12 +202,11 @@ Desde otra perspectiva, Campos-Domínguez y Redondo-García (2015) en \emph{Meta
 
 En nuestro trabajo, en consecuencia, aplicaremos el concepto de \emph{metaperiodismo} a la reflexión e interpretación que los periodistas realizan de su actividad, la de sus colegas y de los medios en los libros de periodistas, como núcleo argumental.
 
-Mientras que en los diez años previos al año 2009 se editaron menos de cinco títulos\footnote{En 2007 se publicó \emph{Noticias del poder, buenas y malas artes del periodismo político} de Jorge Halperín. Anteriormente en 2006, Hechos y noticias. Claroscuros de la prensa gráfica en la Argentina, de Eduardo Zukernik, y luego un poco más atrás, en el año 2002, Grandes hermanos. Alianzas y negocios ocultos de los dueños de la información de Eduardo Anguita, para aproximarse a un antecedente del fenómeno.} de esa temática, en el período temporal considerado (entre octubre de 2009 y diciembre de 2015) se publicaron aproximadamente cuarenta, haciendo periodismo sobre periodistas o empresas periodísticas. El primero fue \emph{Diario de guerra. Clarín el gran engaño argentino} de Claudio Díaz (2009), seguido inmediatamente por \emph{678. La creación de otra realidad}, de María Julia Oliván y Pablo Alabarces (2010), los que dan inicio a la saga que, a los efectos del presente trabajo, cerraremos provisoriamente en diciembre de 2015 con \emph{Periodistas depordivos} de Walter Vargas. \protect\hypertarget{_Toc50463137}{}{}
+Mientras que en los diez años previos al año 2009 se editaron menos de cinco títulos\footnote{En 2007 se publicó \emph{Noticias del poder, buenas y malas artes del periodismo político} de Jorge Halperín. Anteriormente en 2006, Hechos y noticias. Claroscuros de la prensa gráfica en la Argentina, de Eduardo Zukernik, y luego un poco más atrás, en el año 2002, Grandes hermanos. Alianzas y negocios ocultos de los dueños de la información de Eduardo Anguita, para aproximarse a un antecedente del fenómeno.} de esa temática, en el período temporal considerado (entre octubre de 2009 y diciembre de 2015) se publicaron aproximadamente cuarenta, haciendo periodismo sobre periodistas o empresas periodísticas. El primero fue \emph{Diario de guerra. Clarín el gran engaño argentino} de Claudio Díaz (2009), seguido inmediatamente por \emph{678. La creación de otra realidad}, de María Julia Oliván y Pablo Alabarces (2010), los que dan inicio a la saga que, a los efectos del presente trabajo, cerraremos provisoriamente en diciembre de 2015 con \emph{Periodistas depordivos} de Walter Vargas.
 
 
 
-\section
-\textbf{Objetivos y supuestos de la investigación}%1.2
+\section{Objetivos y supuestos de la investigación} %1.2
 
 El objetivo de esta investigación es aportar al conocimiento del campo periodístico a través del análisis de los núcleos temáticos de legitimación y reconocimiento, en las producciones bibliográficas de periodistas en la Argentina entre los años 2009 y 2015.
 
@@ -266,8 +218,7 @@ Pero, además, supone la existencia de elementos de cohesión identitaria, es de
 
 A su vez, en relación con las estrategias de protección de la legitimidad del campo periodístico sostenemos, abrevando en los desarrollos de Bourdieu sobre esta temática, que el campo periodístico desarrolla o desarrolló durante el período señalado tales estrategias, a partir de una tensión o sentimiento de agresión al interior del campo.
 
-%\hypertarget{consideraciones-preliminares}{%
-\section{Consideraciones preliminares}\label{consideraciones-preliminares}}%1.3
+\section{Consideraciones preliminares} % 1.3
 
 El estudio de un campo determinado de la actividad social presenta problemas inherentes al propio campo de estudio, a la importancia y valoración que la sociedad le asigna, su volumen cuantitativo, en relación a la cantidad de sujetos que lo integran, como a su periferia, etc. Bourdieu (2008: 196) plantea con claridad esta cuestión cuando aborda el estudio del campo de la alta costura y considera que este espacio social posee menos protección que otros de mayor interés o de mayor ``legitimidad''. Sostiene en ese trabajo que los ``objetos legítimos se hallan protegidos por su legitimidad contra la mirada científica y contra el trabajo de desacralización que supone el estudio científico de los objetos sagrados'' (Bourdieu 2008: 197).
 
@@ -287,8 +238,7 @@ Por tal motivo, consideramos importante el fenómeno de confrontación entre int
 
 Como se sostuvo precedentemente, la disputa intelectual al interior del campo periodístico ocurrió en un contexto signado por el conflicto político. Consideramos, sin embargo, que estuvo sobredeterminado por cambios estructurales de la actividad como son la irrupción del proceso de convergencia digital, los nuevos medios de comunicación y la crisis de financiamiento del sector, en simultáneo con los cambios accionarios de sus propietarios.
 
-%\hypertarget{cambio-tecnoluxf3gico-y-crisis-de-financiamiento}{%
-\subsection{Cambio tecnológico y crisis de financiamiento}\label{cambio-tecnoluxf3gico-y-crisis-de-financiamiento}}%1.3.1
+\subsection{Cambio tecnológico y crisis de financiamiento} %1.3.1
 
 A mediados del siglo XIX en Europa y Estados Unidos y a principios del siglo XX en América del Sur, se desarrolla una prensa sostenida económicamente en proporciones variables entre la publicidad y la venta de ejemplares\footnote{En relación con el marco europeo y norteamericano, Cfr. Barbier y Bertho-Lavenir, 1999; Habermas, 1994; Borderia Ortiz, Laguna Platero y Martínez Gallego, 2015. Para el caso argentino Cfr. De Marco, 2006; Ojeda, 2010; Ojeda y Moyano, 2015).}. Durante buena parte del siglo XX, la publicidad cubrió entre el cincuenta y el ochenta por ciento de los ingresos de una publicación, tanto de diarios como de revistas, convirtiendo a la prensa, durante décadas, en un negocio lucrativo.
 
@@ -302,17 +252,17 @@ Los datos del \textbf{Cuadro 1} muestran con claridad el cambio de destino de la
 
 %\textbf{Cuadro 1: Evolución de la distribución de la inversión publicitaria por medio entre 2010 y 2018 en Argentina}
 
-\ul{Fuente}: Cámara Argentina de Agencias de Medios
+%\ul{Fuente}: Cámara Argentina de Agencias de Medios
 
 Mientras que en 2010 los diarios y revistas del AMBA recibían el 39\% de la inversión publicitaria y la TV el 48\%\footnote{Fuente: Asociación Argentina de Editores de Revistas.},durante la segunda década esa relación cambia drásticamente, como puede verse en el \textbf{Cuadro 1}. Durante el año 2018, el 41\% de la inversión publicitaria se dirige a la TV y apenas el 17\% a los medios gráficos, en una brecha que tiende a acrecentarse sobre la base de la estabilidad en los medios audiovisuales, el descenso de la gráfica y el vertiginoso crecimiento de la inversión en Internet.
 
 En la actualidad, la venta de diarios en Argentina ronda los 200 millones de ejemplares por año. La evolución de la venta neta total de diarios, en el año 2018, ha registrado un nuevo retroceso (-10\%)\footnote{Fuente: Elaboración propia basada en datos del IVC.}, el cual estuvo acompañado por una merma de los lectores de diarios (-7\%) en 2017 con respecto al año anterior.
 
-\textbf{Cuadro 2: Circulación neta promedio de los principales diarios del AMBA (en miles)}\footnote{Fuente: Elaboración propia según datos del IVC. Se consideró el promedio semanal de lunes a domingo durante el mes de mayo de cada año.}
+%\textbf{Cuadro 2: Circulación neta promedio de los principales diarios del AMBA (en miles)}\footnote{Fuente: Elaboración propia según datos del IVC. Se consideró el promedio semanal de lunes a domingo durante el mes de mayo de cada año.}
 
 
 
-\textbf{Cuadro 3: Ranking de circulación de diarios. Día domingo, promedio mes de mayo. Primeros 10 títulos (en miles), 2010-2019}\footnote{Elaboración propia con datos del IVC.}
+%\textbf{Cuadro 3: Ranking de circulación de diarios. Día domingo, promedio mes de mayo. Primeros 10 títulos (en miles), 2010-2019}\footnote{Elaboración propia con datos del IVC.}
 
 
 Con respecto a la circulación de diarios pagos, los títulos auditados registraron en general bajas en su circulación. En los últimos 10 años, \emph{Clarín} redujo sus ventas un 33\%, \emph{Diario Popular} el 48\% y \emph{La Nación} el 37\% (ver \textbf{Cuadro 2}).
@@ -339,8 +289,8 @@ Por último, puede afirmarse que la convergencia digital ha producido una apremi
 
 A pesar de la frondosa evidencia, parece existir una creencia generalizada entre periodistas e incluso investigadores, acerca de que la prensa escrita sigue siendo un buen negocio. Abordaremos posteriormente este tema ya que es, en sí, uno de los mecanismos de profesionalización y legitimación de la actividad periodística.
 
-%\hypertarget{el-peruxedodo-dorado}{%
-\subsection{El período dorado}\label{el-peruxedodo-dorado}}%1.3.2
+
+\subsection{El período dorado} %1.3.2
 
 Durante unos 100 años (entre mediados del siglo XIX y mediados del siglo XX) los diarios y las revistas fueron los principales medios de publicidad. Esta situación convirtió a los emprendimientos editoriales en exitosos económicamente. Sin embargo, tanto la producción de diarios como de revistas periódicas requerían de una condición: ser propietarios de costosos medios de impresión, lo que implicaba disponer de cuantiosos recursos económicos.
 
@@ -358,8 +308,8 @@ La prensa se convirtió en una entidad omnipotente. También se convirtió en un
 
 Aunque los grandes diarios suelen ocultar el origen de los fondos requeridos para su desarrollo, la bibliografía\footnote{Rotemberg (1999); Muchnik (2012); Anguita (2002); Sivak (2012).} revela que, para lograr hacer de un periódico un medio masivo, se requieren grandes inversiones y que no siempre ha estado garantizado el retorno de capitales en función del riesgo que implicaba. Por otra parte, no es raro encontrar capitales financieros que apoyan los emprendimientos (solo en Argentina, son ejemplos los diarios Clarín, Página 12 y La Opinión entre otros).\footnote{Rotemberg (1999); Muchnik (2012); Anguita (2002); Sivak (2012)..}
 
-%\hypertarget{fin-de-la-uxe9poca-dorada}{%
-\subsection{Fin de la época dorada}\label{fin-de-la-uxe9poca-dorada}}%1.3.3
+
+\subsection{Fin de la época dorada} %1.3.3
 
 El objeto de estudio de este trabajo (el conflicto al interior del campo periodístico, en Argentina en el período 2009 - 2015) se inserta en lo que denominamos \emph{el fin de la época dorada del negocio periodístico}. En los últimos 5 años, los títulos de revistas han venido descendiendo a un ritmo promedio de 15 \% anual.\footnote{Datos de AAER, Asociación Argentina de Editores de Revistas e IVC} Los diarios revelan una mayor fortaleza, aunque la tendencia a compensar la reducción del ingreso por publicidad, con el incremento del precio de tapa\footnote{Los diarios del AMBA han incrementado el precio de tapa en alrededor de un 100\% en los dos últimos años.} probablemente reduzca la cantidad de compradores, alimentando el círculo vicioso de reducción de la inversión publicitaria y el quebranto económico. Solamente en los Estados Unidos, cerraron más de 160 diarios en los últimos nueve años\footnote{~Fuente: Columbia Journalism Review y \href{http://www.wan-ifra.org/}{World Association of Newspapers and News Publishers}~(WAN).}. Actualmente, la producción y circulación de contenidos de actualidad no alcanza a ser sostenida con la venta de ejemplares y de espacios publicitarios, por lo que requiere de recursos externos a la actividad propiamente dicha.
 
@@ -390,7 +340,6 @@ A los efectos de comprender el contexto del conflicto, intentaremos recorrer el 
 7º Momento: Internet, que supone una multiplicidad de fenómenos, entre ellos el surgimiento de nuevos actores.
 
 \begin{enumerate}
-\def\labelenumi{\alph{enumi}.}
 \item
   Proveedores del canal de circulación, conectividad y servidores (Movistar, Fibertel, Arnet, Telefónica, Amazon, Google, etc.) con altísimos recursos económicos y tecnológicos.
 \item
@@ -401,8 +350,7 @@ A los efectos de comprender el contexto del conflicto, intentaremos recorrer el 
   Consumidores de la instantaneidad
 \end{enumerate}
 
-%\hypertarget{abordaje-metodoluxf3gico}{%
-\section{Abordaje Metodológico}\label{abordaje-metodoluxf3gico}}%1.4
+\section{Abordaje Metodológico} %1.4
 
 \begin{quote}
 Uno de los motivos que dio impulso a la presente tesis fue la observación de la agresividad de los discursos públicos entre periodistas, en el período 2009--2015, fenómeno inusual hasta ese momento o, eventualmente, de muy esporádica ocurrencia. También resultó singular que ese conflicto discursivo se trasladara a las producciones ensayísticas.
@@ -423,15 +371,13 @@ A los efectos de establecer la condición de \emph{periodistas}, se adoptó el p
 
 Se considera oportuno, en tal sentido, insertar en este espacio la distribución por año y editorial del \emph{corpus} reunido a fin de lograr el dimensionamiento del fenómeno abordado en la tesis.
 
-Gráfico 2: Distribución de las ediciones por años y editoriales
-\end{quote}
+%Gráfico 2: Distribución de las ediciones por años y editoriales
+%\end{quote}
 
 
-\chapter{Estado de la cuestión y consideraciones teórico-metodológicas}\label{estado-de-la-cuestiuxf3n-y-consideraciones-teuxf3rico-metodoluxf3gicas}}% 2
+\chapter{Estado de la cuestión y consideraciones teórico-metodológicas % 2
 
-%\hypertarget{antecedentes-sobre-la-temuxe1tica}{%
-\section{Antecedentes sobre la temática}\label{antecedentes-sobre-la-temuxe1tica}}%2.1
-
+\section{Antecedentes sobre la temática} %2.1
 La prensa ha sido durante el siglo XX uno de los fenómenos sobre los que las ciencias sociales han reflexionado de manera intensa, considerando su importancia en los sistemas democráticos y consecuentemente por su capacidad de influencia en la opinión pública y las formas que ésta adopta. Entre los temas centrales abordados por los investigadores se halla la relación entre los medios y las audiencias, habiendo quedado, en general, relegada la atención sobre el fenómeno de los periodistas, los que hacen las noticias y/o deciden sobre ellas (\emph{gatekeepers} y \emph{newsmakers}). Wolf (2004: 203) observa lo tardío e importante de dichos estudios frente a las investigaciones centradas en la relación entre \emph{mass media} y opinión pública
 
 \begin{quote}
@@ -458,7 +404,7 @@ Esta limitada producción sobre el colectivo periodístico parece estar fundada,
 
 El conflicto que reseña la presente investigación incidió en la promoción de una serie de trabajos académicos contemporáneos, evidentemente conmovidos por la violencia, fortaleza, y lo prolongado del conflicto entre periodistas. \hl{En 2012, Baldoni} percibe la disputa entre el ``periodismo independiente'' y el ``periodismo militante'' y se propone trazar los principales rasgos del conflicto, observando que son las premisas deontológicas las bases argumentativas para la defensa de uno u otro de los tipos de periodismo. De esta manera, los conceptos de \emph{periodismo militante} versus \emph{periodismo independiente} reciben en este trabajo, su bautismo académico.
 
-Unos meses más tarde\hl{, Arrueta (2012)} aborda también este conflicto, poniéndole nombre a las formas de periodismo enfrentadas --\emph{periodismo corporativo} y \emph{periodismo militante}- y rastrea su historia conceptual en el país. Más adelante, continúa con esta búsqueda y aborda los aspectos identitarios del campo periodístico en el proceso de relación con las empresas de medios.
+Unos meses más tarde \hl{Arrueta (2012)} aborda también este conflicto, poniéndole nombre a las formas de periodismo enfrentadas --\emph{periodismo corporativo} y \emph{periodismo militante}- y rastrea su historia conceptual en el país. Más adelante, continúa con esta búsqueda y aborda los aspectos identitarios del campo periodístico en el proceso de relación con las empresas de medios.
 
 \hl{En 2013, Stefoni} publica un trabajo que pretende vincular el conflicto entre periodistas alrededor de los conceptos de \emph{militantes} y \emph{profesionales}, a partir de los principios deontológicos. A pesar del esfuerzo, el trabajo revela que los periodistas independientes son críticos del concepto de \emph{militante}, pero que los que se oponen a la idea de independencia, en tanto que consideran que todo periodismo es político, también son reacios a catalogar su lugar como el de \emph{periodistas militantes}.
 
@@ -470,7 +416,7 @@ Por último, \hl{Ure y Schwarz (2014)} proponen un estudio cualitativo de ``las 
 
 Los últimos trabajos señalados muestran el interés por descubrir, en el conflicto, la constitución de identidades profesionales, que no parecen consolidarse de manera externa al campo periodístico.
 
-\section{Enfoque Conceptual}%2.2
+\section{Enfoque Conceptual} %2.2
 
 Como señalaron desde hace tiempo distintos autores que abordaron la problemática, los medios masivos de comunicación se convirtieron en un actor significativo en el campo político y cultural (Borrat, 1989). A pesar de que algunos autores destacan su carácter de meros mediadores --probablemente como reacción a los primeros trabajos encuadrados en lo que Wolf (2004) denominó \emph{teoría hipodérmica}--desde mediados del siglo XX distintos autores dejaron claro el inmenso poder que los medios poseen en la conformación del sentido común, los modos de comprender la realidad y, consecuentemente, en la toma de decisiones de los integrantes de la sociedad en cuyo seno intervienen (Siebert y Peterson, 1967; Borrat, 1994; D`adamo, 2007).
 
@@ -494,8 +440,7 @@ Retrocediendo en la historia, en la primera década del siglo XX, Max Weber (199
 
 A mediados del siglo pasado (1962), Habermas (1994) retomó el tema de los periodistas en una obra que intenta una indagación de la opinión pública y la prensa, revelando el proceso de cambio estructural del lugar de los periodistas desde la prensa de opinión a la prensa comercial. Dado que en ese trabajo su objeto de interés es el proceso de transformación de lo que denomina la \emph{esfera pública}, brinda elementos de análisis para comprender cómo el desarrollo de la prensa desde sus orígenes va logrando un lugar de autonomía de los poderes sociales y políticos en pugna. La prensa, progresivamente, va ocupando el lugar de narrador de la realidad social, como esfera pública de la ``publicidad burguesa''. El autor da cuenta de la \emph{pérdida de la inocencia} por parte de los medios, en el sentido de que toman conciencia de su poder e influencia.
 
-%\hypertarget{el-campo-perioduxedstico}{%
-\subsection{El campo periodístico}\label{el-campo-perioduxedstico}}%2.2.1
+\subsection{El campo periodístico} %2.2.1
 
 Bourdieu ha descrito, en múltiples trabajos, la lógica de funcionamiento de los campos de producción simbólica (campo intelectual, artístico, religioso, de la alta costura, científico, etc.). Sin embargo, cuando --tardíamente-- aborda la cuestión del campo periodístico (Bourdieu, 1997), lo hace en un trabajo que no tiene el carácter de una indagación en profundidad, sino de un pequeño ensayo, publicado inicialmente en \emph{Actes de la recherche en sciences sociales}. Más adelante, el autor considera oportuno incorporarlo al libro \emph{Sobre la Televisión} con un ensayo denominado \emph{La influencia del periodismo}. Allí, esboza algunas ideas generales sobre el campo periodístico, entre las que señala dos principios de legitimación de sus integrantes: el de los propios periodistas, que se otorga a aquellos que representan más cabalmente los valores y principio del campo; y el de la audiencia, materializado en el mayor número de lectores, televidentes o entradas a sus notas o sitios. También señala que le preocupa la influencia del periodismo sobre otros campos como el de la cultura, lo que considera pernicioso ya que violenta la autonomía de los mismos.
 
@@ -521,8 +466,7 @@ En tal sentido, creemos que el estudio del campo periodístico, al ser transvers
 Un campo -podría tratarse del campo científico- se define, entre otras cosas, definiendo aquello que está en juego y los intereses específicos que son irreductibles a los objetos en juego, y a los intereses propios de otros campos o a sus intereses propios (no será posible atraer a un filósofo con lo que es motivo de disputa entre geógrafos) y que no son percibidos por nadie que no haya sido construido para entrar en el campo (cada categoría de intereses implica indiferencia hacia otros intereses), otras inversiones que serán percibidos como absurdos, irracionales, o sublimes y desinteresados (Bourdieu, 2008: 135).
 \end{quote}
 
-%\hypertarget{la-credibilidad}{%
-\subsection{La credibilidad}\label{la-credibilidad}}%2. 2. 2.
+\subsection{La credibilidad} %2.2.2.
 
 La primera cuestión que abordaremos es: ¿qué está en juego? O bien: ¿qué intereses específicos están en juego?
 
@@ -532,7 +476,7 @@ Así como Max Weber caracteriza a la Iglesia como aquella institución que deten
 %
 %\textbf{\hl{Independencia Libertad de expresión Agenda de actualidad}}%es un diagrama en el original
 
-\hl{Manuel Castells (1998: 48) apunta:}
+Manuel Castells (1998: 48) apunta:
 
 \begin{quote}
 (\ldots) sin credibilidad, las noticias carecen de valor, ya sea en términos de dinero o de poder\ldots La credibilidad requiere una distancia relativa frente a las opciones políticas. Esta autonomía de los medios, arraigada en sus intereses comerciales, también encaja bien con la ideología de la profesión y con la legitimidad y la dignidad de los periodistas. Ellos informan, no toman partido (...). El distanciamiento es la regla.
@@ -680,8 +624,7 @@ Los que participan en la lucha contribuyen a la reproducción del juego contribu
 
 En tal sentido, la disputa del gobierno de Cristina Fernández de Kirchner, con los medios dominantes, luego convertida en disputa entre los actores del campo más o menos \emph{dominantes} versus los más o menos \emph{pretendientes}, puede ser entendida como una de esas revoluciones de las que habla Bourdieu, aunque de una violencia discursiva pocas veces vista en la historia del periodismo argentino. Es probable que esa modalidad pueda adjudicarse a la percepción, por parte del periodismo dominante, de que las formas que adoptaba el conflicto ponían ``en cuestión los fundamentos mismos del juego'', en un contexto de crisis general de la actividad.
 
-%\hypertarget{la-legitimidad-del-campo-perioduxedstico}{%
-\subsection{La legitimidad del campo periodístico}\label{la-legitimidad-del-campo-perioduxedstico}}% 2. 2. 3.
+\subsection{La legitimidad del campo periodístico} %2.2.3
 
 Afirmamos que los periodistas además de obtener información y convertirla en texto narrativo a través de descripciones, comentarios y opiniones, llevan adelante una acción tanto o más importante, como es la de actuar públicamente a los fines de validar y hacer legítima su producción, que es en definitiva lo que da valor a sus informaciones. Sostenemos también, siguiendo a Bourdieu (1997;2008), que esta actuación pública no es individual; los periodistas actúan dentro de un campo profesional que ofrece altos niveles de protección y cobertura.
 
@@ -693,14 +636,13 @@ Por ello, si el arte, la ciencia o la actualidad fueran objeto del interés de l
 
 En el caso de la actividad periodística, el bien que provee es tan importante, tan valioso, que continuamente se ve amenazado por el mercado, para incidir, por medio del dinero o favores en su producción. Es por este motivo que una de las formas de desacreditación de la actividad periodística o de un periodista es que tiene intereses monetarios.
 
-%\hypertarget{autonomizaciuxf3n-del-campo-perioduxedstico}{%
-\subsection{Autonomización del campo periodístico}\label{autonomizaciuxf3n-del-campo-perioduxedstico}}% 2. 2. 4.
+\subsection{Autonomización del campo periodístico} %2.2.4
 
 En diversos trabajos, Bourdieu afirma que para la constitución de un campo se requiere previamente un proceso de autonomización de los integrantes, es decir, la ruptura de las cadenas que los amarraban a los mecenas y benefactores. Esto es, la existencia de un mercado de bienes culturales donde los integrantes del campo pueden ofrecer sus producciones y vivir de la realización de ellas.
 
 En el caso del campo del periodismo, a diferencia de los de la pintura, la literatura o las ciencias, el campo se presenta en apariencia compuesto por periodistas autónomos, ``independientes''--como gustan denominarse--, pero en realidad esto es una pura ilusión. A diferencia de los artistas, los periodistas no son autónomos en el proceso de producción y circulación de información de actualidad, sino profundamente dependientes del medio donde los periodistas ``brindan su pluma'' o su información a cambio de un salario o retribución por nota escrita, por lo menos hasta hace unos pocos años.
 
-Si bien Internet está produciendo modificaciones significativas en este aspecto, y existen algunos ejemplos de autonomía periodística, todavía no se ha consolidado la posibilidad de que periodistas autónomos sean propietarios de sus propios medios y con ello de los recursos económicos que permitan la reproducción ampliada de sus mensajes. Entre otras cuestiones porque un periodista difícilmente cumpla la expectativa de proveer un conjunto de informaciones que abarquen diversos temas.\footnote{Un caso que merece su seguimiento es el del periódico dominical \emph{El cohete a la luna}, dirigido por Horacio Verbitsky .}
+Si bien Internet está produciendo modificaciones significativas en este aspecto, y existen algunos ejemplos de autonomía periodística, todavía no se ha consolidado la posibilidad de que periodistas autónomos sean propietarios de sus propios medios y con ello de los recursos económicos que permitan la reproducción ampliada de sus mensajes. Entre otras cuestiones porque un periodista difícilmente cumpla la expectativa de proveer un conjunto de informaciones que abarquen diversos temas.\footnote{Un caso que merece su seguimiento es el del periódico dominical \emph{El cohete a la luna}, dirigido por Horacio Verbitsky.}
 
 Para abordar la problemática de la autonomización y comprender la actual situación en su contexto histórico utilizaremos la clasificación de etapas que Habermas (1991) propone para la prensa en \emph{Historia y crítica de la opinión pública}. Una de las virtudes de la taxonomía que propone, llamativamente, es que destaca el vínculo entre las características de la prensa y las formas de financiamiento.
 
@@ -726,7 +668,7 @@ La prensa comercial, tal como la conocemos hoy, con la incorporación de publici
 
 Es pertinente destacar que el inicio y el fin de las etapas o fases del desarrollo de la prensa operaron de manera asincrónica. Cada una de ellas tuvo solapamientos, hecho que determinó el carácter mixto de la prensa comercial, es decir la articulación de información comercial, social y de interés general con información política y de opinión, beneficiándose cada etapa de la construcción y preparación de las audiencias de las etapas precedentes.
 
-\textbf{Gráfico 1:} Representación gráfica de los momentos de la prensa según la taxonomía de Jürgen Habermas (1994).
+%\textbf{Gráfico 1:} Representación gráfica de los momentos de la prensa según la taxonomía de Jürgen Habermas (1994).
 
 
 Durante el primer período, los protoperiodistas dependían de los imprenteros y casas editoriales. Con el Estatuto de la~Reina Ana de Inglaterra, promulgado el 10 de abril de 1710, comienzan los escritores a autonomizarse. Sin embargo, ello no aplicaba para los ``periodistas'' dado que, para entonces, los periódicos ya habían pasado de ser ``lugares de publicación de noticias frescas, a portadores y guías de la opinión pública, medios de lucha de la política partidista'' (Bücher, 1917, citado en Habermas, 1994: 210). Habermas (1994: 210) observa que esta transformación produjo modificaciones en la organización interna de la empresa periodística:
@@ -745,10 +687,9 @@ En la fase en la que la publicidad se impone como publicidad políticamente acti
 
 Habermas describe el proceso de sustitución de los salones de tertulias por el debate en la prensa política o prensa de escritores. Estos escritores, o mejor aún escribas del empresario políticamente activo, se correspondían en general a sectores plebeyos letrados de la incipiente ciudad moderna, que hallaban en las redacciones periodísticas un mecanismo de ascenso social, recursos económicos y, en muchos casos, acceso a una imprenta donde acercar sus trabajos literarios. A nuestro entender este proceso demandó un tiempo prolongado, entre principio del siglo XVIII y finales del XIX dando lugar, por un lado, al desarrollo de la autoconciencia de la autonomía periodística y su lugar estructural en el sistema republicano y, por otro, su contraparte: el desarrollo de audiencias masivas crédulas en la veracidad de las informaciones provistas por los medios.\footnote{Este fenómeno habilitó otro problema fundamental, -según Habermas- a lo largo del siglo XX, capaz de poner en crisis la composición misma de la esfera pública como espacio de convergencia y construcción de opinión pública resultante de un largo proceso de consenso. La aparición de una \emph{publicity} sistemática reconfigura la noción misma de destinatario de la comunicación periodística. Si el reclamo publicitario se dirigía ``a las personas privadas en tanto susceptibles de convertirse en consumidores, las \emph{public relations} se dirigen a la ``opinión pública'', a las personas privadas como público y no como ``consumidores''. La \emph{publicity} (relaciones públicas) se transforma en una actividad tan permanente y sistemática que la esfera pública entra en riesgo de dejar de ser un espacio de construcción de consensos (publicidad burguesa) para convertirse en un espacio de lucha de intereses, causando, en los términos metafóricos propuestos por Habermas, una suerte de ``refeudalización de la esfera pública''. (Habermas, 1994: 209 y ss.).}
 
-\chapter{Descripción del campo periodístico en la Argentina, 2009 - 2015}%3
+\chapter{Descripción del campo periodístico en la Argentina, 2009 - 2015} %3
 
-%\hypertarget{los-periodistas-y-el-fenuxf3meno-editorial}{%
-\section{Los periodistas y el fenómeno editorial}\label{los-periodistas-y-el-fenuxf3meno-editorial}% 3. 1.
+\section{Los periodistas y el fenómeno editorial} % 3. 1.
 
 El motivo por el que un libro es editado supone una serie de consideraciones diversas, entre las que se incluyen decisiones económicas, de venta y rentabilidad de la acción editorial, aunque no solamente, ya que en muchos casos existen intereses extraeconómicos: culturales, de catálogo, de prestigio personal e incluso transeconómicos. El rédito económico puede no estar en la venta de ejemplares, es decir que la edición de un título y su presentación pueden tener objetivos que no se agotan en la venta del producto, sino que el mismo es un medio para otras realizaciones. Además, el motivo puede conjugar dos o más de estas variables. Si bien no nos detendremos en esta cuestión es importante desmitificar la acción editorial y de escritura de un libro que, como todo bien cultural, está rodeado de un halo simbólico de alta densidad.
 
@@ -763,7 +704,7 @@ La saga se inicia con un libro extremadamente provocativo: \emph{Diario de Guerr
 Con excepción de \emph{678. La creación de otra realidad}, editado por \href{http://www.lecturalia.com/editoriales/79/paidos}{Paidós}/Planeta durante 2010 y apoyado en un éxito televisivo, serán las editoriales independientes las que tomarán a su cargo los primeros textos en el inicio del conflicto. Entre las editoriales independientes agrupamos, además de las nacionales, algunas pequeñas nacidas para la ocasión. Las editoriales más importantes, en general, se alinearon con los periodistas de los medios o multimedios de mayores audiencias.
 
 
-\section{El contexto político del conflicto en la mirada de la prensa}\label{el-contexto-poluxedtico-del-conflicto-en-la-mirada-de-la-prensa}}% 3.2.
+\section{El contexto político del conflicto en la mirada de la prensa} %3.2.
 
 Durante el período establecido para la investigación, el campo periodístico mayoritario se percibió agredido por el gobierno. Probablemente la frase: ``¿Qué te pasa Clarín? ¿Estás nervioso?'',~que expresó Néstor Kirchner unos días antes de las elecciones legislativas del año 2009, reveló la intención del gobierno de confrontar con el grupo de medios más importante del país. Si bien el enfrentamiento contra este medio ya existía desde el año anterior, cuando ambos rompieron relaciones luego de que el gobierno de Cristina Kirchner presentara~la resolución 125 --que pretendía aumentar los impuestos a la actividad agropecuaria-- este conflicto no había sido verbalizado tan crudamente.
 
@@ -798,7 +739,7 @@ A ver: ¿hicimos periodismo de guerra? Sí. Eso es mal periodismo. Fuimos buenos
 En el citado libro de Sivak (2015: 8, versión digital), más adelante el CEO del medio, Héctor Magnetto afirma:
 
 \begin{quote}
-¿ Por qué (los Kirchner) se metieron con nosotros? Por nuestra llegada a un sector importante de la sociedad argentina. Éramos un obstáculo para un poder hegemónico y autoritario que pretendía eternizarse. En la Argentina se producen vacíos de poder que lo llena rápidamente quien controla el Estado. Los medios del Grupo Clarín, con (Carlos) Menem y con Kirchner, actuaron como un límite a los circunstanciales ocupantes del Estado. Es lo que sucede con la prensa que cumple con su tarea.
+¿Por qué (los Kirchner) se metieron con nosotros? Por nuestra llegada a un sector importante de la sociedad argentina. Éramos un obstáculo para un poder hegemónico y autoritario que pretendía eternizarse. En la Argentina se producen vacíos de poder que lo llena rápidamente quien controla el Estado. Los medios del Grupo Clarín, con (Carlos) Menem y con Kirchner, actuaron como un límite a los circunstanciales ocupantes del Estado. Es lo que sucede con la prensa que cumple con su tarea.
 \end{quote}
 
 Es este un magnífico discurso legitimante de la actividad de los medios. Pero no era solo Clarín o sus periodistas los que se sentían agredidos o en medio de una guerra. Hacia el fin del período seleccionado, Novaro y Birmajer (2015: 8, 11) sostienen, en \emph{Grandes y pequeñas mentiras que nos contaron}:
@@ -817,8 +758,7 @@ Al igual que el resto de sus colegas advierte la conflictividad y la envergadura
 Así, andando mitos, contramitos, locuras, pataletas, denuncias, tuiteos, mentirosas desmentidas, zancadillas, traiciones e insuperables rencores se fue armando, caso a caso, el siguiente compendio de historias, historietas, subtextos y micro relatos protagonizados por periodistas contra periodistas que se vieron forzados, incluso por sí mismos, a revolcarse en esta guerra de otros que bien podía narrarse desde el clásico balcón de la incordura. O no. (Zunino, 2013: 31).
 \end{quote}
 
-%\hypertarget{acerca-del-campo-perioduxedstico}{%
-\section{Acerca del campo periodístico}\label{acerca-del-campo-perioduxedstico}}% 3. 3.
+\section{Acerca del campo periodístico}% 3.3
 
 A fin de definir algunos conceptos significativos, utilizados en nuestro trabajo, como \emph{periodistas centrales}, \emph{hegemónicos} o \emph{dominantes}, para referirnos a quienes poseen mayor capital simbólico dentro del campo y sus audiencias, así como a sus opuestos, es decir \emph{periodistas periféricos}, \emph{secundarios} o \emph{aspirantes} del campo, consideramos necesario establecer los criterios que utilizamos para indicar la ubicación en unos u otros en los polos del \emph{continuum} que establecimos. ¿Cómo discernir qué periodista se encuentra en la centralidad del campo y cuál en la periferia? Bourdieu utiliza el principio del \emph{valor de la firma}, en el caso de la alta costura. Es decir, que en el caso de un/a modisto/a, el valor de sus prendas determina el lugar que ocupa en el campo. De alguna manera, el sistema es relativamente sencillo, ya que los diseñadores de moda venden a sus consumidores el producto de su arte, por lo que la información está, de alguna manera, disponible en el mercado de la alta costura. Esto no quiere decir que la información sea abierta y explícita, pero suele tener trascendencia, si no es por el valor de las prendas, lo es por la ostentación económica de quienes las producen.
 
@@ -832,8 +772,7 @@ Sin embargo, el conflicto dio oportunidad de acceder de manera indirecta a algun
 
 En términos generales, lo que ocurre es un \emph{continuum} entre la mayor centralidad y la periferia. Es por ello que no resulta sencillo distinguir a su contraparte, es decir, a los periodistas periféricos. No obstante, al establecer algunos parámetros para identificar a los periodistas centrales, podemos utilizar esos mismos criterios para reconocer a los que carecen de esas propiedades. A continuación, graficaremos los criterios utilizados para establecer niveles de dominancia/centrales y de periferia/aspirantes.
 
-%\hypertarget{propuesta-de-clasificaciuxf3n-de-periodistas-seguxfan-su-lugar-en-el-campo}{%
-\subsection{ Propuesta de clasificación de periodistas según su lugar en el campo}\label{propuesta-de-clasificaciuxf3n-de-periodistas-seguxfan-su-lugar-en-el-campo}}% 3. 3. 1.
+\subsection{Propuesta de clasificación de periodistas según su lugar en el campo} % 3.3.1.
 
 A los efectos de elaborar una clasificación proponemos, de manera esquemática, cuatro posiciones polares posibles en el campo:
 
@@ -853,12 +792,12 @@ Sin embargo, no debemos perder de vista que lo que existe en el campo es una gra
 
 A modo de ejemplo, a los efectos de representar esquemáticamente estas nociones, y por el solo hecho de la centralidad que posee, el periodista Jorge Lanata fue hegemónico en el campo en un medio periférico, mientras dirigía el diario \emph{Página/12} y luego, en otro momento de su historia profesional, fue hegemónico en un medio dominante, cuando fue/es el periodista estrella de Clarín, Canal 13 y radio Mitre.
 
-\textbf{Cuadro 5 Condiciones mínimas que reúnen los integrantes del campo de acuerdo a sus posiciones en el polígono de fuerzas}
+%\textbf{Cuadro 5 Condiciones mínimas que reúnen los integrantes del campo de acuerdo a sus posiciones en el polígono de fuerzas}
 
 
 Cuando iniciamos el análisis del \emph{corpus} bibliográfico, presuponíamos que existía cierta coherencia y unanimidad de criterios sobre los valores y principio de legitimidad del campo periodístico, sin importar si eran hegemónicos o periféricos y si trabajaban en un medio dominante o alternativo. Sin embargo, el análisis del \emph{corpus} nos permitió discernir tres categorías de periodistas de acuerdo a los valores y principios que rigen su pertenencia al campo, y dos subcategorías que, sin ser propiamente de periodistas, usufructúan su condición y actúan como tales en situaciones determinadas. A los fines de identificarlas proponemos la siguiente denominación, que intenta sintetizar sus principales características:
 
-\ul{Categorías de periodistas:}
+%\ul{Categorías de periodistas:} % ul es un comando que indica subrayar, me parece mejor en negrita.
 
 \begin{itemize}
 \item
@@ -869,7 +808,7 @@ Cuando iniciamos el análisis del \emph{corpus} bibliográfico, presuponíamos q
   Predicadores
 \end{itemize}
 
-\ul{Pseudoperiodistas}
+%ul{Pseudoperiodistas} % ul es un comando del paquete soul que indica subrayar, me parece mejor en negrita.
 
 \begin{itemize}
 \item
@@ -880,8 +819,7 @@ Cuando iniciamos el análisis del \emph{corpus} bibliográfico, presuponíamos q
 
 Consideramos que estas categorías son preexistentes al conflicto que se suscitó entre el campo periodístico y el gobierno de Cristina Fernández de Kirchner. Sin embargo, fue el conflicto el que permitió apreciar en todas sus dimensiones las diferencias que los separan.
 
-%\hypertarget{categoruxedas-de-periodistas}{%
-\subsection{Categorías de periodistas}\label{categoruxedas-de-periodistas}}% 3. 3. 2.
+\subsection{Categorías de periodistas} % 3.3.2.
 
 \textbf{Los defensores}
 
@@ -921,8 +859,8 @@ Definiremos, al último grupo como los \emph{predicadores}, aquellos periodistas
 
 Estos periodistas pueden desempeñarse o no en empresas periodísticas centrales del campo, pero no suelen estar subordinados a las empresas en las que trabajan, ya que su presencia prestigia a las mismas y no a la inversa. Este grupo es coincidente, aunque no en todos sus términos, con lo que Baldoni denomina periodistas \emph{militantes}. A modo de ejemplo, ubicamos en esta categoría a Horacio Verbitsky, Roberto Caballero y Eduardo Aliverti.
 
-%\hypertarget{pseudoperiodistas}{%
-\subsection{ Pseudoperiodistas}\label{pseudoperiodistas}}% 3. 3. 3.
+
+\subsection{Pseudoperiodistas}% 3.3.3.
 
 \textbf{Los emigrados}
 
@@ -936,118 +874,116 @@ Si bien esta categoría de \emph{periodista intelectual}, como el resto de las c
 
 \chapter{Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
 
-%\hypertarget{corpus-de-anuxe1lisis}{%
-\section{Corpus de Análisis}\label{corpus-de-anuxe1lisis}}% 4.1.
+\section{Corpus de Análisis} % 4.1.
 
 El análisis de la producción ensayística ordenado en el tiempo permitirá apreciar el encadenamiento del debate al interior del campo periodístico y, simultáneamente, la existencia de relaciones causales entre los actores del conflicto, en algunos casos motivados por sus casas periodísticas y, en otros, por el fragor de las batallas políticas.
 
-\textbf{Cuadro 4: Universo de los libros considerados}
+%\textbf{Cuadro 4: Universo de los libros considerados}
+%
+%\begin{longtable}[]{@{}
+%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3651}}
+%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2539}}
+%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0793}}
+%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3016}}@{}}
+%\toprule\noalign{}
+%\begin{minipage}[b]{\linewidth}\raggedright
+%\textbf{Título y año de edición}
+%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+%\textbf{Editorial}
+%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+%\textbf{Nº}
+%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+%\textbf{Autor}
+%\end{minipage} \\
+%\midrule\noalign{}
+%\endhead
+%\bottomrule\noalign{}
+%\endlastfoot
+%\textbf{2009} & & & \\
+%Diario de guerra. Clarín, el gran engaño argentino & Gárgola & 1 & Claudio Díaz \\
+%\textbf{2010} & & & \\
+%678. La creación de otra realidad & \href{http://www.lecturalia.com/editoriales/79/paidos}{Paidós}/Planeta & 2 & María Julia Oliván y Pablo Alabarces \\
+%Silencio por sangre & Miradas al sur & 3 & Daniel Cecchiniy Jorge Mancinelli \\
+%\textbf{2011} & & & \\
+%Pecado original & \href{http://www.tematika.com/buscar.do?seccionDeBusqueda=En+Libros\&seccion=1\&claveDeBusqueda=porEditorial\&txtencoded=Planeta\&idAutor=99\&criterioDeOrden=2\&idSeccion=1\&texto=Planeta\&optSeleccionada=Editorial\&idSeccionPropia=1}{Planeta} & 4 & \href{http://www.tematika.com/buscar.do?seccionDeBusqueda=En+Libros\&seccion=1\&claveDeBusqueda=porAutor\&txtencoded=Graciela+Mochkofsky\&idAutor=35432\&criterioDeOrden=2\&idSeccion=1\&texto=Graciela+Mochkofsky\&optSeleccionada=Autor\&idSeccionPropia=1}{Graciela Mochkofsky} \\
+%Perón y los medios de comunicación & Sudamericana
+%
+%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 5 & Pablo Sirvén \\
+%K Letra bárbara & Sudamericana
+%
+%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 6 & Orlando Barone \\
+%El kirchnerismo póstumo & Ediciones B & 7 & Jorge Asís \\
+%Patria o medios & Sudamericana
+%
+%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 8 & Edi Zunino \\
+%\href{http://www.casassaylorenzo.com/9789872676001/PERIODISMO+DE+INFANTERIA/}{Periodismo de infantería} & \href{http://www.casassaylorenzo.com/resultados.aspx?c=CLARINETE\&ed=7347\&por=editorial\&orden=fecha}{Clarinete} & 9 & Virginia Márquez y Aníbal \href{http://www.libreriapaidos.com/resultados.aspx?c=Ces\%2c+Anibal\&por=AutorEstricto\&aut=59097\&orden=fecha}{Ces} \\
+%\textbf{2012} & & & \\
+%Lanata & Margen Izquierdo & 10 & Luis \href{http://www.cuspide.com/resultados.aspx?c=MAJUL+LUIS\&por=AutorEstricto\&aut=275032\&orden=fecha}{Majul} \\
+%\textbf{2013} & & & \\
+%\href{https://www.boutiquedellibro.com.ar/9789876281928/Aquel+Periodismo/}{Aquel periodismo}. Medios y periodistas en la Argentina 1965-2012 & \href{http://www.libreriapaidos.com/resultados.aspx?c=Edhasa\&ed=409\&por=editorial\&orden=fecha}{Edhasa} & 11 & \href{http://www.edhasa.com.ar/busqueda-avanzada.php?autor=Daniel+Muchnik\&avanzada=1}{Daniel Muchnik} \\
+%Víctor Hugo, una historia de coherencia y convicción & Ediciones al arco & 12 & Julián Capasso \\
+%El inventor del peronismo & Planeta & 13 & Silvia Diana Mercado \\
+%Máquinas de captura. Los medios concentrados en tiempos del kirchnerismo & Colihue & 14 & Daniel Rosso \\
+%\href{http://www.cuspide.com/9789504932871/1++Clarin/}{Clarín}, el gran diario argentino: una historia & Planeta & 15 & Martín Sivak \\
+%Años de rabia & \href{http://www.edicionesb-argentina.com/}{Ediciones} B & 16 & Eduardo Blaustein \\
+%Converso & Margen izquierdo & 17 & Pablo Sirvén \\
+%El pequeño Timerman & Ediciones B & 18 & Gabriel \href{http://www.edicionesb-argentina.com/autor/levinas-daniel/}{Levinas} \\
+%\textbf{2014} & & & \\
+%Nuevos desafíos del periodismo & Ariel /Paidós
+%
+%Planeta- ADEPA & 19 & Daniel Dessein y Gastón Roitberg (Compiladores) \\
+%Periodistas en el barro. Peleas, aprietes, traiciones y negocios. Miserias y razones de la guerra mediática en la Argentina reciente & Sudamericana
+%
+%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 20 & \href{http://buscapdf.es/busca/?a=edi+zunino\&m=ae}{Edi Zunino} \\
+%Tiempos turbulentos & Ariel /Paidós
+%
+%Planeta- ADEPA & 21 & \href{http://www.planetadelibros.com.ar/carlos-jornet-autor-000063783.html}{Carlos Jornet} y \href{http://www.planetadelibros.com.ar/daniel-dessein-autor-000063287.html}{Daniel Dessein} \\
+%Télam, el hecho maldito del periodismo argentino & Ediciones TXT & 22 & \href{http://www.libreriahernandez.com/busquedaMultiple?perPage=18\&authorIds=171462\&sortBy=stockAndTitle\&reverseSort=\&displayMode=\&groupMode=\&page=1}{Ariel Bargach~}y \href{http://www.libreriahernandez.com/busquedaMultiple?perPage=18\&authorIds=118944\&sortBy=stockAndTitle\&reverseSort=\&displayMode=\&groupMode=\&page=1}{Mariano Suárez\emph{~}} \\
+%(In)justicia mediática & Sudamericana
+%
+%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 23 & Darío \href{http://www.cuspide.com/resultados.aspx?c=VILLARRUEL+DARIO\&por=AutorEstricto\&aut=291343\&orden=fecha}{Villarruel} \\
+%Audiencia con el diablo & Aguilar & 24 & ~Víctor Hugo \href{http://www.cuspide.com/resultados.aspx?c=MORALES+VICTOR+HUGO\&por=AutorEstricto\&aut=278005\&orden=fecha}{Morales} \\
+%Las locuras del Rey Jorge & Ediciones B & 25 & Eduardo \href{http://www.edicionesb-argentina.com/autor/blaustein-eduardo/}{Blaustein} \\
+%Guerras mediáticas & Sudamericana
+%
+%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 26 & Fernando Ruiz \\
+%\textbf{2015} & & & \\
+%\href{https://www.boutiquedellibro.com.ar/9789504946175/Quienes+Fuimos+En+La+Era+K/}{Quiénes fuimos en la era k} & Planeta & 27 & Jorge \href{http://www.cuspide.com/resultados.aspx?c=FONTEVECCHIA+JORGE\&por=AutorEstricto\&aut=264707\&orden=fecha}{Fontevecchia} \\
+%El Perro & Ediciones B & 28 & Hernán \href{http://www.edicionesb-argentina.com/autor/lopez-echague-hernan/}{López Echague} \\
+%\end{longtable}
+%
+%\begin{longtable}[]{@{}
+%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3651}}
+%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2539}}
+%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0793}}
+%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3016}}@{}}
+%\toprule\noalign{}
+%\begin{minipage}[b]{\linewidth}\raggedright
+%La inconclusa ley de medios: la historia menos contada
+%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+%Continente
+%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+%29
+%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+%Néstor Piccone
+%\end{minipage} \\
+%\midrule\noalign{}
+%\endhead
+%\bottomrule\noalign{}
+%\endlastfoot
+%Grandes y pequeñas mentiras que nos contaron & Planeta & 30 & \href{http://www.planetadelibros.com.ar/marcos-novaro-autor-000058154.html}{Marcos Novaro} y \href{http://www.planetadelibros.com.ar/marcelo-birmajer-autor-000021721.html}{Marcelo Birmajer} \\
+%Doble agente. La biografía inesperada de Horacio Verbitsky & Sudamericana
+%
+%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 31 & \href{http://www.megustaleer.com.ar/autor/gabriel-levinas/0000030467}{Gabriel Levinas} \\
+%Mentime que me gusta & Aguilar & 32 & Víctor Hugo \href{http://www.cuspide.com/resultados.aspx?c=MORALES+VICTOR+HUGO\&por=AutorEstricto\&aut=278005\&orden=fecha}{Morales} \\
+%\href{http://www.cuspide.com/9789876842686/El+Rebenque+Del+Diablo/}{El rebenque del diablo} & Colihue & 33 & Víctor Hugo \href{http://www.cuspide.com/resultados.aspx?c=MORALES+VICTOR+HUGO\&por=AutorEstricto\&aut=278005\&orden=fecha}{Morales} \\
+%\href{http://www.cuspide.com/9789876275637/Todos+Contra+Branca+Contra+Todos/}{Todos contra Branca contra todos} & Ediciones B & 34 & Diego Brancatelli \\
+%Diez ironías sobre la libertad de expresión & Colectivo de Trabajadores De Prensa (CTP) & 35 & Autores Varios \\
+%\href{http://www.cuspide.com/9789504947066/Clarin++La+Era+Magnetto/}{Clarín, la era Magnetto} & Planeta & 36 & \href{http://www.planetadelibros.com.ar/sivak-martin-ernesto-autor-000057233.html}{Martin Ernesto}Sivak \\
+%Periodistas depordivos & Ediciones al arco & 37 & Walter Vargas \\
+%\end{longtable}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3651}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2539}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0793}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3016}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Título y año de edición}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Editorial}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Nº}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Autor}
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-\textbf{2009} & & & \\
-Diario de guerra. Clarín, el gran engaño argentino & Gárgola & 1 & Claudio Díaz \\
-\textbf{2010} & & & \\
-678. La creación de otra realidad & \href{http://www.lecturalia.com/editoriales/79/paidos}{Paidós}/Planeta & 2 & María Julia Oliván y Pablo Alabarces \\
-Silencio por sangre & Miradas al sur & 3 & Daniel Cecchiniy Jorge Mancinelli \\
-\textbf{2011} & & & \\
-Pecado original & \href{http://www.tematika.com/buscar.do?seccionDeBusqueda=En+Libros\&seccion=1\&claveDeBusqueda=porEditorial\&txtencoded=Planeta\&idAutor=99\&criterioDeOrden=2\&idSeccion=1\&texto=Planeta\&optSeleccionada=Editorial\&idSeccionPropia=1}{Planeta} & 4 & \href{http://www.tematika.com/buscar.do?seccionDeBusqueda=En+Libros\&seccion=1\&claveDeBusqueda=porAutor\&txtencoded=Graciela+Mochkofsky\&idAutor=35432\&criterioDeOrden=2\&idSeccion=1\&texto=Graciela+Mochkofsky\&optSeleccionada=Autor\&idSeccionPropia=1}{Graciela Mochkofsky} \\
-Perón y los medios de comunicación & Sudamericana
-
-\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 5 & Pablo Sirvén \\
-K Letra bárbara & Sudamericana
-
-\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 6 & Orlando Barone \\
-El kirchnerismo póstumo & Ediciones B & 7 & Jorge Asís \\
-Patria o medios & Sudamericana
-
-\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 8 & Edi Zunino \\
-\href{http://www.casassaylorenzo.com/9789872676001/PERIODISMO+DE+INFANTERIA/}{Periodismo de infantería} & \href{http://www.casassaylorenzo.com/resultados.aspx?c=CLARINETE\&ed=7347\&por=editorial\&orden=fecha}{Clarinete} & 9 & Virginia Márquez y Aníbal \href{http://www.libreriapaidos.com/resultados.aspx?c=Ces\%2c+Anibal\&por=AutorEstricto\&aut=59097\&orden=fecha}{Ces} \\
-\textbf{2012} & & & \\
-Lanata & Margen Izquierdo & 10 & Luis \href{http://www.cuspide.com/resultados.aspx?c=MAJUL+LUIS\&por=AutorEstricto\&aut=275032\&orden=fecha}{Majul} \\
-\textbf{2013} & & & \\
-\href{https://www.boutiquedellibro.com.ar/9789876281928/Aquel+Periodismo/}{Aquel periodismo}. Medios y periodistas en la Argentina 1965-2012 & \href{http://www.libreriapaidos.com/resultados.aspx?c=Edhasa\&ed=409\&por=editorial\&orden=fecha}{Edhasa} & 11 & \href{http://www.edhasa.com.ar/busqueda-avanzada.php?autor=Daniel+Muchnik\&avanzada=1}{Daniel Muchnik} \\
-Víctor Hugo, una historia de coherencia y convicción & Ediciones al arco & 12 & Julián Capasso \\
-El inventor del peronismo & Planeta & 13 & Silvia Diana Mercado \\
-Máquinas de captura. Los medios concentrados en tiempos del kirchnerismo & Colihue & 14 & Daniel Rosso \\
-\href{http://www.cuspide.com/9789504932871/1++Clarin/}{Clarín}, el gran diario argentino: una historia & Planeta & 15 & Martín Sivak \\
-Años de rabia & \href{http://www.edicionesb-argentina.com/}{Ediciones} B & 16 & Eduardo Blaustein \\
-Converso & Margen izquierdo & 17 & Pablo Sirvén \\
-El pequeño Timerman & Ediciones B & 18 & Gabriel \href{http://www.edicionesb-argentina.com/autor/levinas-daniel/}{Levinas} \\
-\textbf{2014} & & & \\
-Nuevos desafíos del periodismo & Ariel /Paidós
-
-Planeta- ADEPA & 19 & Daniel Dessein y Gastón Roitberg (Compiladores) \\
-Periodistas en el barro. Peleas, aprietes, traiciones y negocios. Miserias y razones de la guerra mediática en la Argentina reciente & Sudamericana
-
-\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 20 & \href{http://buscapdf.es/busca/?a=edi+zunino\&m=ae}{Edi Zunino} \\
-Tiempos turbulentos & Ariel /Paidós
-
-Planeta- ADEPA & 21 & \href{http://www.planetadelibros.com.ar/carlos-jornet-autor-000063783.html}{Carlos Jornet} y \href{http://www.planetadelibros.com.ar/daniel-dessein-autor-000063287.html}{Daniel Dessein} \\
-Télam, el hecho maldito del periodismo argentino & Ediciones TXT & 22 & \href{http://www.libreriahernandez.com/busquedaMultiple?perPage=18\&authorIds=171462\&sortBy=stockAndTitle\&reverseSort=\&displayMode=\&groupMode=\&page=1}{Ariel Bargach~}y \href{http://www.libreriahernandez.com/busquedaMultiple?perPage=18\&authorIds=118944\&sortBy=stockAndTitle\&reverseSort=\&displayMode=\&groupMode=\&page=1}{Mariano Suárez\emph{~}} \\
-(In)justicia mediática & Sudamericana
-
-\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 23 & Darío \href{http://www.cuspide.com/resultados.aspx?c=VILLARRUEL+DARIO\&por=AutorEstricto\&aut=291343\&orden=fecha}{Villarruel} \\
-Audiencia con el diablo & Aguilar & 24 & ~Víctor Hugo \href{http://www.cuspide.com/resultados.aspx?c=MORALES+VICTOR+HUGO\&por=AutorEstricto\&aut=278005\&orden=fecha}{Morales} \\
-Las locuras del Rey Jorge & Ediciones B & 25 & Eduardo \href{http://www.edicionesb-argentina.com/autor/blaustein-eduardo/}{Blaustein} \\
-Guerras mediáticas & Sudamericana
-
-\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 26 & Fernando Ruiz \\
-\textbf{2015} & & & \\
-\href{https://www.boutiquedellibro.com.ar/9789504946175/Quienes+Fuimos+En+La+Era+K/}{Quiénes fuimos en la era k} & Planeta & 27 & Jorge \href{http://www.cuspide.com/resultados.aspx?c=FONTEVECCHIA+JORGE\&por=AutorEstricto\&aut=264707\&orden=fecha}{Fontevecchia} \\
-El Perro & Ediciones B & 28 & Hernán \href{http://www.edicionesb-argentina.com/autor/lopez-echague-hernan/}{López Echague} \\
-\end{longtable}
-
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3651}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2539}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0793}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3016}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-La inconclusa ley de medios: la historia menos contada
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Continente
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-29
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Néstor Piccone
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Grandes y pequeñas mentiras que nos contaron & Planeta & 30 & \href{http://www.planetadelibros.com.ar/marcos-novaro-autor-000058154.html}{Marcos Novaro} y \href{http://www.planetadelibros.com.ar/marcelo-birmajer-autor-000021721.html}{Marcelo Birmajer} \\
-Doble agente. La biografía inesperada de Horacio Verbitsky & Sudamericana
-
-\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 31 & \href{http://www.megustaleer.com.ar/autor/gabriel-levinas/0000030467}{Gabriel Levinas} \\
-Mentime que me gusta & Aguilar & 32 & Víctor Hugo \href{http://www.cuspide.com/resultados.aspx?c=MORALES+VICTOR+HUGO\&por=AutorEstricto\&aut=278005\&orden=fecha}{Morales} \\
-\href{http://www.cuspide.com/9789876842686/El+Rebenque+Del+Diablo/}{El rebenque del diablo} & Colihue & 33 & Víctor Hugo \href{http://www.cuspide.com/resultados.aspx?c=MORALES+VICTOR+HUGO\&por=AutorEstricto\&aut=278005\&orden=fecha}{Morales} \\
-\href{http://www.cuspide.com/9789876275637/Todos+Contra+Branca+Contra+Todos/}{Todos contra Branca contra todos} & Ediciones B & 34 & Diego Brancatelli \\
-Diez ironías sobre la libertad de expresión & Colectivo de Trabajadores De Prensa (CTP) & 35 & Autores Varios \\
-\href{http://www.cuspide.com/9789504947066/Clarin++La+Era+Magnetto/}{Clarín, la era Magnetto} & Planeta & 36 & \href{http://www.planetadelibros.com.ar/sivak-martin-ernesto-autor-000057233.html}{Martin Ernesto}Sivak \\
-Periodistas depordivos & Ediciones al arco & 37 & Walter Vargas \\
-\end{longtable}
-
-%\hypertarget{periodizaciuxf3n}{%
-\section{Periodización}\label{periodizaciuxf3n}}% 4. 2.
+\section{Periodización} % 4.2.
 
 Consideramos que es posible identificar, dentro del período considerado, dos momentos diferenciables.
 
@@ -1057,8 +993,8 @@ Durante el año 2012, primer año del 2° gobierno de Cristina Fernández de Kir
 
 Por el contrario a partir del año 2013 y hasta el 2015, es posible observar lo que consideramos el inicio de la ruptura del campo a partir de la disputa abierta entre periodistas. De los 37 libros detectados, 27 lo son en este breve período. Utilizaremos para definir este período, el concepto del periodista de Clarín, Julio Blanck, periodismo de guerra.
 
-%\hypertarget{etapa-preparatoria}{%
-\subsection{Etapa Preparatoria}\label{etapa-preparatoria}}% 4. 2. 1.
+
+\subsection{Etapa Preparatoria} %4.2.1.
 
 \textbf{Año 2009}
 
@@ -1348,7 +1284,7 @@ Los autores realizan una petición de principios: ``Clarín se ha caracterizado 
 Clarín negocia con Menem la destitución de Liliana López Foresi del noticiero de Canal 13, a cambio del despido de Patricio Kelly de Canal 7 (\ldots). También durante las elecciones presidenciales entrevisté a los tres candidatos mejor posicionados. Cavallo me recibió en su bunker de la calle Tagle. Duhalde acudió en persona al diario y aprovechó para saludar a quien se le cruzara, asumiendo su rol en la campaña. A De la Rúa se le permitió responder por escrito. Esa diferencia de trato me dio la certeza: el líder de la Alianza {[}De la Rúa{]} era el candidato elegido por el Holding (\ldots). Dicen que las casualidades no existen en política. Tal es así que el mismo 4 de noviembre, día que Clarín procedía al despido de 117 compañeros, se reunía con Magnetto, con el entonces presidente De la Rúa, para ratificar el Decreto que desregulaba la venta de diarios y revistas. Decreto por el cual, el diario, se hacía con la herramienta necesaria para concretar la asfixia económica de los canillitas (\ldots). Luego de lo cual, Magnetto, le habría solicitado a Pirillo, que dejara de publicar notas sobre los casos de apropiación y tráfico de bebés, alegando que ese era un tema que dañaba en especial, a la ``señora''. Él es dueño de La Razón, dice haberle confesado esta conversación a dos expresidentes, producto de lo cual, habría resultado en su particular perjuicio (Márquez y Ces, 2011: 29, 104, 106, 107).
 \end{quote}
 
-\subsection{Periodismo de Guerra}%4. 2. 2.
+\subsection{Periodismo de Guerra} %4.2.2.
 
 \textbf{Año 2012}
 
@@ -2099,7 +2035,7 @@ Agobiados por ese escenario desfavorable y hostil que tuvo su pico máximo tras 
 Fernando Laborda (2014: 140), en \emph{De la concepción kirchnerista de la prensa}, \emph{al espejo chavista} sostiene:
 
 \begin{quote}
-No falta mucho para que la Argentina kirchnerista pueda reflejarse en el espejo de la Venezuela chavista, que poco a poco ha ido sustituyendo a la sociedad por el Estado y que exalta un liderazgo personalista incompatible con instituciones y principios republicanos que despersonalizan el poder. Quizá pocas cosas como la relación entre gobierno y prensa asocien a ambos países. El chavismo ideó un modus operandi contra el periodismo independiente cuyos pasos de manual podrían resumirse así:•Difamar públicamente a propietarios de medios periodísticos críticos del Gobierno para desprestigiarlos y asociar a los periodistas capaces de incomodar al poder político con los supuestos intereses económicos de sus empleadores, apuntando a negarles toda independencia profesional y credibilidad. •Fortalecer a los medios de comunicación afines y debilitar al resto mediante la asignación arbitraria de publicidad oficial como herramienta para premiar a los complacientes y castigar a los desobedientes. •Generar nuevos marcos legales para restringir la libertad de prensa y para debilitar económicamente a determinadas empresas periodísticas. •Estatizar o crear medios bajo la tutela gubernamental a través de empresarios amigos, cuya fidelidad al Gobierno estaría garantizada con jugosas inyecciones de pauta publicitaria oficial. •Abusar de la cadena nacional para inocular en la población el relato sobre las bondades del modelo oficial y para tildar de conspiradores o golpistas a los medios de prensa críticos del Gobierno. Una serie de ataques sufridos por la prensa en la era kirchnerista refleja las similitudes entre la Argentina de los últimos años y el régimen fundado por Hugo Chávez. • En reiteradas ocasiones, la presidenta de la Nación denunció infundadamente a periodistas y medios. El vicepresidente Amado Boudou llegó incluso a comparar a dos periodistas de los diarios Clarín y La Nación con quienes ``limpiaban las cámaras de gas durante el nazismo''. •Distintos periodistas críticos del Gobierno fueron dejados cesantes en medios privados para los cuales se desempeñaban por aparentes presiones oficiales (el caso de Marcelo Longobardi en Radio 10 ha sido uno de los más emblemáticos). •Gremios afines al Gobierno bloquearon plantas impresoras de diarios e impidieron su distribución, en medio de la pasividad de las autoridades. •Se repitieron maniobras intimidatorias, como la presencia de unos doscientos inspectores de la Administración Federal de Ingresos Públicos (AFIP) en las oficinas de Clarín o un embargo contra La Nación pese a la existencia de una medida cautelar dispuesta por la Justicia que lo impedía. •La arbitrariedad y discrecionalidad con que se manejó la asignación de la pauta publicitaria oficial quedó claramente de manifiesto. Medios gráficos cercanos al oficialismo de escasísima circulación han llegado a recibir en un año diez veces más pautade la que reciben del Estado nacional canales de televisión con elevado índice de audiencia...
+No falta mucho para que la Argentina kirchnerista pueda reflejarse en el espejo de la Venezuela chavista, que poco a poco ha ido sustituyendo a la sociedad por el Estado y que exalta un liderazgo personalista incompatible con instituciones y principios republicanos que despersonalizan el poder. Quizá pocas cosas como la relación entre gobierno y prensa asocien a ambos países. El chavismo ideó un modus operandi contra el periodismo independiente cuyos pasos de manual podrían resumirse así:•Difamar públicamente a propietarios de medios periodísticos críticos del Gobierno para desprestigiarlos y asociar a los periodistas capaces de incomodar al poder político con los supuestos intereses económicos de sus empleadores, apuntando a negarles toda independencia profesional y credibilidad. •Fortalecer a los medios de comunicación afines y debilitar al resto mediante la asignación arbitraria de publicidad oficial como herramienta para premiar a los complacientes y castigar a los desobedientes. •Generar nuevos marcos legales para restringir la libertad de prensa y para debilitar económicamente a determinadas empresas periodísticas. •Estatizar o crear medios bajo la tutela gubernamental a través de empresarios amigos, cuya fidelidad al Gobierno estaría garantizada con jugosas inyecciones de pauta publicitaria oficial. •Abusar de la cadena nacional para inocular en la población el relato sobre las bondades del modelo oficial y para tildar de conspiradores o golpistas a los medios de prensa críticos del Gobierno. Una serie de ataques sufridos por la prensa en la era kirchnerista refleja las similitudes entre la Argentina de los últimos años y el régimen fundado por Hugo Chávez. • En reiteradas ocasiones, la presidenta de la Nación denunció infundadamente a periodistas y medios. El vicepresidente Boudou llegó incluso a comparar a dos periodistas de los diarios Clarín y La Nación con quienes ``limpiaban las cámaras de gas durante el nazismo''. •Distintos periodistas críticos del Gobierno fueron dejados cesantes en medios privados para los cuales se desempeñaban por aparentes presiones oficiales (el caso de Marcelo Longobardi en Radio 10 ha sido uno de los más emblemáticos). •Gremios afines al Gobierno bloquearon plantas impresoras de diarios e impidieron su distribución, en medio de la pasividad de las autoridades. •Se repitieron maniobras intimidatorias, como la presencia de unos doscientos inspectores de la Administración Federal de Ingresos Públicos (AFIP) en las oficinas de Clarín o un embargo contra La Nación pese a la existencia de una medida cautelar dispuesta por la Justicia que lo impedía. •La arbitrariedad y discrecionalidad con que se manejó la asignación de la pauta publicitaria oficial quedó claramente de manifiesto. Medios gráficos cercanos al oficialismo de escasísima circulación han llegado a recibir en un año diez veces más pautade la que reciben del Estado nacional canales de televisión con elevado índice de audiencia...
 \end{quote}
 
 Un balance editorial del año 2014, permite concluir, por un lado, que da comienzo al inicio de la resistencia de algunos periodistas que observan el proceso de confrontación. Por otro, las dos producciones de ADEPA, parecen marcar cual será la agenda metaperiodística de los grandes medios para el año que se avecina.
@@ -2291,11 +2227,9 @@ Es decir, incluso el asesinato de José Luis Cabezas representó para estos auto
 
 \backmatter
 
-%\hypertarget{conclusiones}{%
-\Chapter{Conclusiones}\label{conclusiones}} %5
+\Chapter{Conclusiones} %5
 
-%\hypertarget{presentaciuxf3n}{%
-\section{Presentación}\label{presentaciuxf3n}} % 5.1.
+\section{Presentación} % 5.1.
 
 El fenómeno metaperiodístico, -es decir el discurso de los periodistas sobre su propia actividad- tuvo su mayor expresión en Argentina entre los años 2009 y 2015. En ese contexto, las condiciones políticas y sociales ponían en discusión el rol de la prensa y los periodistas. El rol preponderante que adoptó el periodismo en el período que analizamos y la tensión entre los actores del campo, a favor o en contra del gobierno de los Kirchner, abrió el camino para la expansión del discurso metaperiodístico.
 
@@ -2313,8 +2247,8 @@ Dijimos en la introducción, a manera de hipótesis, que el periodismo detenta e
 
 El campo periodístico acepta que haya distintas actualidades, producidas por periodistas o medios que, como señala Verón (1983), están destinadas a distintas audiencias. Lo que no es aceptable para el campo, es que se ponga en duda o en disputa su construcción. Es decir, el campo reconoce a cada uno de los periodistas y medios el derecho a construir narrativamente su actualidad, que incluye su agenda, sus fuentes y sus interpretaciones. Lo que no acepta, por lo que se rebela de manera violenta, es que un medio, un periodista o un actor externo o interno al campo, dispute o ponga en duda la realidad social o la verdad creada por otro periodista o medio.
 
-%\hypertarget{composiciuxf3n-del-campo}{%
-\section{Composición del campo}\label{composiciuxf3n-del-campo}} %5. 2.
+
+\section{Composición del campo} %5.2.
 
 A fin de avanzar en los objetivos propuestos, comprender las estructuras argumentativas y la disputa entre periodistas devenida en metaperiodismo, intentamos responder las siguientes preguntas: ¿De qué está hecho el campo periodístico?; ¿qué elementos lo componen?, ¿qué tipo de relaciones establecen esos elementos entre sí?
 
@@ -2336,7 +2270,7 @@ Una de las primeras cuestiones significativas en relación con este tema es la c
 
   Se entiende por colaborador permanente aquel que trabaja a destajo en diarios, periódicos, revistas, semanarios, anuarios y agencias noticiosas, por medio de artículos o notas, con firma o sin ella, retribuidos pecuniariamente por unidad o al centímetro, cuando alcance un mínimo de veinticuatro colaboraciones anuales. Quedan excluidos de esta ley los agentes o corredores de publicidad y los colaboradores accidentales o extraños a la profesión. No se consideran periodistas profesionales los que intervengan en la redacción de diarios, periódicos o revistas con fines de propaganda ideológica, política o gremial, sin percibir sueldos (el énfasis es propio).}
 
-Esta definición, establecida durante el primer gobierno de Perón, parece haber tomado en cuenta cierto estado precedente de la cuestión y con consenso internacional. A modo de demostración es interesante observar que los premios a periodistas (Pulitzer, Cabot, etc.)\footnote{Últimos premios Pulitzer, en la categoría Periodismo nacional: 2010: Matt Richtel y miembros del~\emph{The New York Times;} 2011: Jesse Eisinger y Jake Bernstein de~\emph{\href{https://es.wikipedia.org/wiki/ProPublica}{ProPublica};} 2012: David Wood de~\href{https://es.wikipedia.org/wiki/HuffPost}{\emph{The Huffington Post}}.; 2013: Lisa Song, Elizabeth McGowan y David Hasemyer de~\emph{\href{https://es.wikipedia.org/w/index.php?title=InsideClimate_News\&action=edit\&redlink=1}{InsideClimate News};} 2014: David Philipps de~\href{https://es.wikipedia.org/w/index.php?title=The_Gazette_(diario)\&action=edit\&redlink=1}{\emph{The Gazette}}; 2015: Carol D. Leonnig de~\emph{\href{https://es.wikipedia.org/wiki/The_Washington_Post}{The Washington Post};} 2016: El equipo de~\emph{\href{https://es.wikipedia.org/wiki/The_Washington_Post}{The Washington Post};} 2017: David Fahrenthold de~\href{https://es.wikipedia.org/wiki/The_Washington_Post}{\emph{The Washington Post}}.} suelen indicar, junto al nombre del premiado, el nombre del medio para el que trabaja.
+Esta definición, establecida durante el primer gobierno de Perón, parece haber tomado en cuenta cierto estado precedente de la cuestión y con consenso internacional. A modo de demostración es interesante observar que los premios a periodistas (Pulitzer, Cabot, etc.)\footnote{Últimos premios Pulitzer, en la categoría Periodismo nacional: 2010: Matt Richtel y miembros del \emph{The New York Times}; 2011: Jesse Eisinger y Jake Bernstein de \emph{ProPublica}; 2012: David Wood de \emph{The Huffington Post}; 2013: Lisa Song, Elizabeth McGowan y David Hasemyer de \emph{InsideClimate News}; 2014: David Philipps de \emph{The Gazette}; 2015: Carol D. Leonnig de \emph{The Washington Post}; 2016: El equipo de \emph{The Washington Post}; 2017: David Fahrenthold de \emph{The Washington Post}.} suelen indicar, junto al nombre del premiado, el nombre del medio para el que trabaja.
 
 Retomando la idea central, el ser del periodista está dado por su adscripción y su adhesión al medio. Sin el medio, el periodista es un sujeto sin intervención en la construcción social de la realidad. A la inversa, muchos suelen adoptar la identidad de periodista por el mero hecho de haberse incorporado a un medio.
 
@@ -2348,8 +2282,8 @@ Las pequeñas empresas de medios se tornan dependientes de una o muy pocas empre
 
 En síntesis, el cambio estructural ha producido nuevas relaciones en el campo, tanto entre los periodistas y las empresas como entre los periodistas entre sí, convirtiendo a la disputa entre periodistas en un conflicto más encarnizado, no ya por destacar en el universo del campo, sino por la propia sobrevivencia como tal.
 
-%\hypertarget{estrategias-de-protecciuxf3n-de-la-legitimidad-del-campo-perioduxedstico}{%
-\section{Estrategias de protección de la legitimidad del campo periodístico}\label{estrategias-de-protecciuxf3n-de-la-legitimidad-del-campo-perioduxedstico}} % 5. 3.
+
+\section{Estrategias de protección de la legitimidad del campo periodístico} % 5.3.
 
 Nos propusimos, entre los objetivos específicos, indagar la existencia de estrategias de protección de la legitimidad del campo periodístico. Es decir, consideramos, a modo de hipótesis, que el conflicto debió producir acciones discursivas que intentaran proteger la legitimidad de la actividad periodística, cuestionada por la propia naturaleza del conflicto, donde los actores polares ponían en duda el pilar fundamental de la actividad periodística: la credibilidad. En tal sentido, hemos seleccionado, dos ejes que, como hemos visto en el \emph{corpus}, prevalecen en la estructura argumental de los integrantes dominantes del campo.
 
@@ -2359,8 +2293,8 @@ El segundo eje, que agrupa la mayor cantidad de argumentaciones, es el de la vio
 
 A continuación, desarrollaremos cada uno de los ejes y las líneas argumentales sobre las que estructura el campo su discurso. Referiremos tanto a los sectores dominantes como a los periféricos.
 
-%\hypertarget{protecciuxf3n-de-la-legitimidad-del-campo.-libertad-de-expresiuxf3n}{%
-\subsection{Protección de la legitimidad del campo. Libertad de expresión}\label{protecciuxf3n-de-la-legitimidad-del-campo.-libertad-de-expresiuxf3n}} %5 . 3.1.
+
+\subsection{Protección de la legitimidad del campo. Libertad de expresión}%5.3.1
 
 Afirmamos que el campo periodístico se estructura alrededor del derecho a la libertad de expresión. Su vulneración por parte de cualquier actor político o social lo coloca fuera del entramado social del sistema democrático y, por lo tanto, fuera de toda legitimidad. Como ya vimos, Habermas (1991: 211), en \emph{Historia y crítica de la opinión pública}, refleja con precisión este fenómeno
 
@@ -2400,8 +2334,8 @@ Si bien a los actores centrales del campo periodístico no les fue sencillo enco
 
 La legitimidad de pertenencia al campo y la verosimilitud se articularon definiendo a los contendientes. Por un lado, los que se encontraban en medios masivos y de alta penetración, susceptibles de verse afectados por la ley de Medios. Por el otro, los que se hallaban fuera de esos medios, en la periferia del campo y llamados a ser los beneficiarios potenciales del proyecto de ley.
 
-%\hypertarget{protecciuxf3n-de-la-legitimidad-del-campo-perioduxedstico.-la-independencia}{%
-\subsection{Protección de la legitimidad del campo periodístico. La independencia}\label{protecciuxf3n-de-la-legitimidad-del-campo-perioduxedstico.-la-independencia}} % 5. 3. 2.
+
+\subsection{Protección de la legitimidad del campo periodístico. La independencia} % 5.3.2.
 
 Afirmamos anteriormente que en la actividad periodística la independencia no existe, pero que fuera de ella no hay periodismo. Intentando buscar una metáfora que lo represente creemos que la independencia es al periodismo lo que la estética es al arte. Aún los periodistas más comprometidos políticamente con determinado partido o corriente de opinión adscriben a su independencia y alegan que los ``independientes'' no son tales.
 
@@ -2427,8 +2361,8 @@ Para los \emph{predicadores}, los periodistas agrupados en la categoría de \emp
 
 En síntesis, la independencia en el campo periodístico es el documento de identidad de pertenencia al mismo. Es, por lo tanto, irrenunciable.
 
-%\hypertarget{post-scriptum}{%
-\section{Post scriptum}\label{post-scriptum}}
+
+\section{Post scriptum}
 
 Este trabajo concluye cuatro años después de haber sido imaginado y proyectado. Cuatro años en los que fuimos testigos de cambios significativos en la composición del campo periodístico, decenas de medios cerraron, miles de periodistas perdieron sus trabajos e incluso, agencias de noticias históricas hoy ya no existen.
 
@@ -2442,229 +2376,229 @@ Iniciamos este trabajo bajo la premisa que el conflicto generaba el riesgo de fr
 
 Septiembre de 2020
 
-%\hypertarget{bibliografuxeda}{%
-\section{BIBLIOGRAFÍA}\label{bibliografuxeda}}
 
-Alberdi, Juan B. (2015): Cartas sobre la prensa y la política militante de la República Argentina (cartas quillotanas). Biblioteca Saavedra Fajardo, Madrid. {[}1853{]}.
-
-Alonso, Paula (1997): ``\,``En la primavera de la historia'': el discurso político del roquismo de la década del ochenta a través de su prensa''. En: Boletín del Instituto de Historia Argentina y Americana ``Dr. Emilio Ravignani'', Tercera serie, N° 15, 1er. Semestre de 1997, Buenos Aires.
-
-Alonso, Paula (2004): ``La tribuna nacional y Sud-América: tensiones ideológicas en la construcción de la ``Argentina moderna'' en la década de 1880''. En: Construcciones impresas. Buenos Aires: Fondo de Cultura Económica.
-
-Altamirano, Carlos y Myers, Jorge (2008) Historia de los intelectuales en América Latina. Tomo I. Buenos Aires: Katz Editores.
-
-Altheide, D. y Rasmussen, P.(1976) Becoming News. A Study of Two Newsrooms, en Sociology of works an occupations, Vol. 3 N. 2, Pags. 223-226.
-
-Amado, Adriana (2016) El periodismo por los periodistas. Perfiles profesionales en las democracias de América Latina. Buenos Aires: Konrad-Adenauer-Stiftung e. v.
-
-Anguita Eduardo (2002) Grandes hermanos. Alianzas y negocios ocultos de los dueños de la información. Buenos Aires: Colihue.
-
-Arrueta, C. (2010). ¿Qué realidad construyen los diarios? Una mirada desde el periodismo en contextos de periferia. Buenos Aires: La Crujía Ediciones.
-
-Arrueta, Cesar (2013) Identidad(es) periodística(s) Una mirada desde los escenarios de tensión, en Revista:~Tram{[}p{]}as de la Comunicación y la Cultura; Núm 76, ISSN:~2314-274X pp. 81-87 Recuperado 05/03/2017: \url{http://sedici.unlp.edu.ar/handle/10915/37153}
-
-Auza, Néstor T. (1978) El periodismo de la Confederación. Buenos Aires: Eudeba.
-
-Baldoni (2012) Kirchnerismo, mediatización e identidades políticas: reflexiones en torno a la política, el periodismo y el discurso . 2003-2008 / Maestri Mariana ... {[}et.al.{]} ; coordinado por Irene Lis Gindin ; 1a ed. - Rosario: UNR Editora. Editorial de la Universidad Nacional de Rosario, 2014.
-
-Barbier, Frédéric y Bertho-Lavenir, Catherine (1999) Historia de los medios deDiderot a Internet, Buenos Aires: Colihue.
-
-Bargach, A. y Suárez, M. (2014). Télam, el hecho maldito del periodismo argentino. Una historia narrada por sus trabajadores. Buenos aires: Ediciones TXT.
-
-Barone, Orlando (2011) K Letra bárbara. Buenos Aires: Sudamericana.
-
-Barrera Carlos (2004) Historia del Periodismo Universal. Barcelona: Ariel.
-
-Beliz y Zuleta Puceiro (1998) La cultura profesional del periodismo argentino en Cuadernos Autrales de Comunicación 1. Buenos Aires: Universidad Austral
-
-Benhamou, F. (2015). El libro en la era digital: papel, pantallas y otras derivas. Ciudad Autónoma de Buenos Aires: Editorial Paidós.
-
-Bernays, Edward (2008) Propaganda. Madrid: Melusina
-
-Blaustein, Eduardo (2014) Las locuras del Rey Jorge. Buenos Aires: Ediciones B.
-
-Blaustein, Eduardo. (2013). Años de rabia. El periodismo, los medios y las batallas del kirchnerismo. Buenos Aires: Ediciones B.
-
-Borderia Ortiz, Enrique; Laguna Platero, Antonio; Martínez Gallego, Francesc (2015) Historia social de la comunicación: mediaciones y públicos. Madrid, Síntesis.
-
-Borges-Bioy Casares (1967). Crónicas de H. Bustos Domecq. Buenos Aires: Losada.
-
-Borrat, H. (2009). El periódico, actor político. Barcelona: Editorial Gustavo Gili.
-
-Bourdieu, P. (2008). Cuestiones de Sociología. Madrid: Ediciones Itsmo.
-
-Bourdieu, P. y Wacquant Loïc (2008) Una invitación a la Sociología reflexiva, Buenos Aires: Siglo XXI Editores.
-
-Bourdieu, Pierre (1997) Sobre la televisión. Barcelona: Anagrama.
-
-Bourdieu, Pierre (1999). La miseria del mundo, Buenos Aires: Fondo de Cultura Económica.
-
-Bourdieu, Pierre (2002). Campo de poder, campo intelectual, Barcelona: Montressor
-
-Brancatelli, Diego (2015). Todos contra BRANCA contra todos. Buenos Aires: Ediciones B
-
-Bücher, K. (1917) Die Anfänge des Zeitunswesens, en Die EnstehungderVolkswirtschaft, Vol I, Berlín.
-
-Capasso, J. (2013). Victor Hugo. Una historia de coherencia y convicción. Buenos Aires: Ediciones Al Arco.
-
-Castells, M. (1998). La era de la información. Economía, sociedad y cultura. Vol 2 El poder de la identidad. Madrid: Alianza Editorial.
-
-Cecchini, D. y Mancinelli, J. (2010). Silencio por sangre. La verdadera historia de Papel Prensa. Buenos Aires: Perito Mundo.
-
-Creswell, J. W. (1994). Research Design. Qualitative \& Quantitative Approaches. London: Sage.
-
-De Diego, J. (2012).~Concentración económica, nuevos editores, nuevos agentes. Primer Coloquio Argentino de Estudios sobre el Libro y la Edición, 31 de octubre, 1 y 2 de noviembre de 2012, La Plata, Argentina. EN: Actas. La Plata: UNLP-FAHCE.
-
-De Marco, Miguel Ángel (2006) Historia del periodismo argentino. Desde los orígenes hasta el Centenario de Mayo. Buenos Aires: EDUCA.
-
-Dessein, D y Roitberg G. (Comps.). (2014). Nuevos desafíos del periodismo. Buenos Aires: Ariel.
-
-Díaz Claudio (2009) Diario de guerra. Clarín el gran engaño argentino. Buenos Aires: Gárgola
-
-Díaz, César (2012). Comunicación y Revolución. 1759-1810. La Plata: Universidad Nacional de La Plata -- Ediciones EPC.
-
-Donsbach Wolfgang (2014). Cómo entender al periodismo : selección de la obra de Wolfgang Donsbach; compilado por Fernando J. Ruiz. - 1a ed. - Ciudad Autónoma de Buenos Aires : Konrad Adenauer Stiftung
-
-Fontevecchia, J. (2015). \href{https://www.boutiquedellibro.com.ar/9789504946175/Quienes+Fuimos+En+La+Era+K/}{Quiénes fuimos en la era k}. Buenos Aires. Planeta
-
-Fontevecchia, J. (2018) \url{https://www.perfil.com/noticias/medios/fontevecchia-quienes-critican-a-los-medios-estan-criticando-al-sitema-democratico.phtml}. Seminario ``Telecomunicaciones, Medios Privados y Públicos en la era de la Convergencia'', organizado por el Sistema Federal de Medios y Contenidos Públicos y la Embajada Británica en Argentina. 05/11/18
-
-Fontevecchia, J. (2018). Periodismo y Verdad. C.A.B.A: Editorial Paidós.
-
-Fraga Roserndo (comp.) (1997) Autopercepción del periodismo en la Argentina. Buenos Aires: Editorial de Belgrano.
-
-Gans (1979) Deciding What´s News, Newsweek an Time, Nueva York: PantheonBooks
-
-Gil Bellota, Carlos J. (2012) Periodismo, metaperiodismo y bienes públicos. \url{https://www.datanalytics.com/2012/09/07/periodismo-metaperiodismo-y-bienes-publicos/}
-
-Gindin Irene Lis (2014) Identidades fragmentadas: apuntes teóricos sobre las identidades políticas, en Kirchnerismo, mediatización e identidades políticas: reflexiones en torno a la política, el periodismo y el discurso .2003-2008. Rosario: UNR Editora.
-
-Glaser, B y Strauss, A (1967) The discovery of gronunded theory strategies for qualitative reserarch. New York: Aldine Publishing Company.
-
-Glaser, B. (1978),~ Theoretical Sensitivity. San Francisco, University of California, 1978.~Traducción: Ada Freytes Frey.
-
-Golding-Elliott (1979) Making the news, Londres: Longman
-
-González, Gustavo (2011) Noticias Bajo Fuego. Buenos Aires: Planeta
-
-Habermas, J. (2006). Historia y Crítica de la Opinión Pública. Barcelona: Editorial Gustavo Gili.
-
-Habermas, Jurguen (1982) Teoría de la Acción Comunicativa, Madrid, Ed.: Taurus
-
-Halperín, Jorge (2007), Noticias del poder, Buenas y malas artes del periodismo político. Buenos Aires: Aguilar.
-
-Humphreys, Peter (2008) Subvenciones a la prensa en Europa. Una visión histórica. Extraído de Revista \href{https://dialnet.unirioja.es/servlet/revista?codigo=6769}{Telos: Cuadernos de comunicación e innovación},~ISSN~0213-084X,~\href{https://dialnet.unirioja.es/ejemplar/195612}{Nº. 75, 2008},~págs.~71-84
-
-Jorge Asís (2011) El kirchnerismo póstumo. Buenos Aires: Ediciones B
-
-Jornet, C. y Dessein, D (Comps.). (2014). Tiempos Turbulentos. Medios y libertad de expresión en la Argentina de hoy. Buenos Aires: Ariel.
-
-Levinas, Gabriel (2013) El pequeño Timerman. Buenos Aires: Ediciones B
-
-Levinas, Gabriel (2015) Doble agente. La biografía inesperada de Horacio Verbitsky. Buenos Aires: Sudamericana
-
-Llonto, Pablo. (2007). La Noble Ernestina. Ciudad Autónoma de Buenos Aires: Editorial Punto de Encuentro
-
-Lopez Echagüe, Hernan (2015) El perro. Horacio Verbitsky, un animal político. Buenos Aires: Ediciones B
-
-Majul Luis (1999) Periodistas. Qué piensan y que hacen los que desiden en los medios. Buenos Aires: Editorial Sudamericana.
-
-Majul, L. (2012). Lanata. Buenos Aires: Margen Izquierdo
-
-Márquez, V. y Ces, A. (2010). Periodismo de infantería. Buenos Aires: Clarinete.
-
-Martini, Stella;~Luchessi, Lila (2004). Los que hacen la noticia: periodismo, información y poder. Buenos Aires: Biblos
-
-Mastrini y Becerra (2017). Medios en guerra. Balance, crítica y desguace de las políticas de comunicación 2003-2016. CABA: Biblos
-
-Mauss, M. (2009). Ensayo sobre el don. Forma y función del intercambio en las sociedades arcaicas. Buenos Aires: Katz Editores.
-
-Meneses Fernández, \href{https://www.researchgate.net/profile/Maria_Meneses_Fernandez}{M. Dolores (2010)} Aportaciones del metaperiodismo al estudio de la prensa y del periodismo en contextos históricos delimitados. La Transición democrática, en Zer, Vol. 15 - Núm. 29, ISSN: 1137-1102, pp. 175-191
-
-Meneses Fernández, María Dolores (2008). Noticias sobre la prensa. Imagen propia en la Transición democrática española. Madrid: Ediciones Fragua.
-
-Mercado, Silvia Diana (2012) El inventor del peronismo. Buenos Aires: Planeta
-
-Mochkofsky, G. (2011). Pecado original. Clarín, los Kirchner y la lucha por el poder. Buenos Aires: Planeta.
-
-Molina, Eugenia (2012) El poder de la opinión pública. Trayectos y avatares de una\\
-nueva cultura política en el Río de la Plata, 1800-1852. Santa Fe: UNL.
-
-Morales, Victor Hugo (2015) \href{http://www.cuspide.com/9789876842686/El+Rebenque+Del+Diablo/}{El rebenque del diablo}. Buenos Aires: Colihue
-
-Morales, Victor Hugo (2015) Mentime que me gusta. Buenos Aires: Aguilar.
-
-Moyano, Julio (1996) Prensa y Modernidad. Paraná: CEPCE -- EDUNER.
-
-Moyano, Julio (2008) Prensa, modernidad y transición. Buenos Aires, UBA, Facultad de Ciencias Sociales.
-
-Moyano, Julio (2013): ``Seis años decisivos: La Revolución de Mayo y la construcción de la prensa moderna en el Río de la Plata''. En: Pineda, Adriana, y Gantús, Fausta (Comp.): Miradas y acercamientos a la prensa decimonónica. México: Universidad Michoacana de San Nicolás de Hidalgo/Red de Historiadores de la Prensa y el Periodismo en Iberoamérica.
-
-Muchnik, Daniel (2012) Aquel periodismo: política, medios y periodistas en la Argentina, Buenos Aires: Edhasa
-
-Novaro, M. y Birmajer, M. (2015). Grandes y pequeñas mentiras que nos contaron. La guerra contra la prensa. Qué nos dejan doce años de acoso al periodismo. Buenos Aires: Planeta.
-
-Ojeda Alejandra y Moyano Julio (2019): ``En la forja de un diario moderno''. En: Ojeda, Alejandra, Moyano Julio y Levenberg Rubén: Prácticas de oficio e innovación tecnológica. Tensiones y estrategias en dos momentos clave del diario argentino La Nación. Buenos Aires: IEALC -- UBA.
-
-Ojeda, Alejandra (2010) ``De la Arenga Faccional al Reclame Publicitario''. En: revista Pensar la Publicidad, nº 2, Barcelona.
-
-Oliván, M. J. y Alabarces, P. (2010). 6 7 8. La creación de otra realidad. Buenos Aires: Paidós.
-
-Piccone, N. (2015). La inconclusa Ley de Medios. La historia menos contada. Buenos Aires: Ediciones Continente.
-
-Ramonet, I. (2011). La explosión del periodismo. Internet pone en jaque a los medios tradicionales. Buenos Aires: Capital Intelectual.
-
-Rivera, Jorge (1990) ``De la facción al folletín''. En: Diario Clarín, suplemento cultural Cultura y Nación, 23 de agosto.
-
-Rivera, Jorge (1998) El escritor y la industria cultural. Buenos Aires: Atuel.
-
-Rosso, Daniel (2012) Máquinas de captura. Los medios concentrados en tiempos del kirchnerismo. Buenos Aires: Colihue.
-
-Rotemberg, Abrasha (1999), Historia confidencia. La Opinión y otros olvidos. Buenos Aires: Editorial Sudamericana
-
-Ruiz, F. (2014). Guerras mediáticas. Las grandes batallas periodísticas desde la Revolución de Mayo hasta la actualidad. Ciudad Autónoma de Buenos Aires: Sudamericana.
-
-Saferstein, E. (2016). ``La década publicada'' Los bestsellers políticos y sus editores. Producción de libros, difusión de temas e intervención pública en el mercado editorial argentino (2003-2015), Tesis de doctorado, Universidad de Buenos Aires.
-
-Schlesinger, (1978) Putting ``reality'' together. BBC news, Londres: Constable.
-
-Shumway, Nicolás (2003) La invención de la Argentina. Buenos Aires: Emecé.
-
-Siebert F. y Peterson T. (1967) Tres teorías sobre la prensa en el mundo capitalista. Buenos Aires: De la Flor.
-
-Sirvén, Pablo (2011) Perón y los medios de comunicación. Buenos Aires: Sudamericana.
-
-Sirvén, Pablo (2013) Converso. Buenos Aires: Margen izquierdo.
-
-Sivak, M. (2013). Clarín, el gran diario argentino. Una historia. Buenos Aires: Planeta.
-
-Sivak, Martín (2015) Clarín, La era Magnetto. Buenos Aires: Planeta.
-
-Stefoni Jorge Andrés. (2013) Controversias contemporáneas en el periodismo argentino. Los nudos de la política y el debate sobre la condición profesional (2009-2011) Revista Astrolabio, Núm 10 Nueva Época ISSN 1668-7515 pp. 389 -- 419.
-
-Strauss, A. y Corbin, J. (1998). Basics of Qualitative Research: Techniques and Procedures for Developing Grounded Theory. London: Sage.
-
-Ure, Mariano y Schwarz Christian (2014) Las identidades del periodismo argentino : estudio cualitativo de la percepción de los propios periodistas, Ciudad Autónoma de Buenos Aires: Konrad Adenauer Stiftung.
-
-Vargas, Walter (2015) Periodistas depordivos. Buenos Aires: Ediciones al arco.
-
-Verón, E. (1987). Construir el acontecimiento. Buenos Aires: Gedisa.
-
-\href{http://www.cuspide.com/resultados.aspx?c=VILLARRUEL+DARIO\&por=AutorEstricto\&aut=291343\&orden=fecha}{Villarruel} Dario (2014) (In)justicia mediática. Buenos Aires: Sudamericana.
-
-Vommaro, G. y Baldoni, M. (2012). Bernardo y Mariano: las transformaciones del periodismo político en Argentina, de los años ochenta a los noventa, en Mediálogos, Revista de Comunicación Social, nº 2, Universidad Católica del Uruguay, Montevideo, pp. 59-82.
-
-Weber, Max (1992) Para una sociología de la prensa en \href{http://bddoc.csic.es:8080/ver/ISOC/revi/0034.html}{Revista Española de Investigaciones Sociológicas} nº 57 ISSN:~0210-5233. (pp. 251-259) Madrid.
-
-Wiñazki, Miguel (comp.) (2000) Puro periodismo. Buenos Aires: Editorial de Belgrano.
-
-Wolf, M. (2004). La investigación de la comunicación de masas: Crítica y perspectivas. Ciudad Autónoma de Buenos Aires: Paidós.
-
-Zukernik Eduardo (2006) , Hechos y noticias. Claroscuros de la prensa gráfica en la Argentina. Buenos Aires: La Crujía Ediciones - Konrad Adenauer Stiftung.
-
-Zunino, E. (2011) Patria o medios. Buenos Aires: Sudamericana.
-
-Zunino, E. (2014). Periodistas en el barro. Peleas, aprietes, traiciones y negocios. Miserias y razones de la guerra mediática en la Argentina reciente Buenos Aires: Sudamericana.
+%\section{BIBLIOGRAFÍA}
+%
+%Alberdi, Juan B. (2015): Cartas sobre la prensa y la política militante de la República Argentina (cartas quillotanas). Biblioteca Saavedra Fajardo, Madrid. {[}1853{]}.
+%
+%Alonso, Paula (1997): ``\,``En la primavera de la historia'': el discurso político del roquismo de la década del ochenta a través de su prensa''. En: Boletín del Instituto de Historia Argentina y Americana ``Dr. Emilio Ravignani'', Tercera serie, N° 15, 1er. Semestre de 1997, Buenos Aires.
+%
+%Alonso, Paula (2004): ``La tribuna nacional y Sud-América: tensiones ideológicas en la construcción de la ``Argentina moderna'' en la década de 1880''. En: Construcciones impresas. Buenos Aires: Fondo de Cultura Económica.
+%
+%Altamirano, Carlos y Myers, Jorge (2008) Historia de los intelectuales en América Latina. Tomo I. Buenos Aires: Katz Editores.
+%
+%Altheide, D. y Rasmussen, P.(1976) Becoming News. A Study of Two Newsrooms, en Sociology of works an occupations, Vol. 3 N. 2, Pags. 223-226.
+%
+%Amado, Adriana (2016) El periodismo por los periodistas. Perfiles profesionales en las democracias de América Latina. Buenos Aires: Konrad-Adenauer-Stiftung e. v.
+%
+%Anguita Eduardo (2002) Grandes hermanos. Alianzas y negocios ocultos de los dueños de la información. Buenos Aires: Colihue.
+%
+%Arrueta, C. (2010). ¿Qué realidad construyen los diarios? Una mirada desde el periodismo en contextos de periferia. Buenos Aires: La Crujía Ediciones.
+%
+%Arrueta, Cesar (2013) Identidad(es) periodística(s) Una mirada desde los escenarios de tensión, en Revista:~Tram{[}p{]}as de la Comunicación y la Cultura; Núm 76, ISSN:~2314-274X pp. 81-87 Recuperado 05/03/2017: \url{http://sedici.unlp.edu.ar/handle/10915/37153}
+%
+%Auza, Néstor T. (1978) El periodismo de la Confederación. Buenos Aires: Eudeba.
+%
+%Baldoni (2012) Kirchnerismo, mediatización e identidades políticas: reflexiones en torno a la política, el periodismo y el discurso . 2003-2008 / Maestri Mariana ... {[}et.al.{]} ; coordinado por Irene Lis Gindin ; 1a ed. - Rosario: UNR Editora. Editorial de la Universidad Nacional de Rosario, 2014.
+%
+%Barbier, Frédéric y Bertho-Lavenir, Catherine (1999) Historia de los medios deDiderot a Internet, Buenos Aires: Colihue.
+%
+%Bargach, A. y Suárez, M. (2014). Télam, el hecho maldito del periodismo argentino. Una historia narrada por sus trabajadores. Buenos aires: Ediciones TXT.
+%
+%Barone, Orlando (2011) K Letra bárbara. Buenos Aires: Sudamericana.
+%
+%Barrera Carlos (2004) Historia del Periodismo Universal. Barcelona: Ariel.
+%
+%Beliz y Zuleta Puceiro (1998) La cultura profesional del periodismo argentino en Cuadernos Autrales de Comunicación 1. Buenos Aires: Universidad Austral
+%
+%Benhamou, F. (2015). El libro en la era digital: papel, pantallas y otras derivas. Ciudad Autónoma de Buenos Aires: Editorial Paidós.
+%
+%Bernays, Edward (2008) Propaganda. Madrid: Melusina
+%
+%Blaustein, Eduardo (2014) Las locuras del Rey Jorge. Buenos Aires: Ediciones B.
+%
+%Blaustein, Eduardo. (2013). Años de rabia. El periodismo, los medios y las batallas del kirchnerismo. Buenos Aires: Ediciones B.
+%
+%Borderia Ortiz, Enrique; Laguna Platero, Antonio; Martínez Gallego, Francesc (2015) Historia social de la comunicación: mediaciones y públicos. Madrid, Síntesis.
+%
+%Borges-Bioy Casares (1967). Crónicas de H. Bustos Domecq. Buenos Aires: Losada.
+%
+%Borrat, H. (2009). El periódico, actor político. Barcelona: Editorial Gustavo Gili.
+%
+%Bourdieu, P. (2008). Cuestiones de Sociología. Madrid: Ediciones Itsmo.
+%
+%Bourdieu, P. y Wacquant Loïc (2008) Una invitación a la Sociología reflexiva, Buenos Aires: Siglo XXI Editores.
+%
+%Bourdieu, Pierre (1997) Sobre la televisión. Barcelona: Anagrama.
+%
+%Bourdieu, Pierre (1999). La miseria del mundo, Buenos Aires: Fondo de Cultura Económica.
+%
+%Bourdieu, Pierre (2002). Campo de poder, campo intelectual, Barcelona: Montressor
+%
+%Brancatelli, Diego (2015). Todos contra BRANCA contra todos. Buenos Aires: Ediciones B
+%
+%Bücher, K. (1917) Die Anfänge des Zeitunswesens, en Die EnstehungderVolkswirtschaft, Vol I, Berlín.
+%
+%Capasso, J. (2013). Victor Hugo. Una historia de coherencia y convicción. Buenos Aires: Ediciones Al Arco.
+%
+%Castells, M. (1998). La era de la información. Economía, sociedad y cultura. Vol 2 El poder de la identidad. Madrid: Alianza Editorial.
+%
+%Cecchini, D. y Mancinelli, J. (2010). Silencio por sangre. La verdadera historia de Papel Prensa. Buenos Aires: Perito Mundo.
+%
+%Creswell, J. W. (1994). Research Design. Qualitative \& Quantitative Approaches. London: Sage.
+%
+%De Diego, J. (2012).~Concentración económica, nuevos editores, nuevos agentes. Primer Coloquio Argentino de Estudios sobre el Libro y la Edición, 31 de octubre, 1 y 2 de noviembre de 2012, La Plata, Argentina. EN: Actas. La Plata: UNLP-FAHCE.
+%
+%De Marco, Miguel Ángel (2006) Historia del periodismo argentino. Desde los orígenes hasta el Centenario de Mayo. Buenos Aires: EDUCA.
+%
+%Dessein, D y Roitberg G. (Comps.). (2014). Nuevos desafíos del periodismo. Buenos Aires: Ariel.
+%
+%Díaz Claudio (2009) Diario de guerra. Clarín el gran engaño argentino. Buenos Aires: Gárgola
+%
+%Díaz, César (2012). Comunicación y Revolución. 1759-1810. La Plata: Universidad Nacional de La Plata -- Ediciones EPC.
+%
+%Donsbach Wolfgang (2014). Cómo entender al periodismo : selección de la obra de Wolfgang Donsbach; compilado por Fernando J. Ruiz. - 1a ed. - Ciudad Autónoma de Buenos Aires : Konrad Adenauer Stiftung
+%
+%Fontevecchia, J. (2015). \href{https://www.boutiquedellibro.com.ar/9789504946175/Quienes+Fuimos+En+La+Era+K/}{Quiénes fuimos en la era k}. Buenos Aires. Planeta
+%
+%Fontevecchia, J. (2018) \url{https://www.perfil.com/noticias/medios/fontevecchia-quienes-critican-a-los-medios-estan-criticando-al-sitema-democratico.phtml}. Seminario ``Telecomunicaciones, Medios Privados y Públicos en la era de la Convergencia'', organizado por el Sistema Federal de Medios y Contenidos Públicos y la Embajada Británica en Argentina. 05/11/18
+%
+%Fontevecchia, J. (2018). Periodismo y Verdad. C.A.B.A: Editorial Paidós.
+%
+%Fraga Roserndo (comp.) (1997) Autopercepción del periodismo en la Argentina. Buenos Aires: Editorial de Belgrano.
+%
+%Gans (1979) Deciding What´s News, Newsweek an Time, Nueva York: PantheonBooks
+%
+%Gil Bellota, Carlos J. (2012) Periodismo, metaperiodismo y bienes públicos. \url{https://www.datanalytics.com/2012/09/07/periodismo-metaperiodismo-y-bienes-publicos/}
+%
+%Gindin Irene Lis (2014) Identidades fragmentadas: apuntes teóricos sobre las identidades políticas, en Kirchnerismo, mediatización e identidades políticas: reflexiones en torno a la política, el periodismo y el discurso .2003-2008. Rosario: UNR Editora.
+%
+%Glaser, B y Strauss, A (1967) The discovery of gronunded theory strategies for qualitative reserarch. New York: Aldine Publishing Company.
+%
+%Glaser, B. (1978),~ Theoretical Sensitivity. San Francisco, University of California, 1978.~Traducción: Ada Freytes Frey.
+%
+%Golding-Elliott (1979) Making the news, Londres: Longman
+%
+%González, Gustavo (2011) Noticias Bajo Fuego. Buenos Aires: Planeta
+%
+%Habermas, J. (2006). Historia y Crítica de la Opinión Pública. Barcelona: Editorial Gustavo Gili.
+%
+%Habermas, Jurguen (1982) Teoría de la Acción Comunicativa, Madrid, Ed.: Taurus
+%
+%Halperín, Jorge (2007), Noticias del poder, Buenas y malas artes del periodismo político. Buenos Aires: Aguilar.
+%
+%Humphreys, Peter (2008) Subvenciones a la prensa en Europa. Una visión histórica. Extraído de Revista \href{https://dialnet.unirioja.es/servlet/revista?codigo=6769}{Telos: Cuadernos de comunicación e innovación},~ISSN~0213-084X,~\href{https://dialnet.unirioja.es/ejemplar/195612}{Nº. 75, 2008},~págs.~71-84
+%
+%Jorge Asís (2011) El kirchnerismo póstumo. Buenos Aires: Ediciones B
+%
+%Jornet, C. y Dessein, D (Comps.). (2014). Tiempos Turbulentos. Medios y libertad de expresión en la Argentina de hoy. Buenos Aires: Ariel.
+%
+%Levinas, Gabriel (2013) El pequeño Timerman. Buenos Aires: Ediciones B
+%
+%Levinas, Gabriel (2015) Doble agente. La biografía inesperada de Horacio Verbitsky. Buenos Aires: Sudamericana
+%
+%Llonto, Pablo. (2007). La Noble Ernestina. Ciudad Autónoma de Buenos Aires: Editorial Punto de Encuentro
+%
+%Lopez Echagüe, Hernan (2015) El perro. Horacio Verbitsky, un animal político. Buenos Aires: Ediciones B
+%
+%Majul Luis (1999) Periodistas. Qué piensan y que hacen los que desiden en los medios. Buenos Aires: Editorial Sudamericana.
+%
+%Majul, L. (2012). Lanata. Buenos Aires: Margen Izquierdo
+%
+%Márquez, V. y Ces, A. (2010). Periodismo de infantería. Buenos Aires: Clarinete.
+%
+%Martini, Stella;~Luchessi, Lila (2004). Los que hacen la noticia: periodismo, información y poder. Buenos Aires: Biblos
+%
+%Mastrini y Becerra (2017). Medios en guerra. Balance, crítica y desguace de las políticas de comunicación 2003-2016. CABA: Biblos
+%
+%Mauss, M. (2009). Ensayo sobre el don. Forma y función del intercambio en las sociedades arcaicas. Buenos Aires: Katz Editores.
+%
+%Meneses Fernández, \href{https://www.researchgate.net/profile/Maria_Meneses_Fernandez}{M. Dolores (2010)} Aportaciones del metaperiodismo al estudio de la prensa y del periodismo en contextos históricos delimitados. La Transición democrática, en Zer, Vol. 15 - Núm. 29, ISSN: 1137-1102, pp. 175-191
+%
+%Meneses Fernández, María Dolores (2008). Noticias sobre la prensa. Imagen propia en la Transición democrática española. Madrid: Ediciones Fragua.
+%
+%Mercado, Silvia Diana (2012) El inventor del peronismo. Buenos Aires: Planeta
+%
+%Mochkofsky, G. (2011). Pecado original. Clarín, los Kirchner y la lucha por el poder. Buenos Aires: Planeta.
+%
+%Molina, Eugenia (2012) El poder de la opinión pública. Trayectos y avatares de una\\
+%nueva cultura política en el Río de la Plata, 1800-1852. Santa Fe: UNL.
+%
+%Morales, Victor Hugo (2015) \href{http://www.cuspide.com/9789876842686/El+Rebenque+Del+Diablo/}{El rebenque del diablo}. Buenos Aires: Colihue
+%
+%Morales, Victor Hugo (2015) Mentime que me gusta. Buenos Aires: Aguilar.
+%
+%Moyano, Julio (1996) Prensa y Modernidad. Paraná: CEPCE -- EDUNER.
+%
+%Moyano, Julio (2008) Prensa, modernidad y transición. Buenos Aires, UBA, Facultad de Ciencias Sociales.
+%
+%Moyano, Julio (2013): ``Seis años decisivos: La Revolución de Mayo y la construcción de la prensa moderna en el Río de la Plata''. En: Pineda, Adriana, y Gantús, Fausta (Comp.): Miradas y acercamientos a la prensa decimonónica. México: Universidad Michoacana de San Nicolás de Hidalgo/Red de Historiadores de la Prensa y el Periodismo en Iberoamérica.
+%
+%Muchnik, Daniel (2012) Aquel periodismo: política, medios y periodistas en la Argentina, Buenos Aires: Edhasa
+%
+%Novaro, M. y Birmajer, M. (2015). Grandes y pequeñas mentiras que nos contaron. La guerra contra la prensa. Qué nos dejan doce años de acoso al periodismo. Buenos Aires: Planeta.
+%
+%Ojeda Alejandra y Moyano Julio (2019): ``En la forja de un diario moderno''. En: Ojeda, Alejandra, Moyano Julio y Levenberg Rubén: Prácticas de oficio e innovación tecnológica. Tensiones y estrategias en dos momentos clave del diario argentino La Nación. Buenos Aires: IEALC -- UBA.
+%
+%Ojeda, Alejandra (2010) ``De la Arenga Faccional al Reclame Publicitario''. En: revista Pensar la Publicidad, nº 2, Barcelona.
+%
+%Oliván, M. J. y Alabarces, P. (2010). 6 7 8. La creación de otra realidad. Buenos Aires: Paidós.
+%
+%Piccone, N. (2015). La inconclusa Ley de Medios. La historia menos contada. Buenos Aires: Ediciones Continente.
+%
+%Ramonet, I. (2011). La explosión del periodismo. Internet pone en jaque a los medios tradicionales. Buenos Aires: Capital Intelectual.
+%
+%Rivera, Jorge (1990) ``De la facción al folletín''. En: Diario Clarín, suplemento cultural Cultura y Nación, 23 de agosto.
+%
+%Rivera, Jorge (1998) El escritor y la industria cultural. Buenos Aires: Atuel.
+%
+%Rosso, Daniel (2012) Máquinas de captura. Los medios concentrados en tiempos del kirchnerismo. Buenos Aires: Colihue.
+%
+%Rotemberg, Abrasha (1999), Historia confidencia. La Opinión y otros olvidos. Buenos Aires: Editorial Sudamericana
+%
+%Ruiz, F. (2014). Guerras mediáticas. Las grandes batallas periodísticas desde la Revolución de Mayo hasta la actualidad. Ciudad Autónoma de Buenos Aires: Sudamericana.
+%
+%Saferstein, E. (2016). ``La década publicada'' Los bestsellers políticos y sus editores. Producción de libros, difusión de temas e intervención pública en el mercado editorial argentino (2003-2015), Tesis de doctorado, Universidad de Buenos Aires.
+%
+%Schlesinger, (1978) Putting ``reality'' together. BBC news, Londres: Constable.
+%
+%Shumway, Nicolás (2003) La invención de la Argentina. Buenos Aires: Emecé.
+%
+%Siebert F. y Peterson T. (1967) Tres teorías sobre la prensa en el mundo capitalista. Buenos Aires: De la Flor.
+%
+%Sirvén, Pablo (2011) Perón y los medios de comunicación. Buenos Aires: Sudamericana.
+%
+%Sirvén, Pablo (2013) Converso. Buenos Aires: Margen izquierdo.
+%
+%Sivak, M. (2013). Clarín, el gran diario argentino. Una historia. Buenos Aires: Planeta.
+%
+%Sivak, Martín (2015) Clarín, La era Magnetto. Buenos Aires: Planeta.
+%
+%Stefoni Jorge Andrés. (2013) Controversias contemporáneas en el periodismo argentino. Los nudos de la política y el debate sobre la condición profesional (2009-2011) Revista Astrolabio, Núm 10 Nueva Época ISSN 1668-7515 pp. 389 -- 419.
+%
+%Strauss, A. y Corbin, J. (1998). Basics of Qualitative Research: Techniques and Procedures for Developing Grounded Theory. London: Sage.
+%
+%Ure, Mariano y Schwarz Christian (2014) Las identidades del periodismo argentino : estudio cualitativo de la percepción de los propios periodistas, Ciudad Autónoma de Buenos Aires: Konrad Adenauer Stiftung.
+%
+%Vargas, Walter (2015) Periodistas depordivos. Buenos Aires: Ediciones al arco.
+%
+%Verón, E. (1987). Construir el acontecimiento. Buenos Aires: Gedisa.
+%
+%\href{http://www.cuspide.com/resultados.aspx?c=VILLARRUEL+DARIO\&por=AutorEstricto\&aut=291343\&orden=fecha}{Villarruel} Dario (2014) (In)justicia mediática. Buenos Aires: Sudamericana.
+%
+%Vommaro, G. y Baldoni, M. (2012). Bernardo y Mariano: las transformaciones del periodismo político en Argentina, de los años ochenta a los noventa, en Mediálogos, Revista de Comunicación Social, nº 2, Universidad Católica del Uruguay, Montevideo, pp. 59-82.
+%
+%Weber, Max (1992) Para una sociología de la prensa en \href{http://bddoc.csic.es:8080/ver/ISOC/revi/0034.html}{Revista Española de Investigaciones Sociológicas} nº 57 ISSN:~0210-5233. (pp. 251-259) Madrid.
+%
+%Wiñazki, Miguel (comp.) (2000) Puro periodismo. Buenos Aires: Editorial de Belgrano.
+%
+%Wolf, M. (2004). La investigación de la comunicación de masas: Crítica y perspectivas. Ciudad Autónoma de Buenos Aires: Paidós.
+%
+%Zukernik Eduardo (2006) , Hechos y noticias. Claroscuros de la prensa gráfica en la Argentina. Buenos Aires: La Crujía Ediciones - Konrad Adenauer Stiftung.
+%
+%Zunino, E. (2011) Patria o medios. Buenos Aires: Sudamericana.
+%
+%Zunino, E. (2014). Periodistas en el barro. Peleas, aprietes, traiciones y negocios. Miserias y razones de la guerra mediática en la Argentina reciente Buenos Aires: Sudamericana.
 
 
 \end{document}
