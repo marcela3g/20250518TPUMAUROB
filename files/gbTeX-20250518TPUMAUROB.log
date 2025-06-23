@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  23 JUN 2025 12:10
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  23 JUN 2025 16:41
  restricted system commands enabled.
 **pdf-20250518TPUMAUROB.tex
 (./pdf-20250518TPUMAUROB.tex
@@ -3201,866 +3201,576 @@ LaTeX Info: Redefining \. on input line 684.
 LaTeX Info: Redefining \% on input line 684.
 LaTeX Info: Redefining \. on input line 684.
 LaTeX Info: Redefining \% on input line 684.
- [10]
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 7.84827pt on input line 688.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 10.61993pt on input line 697.
-LaTeX Info: Redefining \. on input line 714.
-LaTeX Info: Redefining \% on input line 714.
-LaTeX Info: Redefining \. on input line 714.
-LaTeX Info: Redefining \% on input line 714.
- [11]
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
-(Font)              scaled to size 9.81033pt on input line 720.
-LaTeX Info: Redefining \. on input line 727.
-LaTeX Info: Redefining \% on input line 727.
-LaTeX Info: Redefining \. on input line 727.
-LaTeX Info: Redefining \% on input line 727.
- [12]
-LaTeX Info: Redefining \. on input line 743.
-LaTeX Info: Redefining \% on input line 743.
-LaTeX Info: Redefining \. on input line 743.
-LaTeX Info: Redefining \% on input line 743.
- [13]
-LaTeX Info: Redefining \. on input line 757.
-LaTeX Info: Redefining \% on input line 757.
-LaTeX Info: Redefining \. on input line 757.
-LaTeX Info: Redefining \% on input line 757.
- [14]
-LaTeX Info: Redefining \. on input line 766.
-LaTeX Info: Redefining \% on input line 766.
-LaTeX Info: Redefining \. on input line 766.
-LaTeX Info: Redefining \% on input line 766.
- [15]
-LaTeX Info: Redefining \. on input line 779.
-LaTeX Info: Redefining \% on input line 779.
-LaTeX Info: Redefining \. on input line 779.
-LaTeX Info: Redefining \% on input line 779.
- [16]
-LaTeX Info: Redefining \. on input line 802.
-LaTeX Info: Redefining \% on input line 802.
-LaTeX Info: Redefining \. on input line 802.
-LaTeX Info: Redefining \% on input line 802.
- [17]
-LaTeX Info: Redefining \. on input line 813.
-LaTeX Info: Redefining \% on input line 813.
-LaTeX Info: Redefining \. on input line 813.
-LaTeX Info: Redefining \% on input line 813.
- [18]
-LaTeX Info: Redefining \. on input line 822.
-LaTeX Info: Redefining \% on input line 822.
-LaTeX Info: Redefining \. on input line 822.
-LaTeX Info: Redefining \% on input line 822.
 
-[19] [20
-
-]
-Capítulo 2.
-Package biblatex Info: Resetting trackers on input line 822.
-LaTeX Info: Redefining \. on input line 832.
-LaTeX Info: Redefining \% on input line 832.
-LaTeX Info: Redefining \. on input line 832.
-LaTeX Info: Redefining \% on input line 832.
-[21]
-
-LaTeX Warning: Citation '@6962-AMADO2016' on page 22 undefined on input line 83
-7.
-
-LaTeX Info: Redefining \. on input line 840.
-LaTeX Info: Redefining \% on input line 840.
-LaTeX Info: Redefining \. on input line 840.
-LaTeX Info: Redefining \% on input line 840.
-[22]
-Overfull \vbox (2.20837pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 848.
-LaTeX Info: Redefining \% on input line 848.
-LaTeX Info: Redefining \. on input line 848.
-LaTeX Info: Redefining \% on input line 848.
-
-[23]
-LaTeX Info: Redefining \. on input line 857.
-LaTeX Info: Redefining \% on input line 857.
-LaTeX Info: Redefining \. on input line 857.
-LaTeX Info: Redefining \% on input line 857.
- [24]
-LaTeX Info: Redefining \. on input line 868.
-LaTeX Info: Redefining \% on input line 868.
-LaTeX Info: Redefining \. on input line 868.
-LaTeX Info: Redefining \% on input line 868.
- [25]
-LaTeX Info: Redefining \. on input line 884.
-LaTeX Info: Redefining \% on input line 884.
-LaTeX Info: Redefining \. on input line 884.
-LaTeX Info: Redefining \% on input line 884.
- [26]
-LaTeX Info: Redefining \. on input line 892.
-LaTeX Info: Redefining \% on input line 892.
-LaTeX Info: Redefining \. on input line 892.
-LaTeX Info: Redefining \% on input line 892.
- [27]
-LaTeX Info: Redefining \. on input line 911.
-LaTeX Info: Redefining \% on input line 911.
-LaTeX Info: Redefining \. on input line 911.
-LaTeX Info: Redefining \% on input line 911.
- [28]
-LaTeX Info: Redefining \. on input line 936.
-LaTeX Info: Redefining \% on input line 936.
-LaTeX Info: Redefining \. on input line 936.
-LaTeX Info: Redefining \% on input line 936.
- [29]
-LaTeX Info: Redefining \. on input line 945.
-LaTeX Info: Redefining \% on input line 945.
-LaTeX Info: Redefining \. on input line 945.
-LaTeX Info: Redefining \% on input line 945.
- [30]
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/it' will be
-(Font)              scaled to size 11.79993pt on input line 948.
-LaTeX Info: Redefining \. on input line 960.
-LaTeX Info: Redefining \% on input line 960.
-LaTeX Info: Redefining \. on input line 960.
-LaTeX Info: Redefining \% on input line 960.
- [31]
-LaTeX Info: Redefining \. on input line 983.
-LaTeX Info: Redefining \% on input line 983.
-LaTeX Info: Redefining \. on input line 983.
-LaTeX Info: Redefining \% on input line 983.
- [32]
-LaTeX Info: Redefining \. on input line 1006.
-LaTeX Info: Redefining \% on input line 1006.
-LaTeX Info: Redefining \. on input line 1006.
-LaTeX Info: Redefining \% on input line 1006.
- [33]
-LaTeX Info: Redefining \. on input line 1015.
-LaTeX Info: Redefining \% on input line 1015.
-LaTeX Info: Redefining \. on input line 1015.
-LaTeX Info: Redefining \% on input line 1015.
- [34]
-LaTeX Info: Redefining \. on input line 1044.
-LaTeX Info: Redefining \% on input line 1044.
-LaTeX Info: Redefining \. on input line 1044.
-LaTeX Info: Redefining \% on input line 1044.
- [35]
-LaTeX Info: Redefining \. on input line 1053.
-LaTeX Info: Redefining \% on input line 1053.
-LaTeX Info: Redefining \. on input line 1053.
-LaTeX Info: Redefining \% on input line 1053.
- [36]
-LaTeX Info: Redefining \. on input line 1075.
-LaTeX Info: Redefining \% on input line 1075.
-LaTeX Info: Redefining \. on input line 1075.
-LaTeX Info: Redefining \% on input line 1075.
- [37]
-LaTeX Info: Redefining \. on input line 1081.
-LaTeX Info: Redefining \% on input line 1081.
-LaTeX Info: Redefining \. on input line 1081.
-LaTeX Info: Redefining \% on input line 1081.
-
-[38]
-LaTeX Info: Redefining \. on input line 1092.
-LaTeX Info: Redefining \% on input line 1092.
-LaTeX Info: Redefining \. on input line 1092.
-LaTeX Info: Redefining \% on input line 1092.
- [39]
-LaTeX Info: Redefining \. on input line 1100.
-LaTeX Info: Redefining \% on input line 1100.
-LaTeX Info: Redefining \. on input line 1100.
-LaTeX Info: Redefining \% on input line 1100.
- [40]
-LaTeX Info: Redefining \. on input line 1111.
-LaTeX Info: Redefining \% on input line 1111.
-LaTeX Info: Redefining \. on input line 1111.
-LaTeX Info: Redefining \% on input line 1111.
- [41]
-LaTeX Info: Redefining \. on input line 1121.
-LaTeX Info: Redefining \% on input line 1121.
-LaTeX Info: Redefining \. on input line 1121.
-LaTeX Info: Redefining \% on input line 1121.
- [42]
-LaTeX Info: Redefining \. on input line 1131.
-LaTeX Info: Redefining \% on input line 1131.
-LaTeX Info: Redefining \. on input line 1131.
-LaTeX Info: Redefining \% on input line 1131.
- [43]
-LaTeX Info: Redefining \. on input line 1135.
-LaTeX Info: Redefining \% on input line 1135.
-LaTeX Info: Redefining \. on input line 1135.
-LaTeX Info: Redefining \% on input line 1135.
- [44]
-Capítulo 3.
-Package biblatex Info: Resetting trackers on input line 1135.
-LaTeX Info: Redefining \. on input line 1146.
-LaTeX Info: Redefining \% on input line 1146.
-LaTeX Info: Redefining \. on input line 1146.
-LaTeX Info: Redefining \% on input line 1146.
-[45
-
-]
-LaTeX Info: Redefining \. on input line 1157.
-LaTeX Info: Redefining \% on input line 1157.
-LaTeX Info: Redefining \. on input line 1157.
-LaTeX Info: Redefining \% on input line 1157.
- [46]
-LaTeX Info: Redefining \. on input line 1170.
-LaTeX Info: Redefining \% on input line 1170.
-LaTeX Info: Redefining \. on input line 1170.
-LaTeX Info: Redefining \% on input line 1170.
- [47]
-LaTeX Info: Redefining \. on input line 1191.
-LaTeX Info: Redefining \% on input line 1191.
-LaTeX Info: Redefining \. on input line 1191.
-LaTeX Info: Redefining \% on input line 1191.
- [48]
-LaTeX Info: Redefining \. on input line 1204.
-LaTeX Info: Redefining \% on input line 1204.
-LaTeX Info: Redefining \. on input line 1204.
-LaTeX Info: Redefining \% on input line 1204.
- [49]
-LaTeX Info: Redefining \. on input line 1213.
-LaTeX Info: Redefining \% on input line 1213.
-LaTeX Info: Redefining \. on input line 1213.
-LaTeX Info: Redefining \% on input line 1213.
- [50]
-LaTeX Info: Redefining \. on input line 1220.
-LaTeX Info: Redefining \% on input line 1220.
-LaTeX Info: Redefining \. on input line 1220.
-LaTeX Info: Redefining \% on input line 1220.
- [51]
-LaTeX Info: Redefining \. on input line 1244.
-LaTeX Info: Redefining \% on input line 1244.
-LaTeX Info: Redefining \. on input line 1244.
-LaTeX Info: Redefining \% on input line 1244.
- [52]
-LaTeX Info: Redefining \. on input line 1276.
-LaTeX Info: Redefining \% on input line 1276.
-LaTeX Info: Redefining \. on input line 1276.
-LaTeX Info: Redefining \% on input line 1276.
- [53]
-LaTeX Info: Redefining \. on input line 1298.
-LaTeX Info: Redefining \% on input line 1298.
-LaTeX Info: Redefining \. on input line 1298.
-LaTeX Info: Redefining \% on input line 1298.
- [54]
-LaTeX Info: Redefining \. on input line 1313.
-LaTeX Info: Redefining \% on input line 1313.
-LaTeX Info: Redefining \. on input line 1313.
-LaTeX Info: Redefining \% on input line 1313.
- [55]
-LaTeX Info: Redefining \. on input line 1320.
-LaTeX Info: Redefining \% on input line 1320.
-LaTeX Info: Redefining \. on input line 1320.
-LaTeX Info: Redefining \% on input line 1320.
- [56]
-Capítulo 4.
-Package biblatex Info: Resetting trackers on input line 1320.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
-(Font)              scaled to size 16.95224pt on input line 1320.
-LaTeX Info: Redefining \. on input line 1442.
-LaTeX Info: Redefining \% on input line 1442.
-LaTeX Info: Redefining \. on input line 1442.
-LaTeX Info: Redefining \% on input line 1442.
-[57
-
-]
-LaTeX Info: Redefining \. on input line 1456.
-LaTeX Info: Redefining \% on input line 1456.
-LaTeX Info: Redefining \. on input line 1456.
-LaTeX Info: Redefining \% on input line 1456.
- [58
-Missing character: There is no ʹ (U+02B9) in font [IBMPlexSansCondensed-Italic.
-otf]:mode=node;script=latn;language=dflt;+tlig;!
-]
-LaTeX Info: Redefining \. on input line 1471.
-LaTeX Info: Redefining \% on input line 1471.
-LaTeX Info: Redefining \. on input line 1471.
-LaTeX Info: Redefining \% on input line 1471.
- [59]
-LaTeX Info: Redefining \. on input line 1477.
-LaTeX Info: Redefining \% on input line 1477.
-LaTeX Info: Redefining \. on input line 1477.
-LaTeX Info: Redefining \% on input line 1477.
- [60]
-LaTeX Info: Redefining \. on input line 1491.
-LaTeX Info: Redefining \% on input line 1491.
-LaTeX Info: Redefining \. on input line 1491.
-LaTeX Info: Redefining \% on input line 1491.
- [61]
-Overfull \vbox (0.20837pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1512.
-LaTeX Info: Redefining \% on input line 1512.
-LaTeX Info: Redefining \. on input line 1512.
-LaTeX Info: Redefining \% on input line 1512.
-
-[62]
-LaTeX Info: Redefining \. on input line 1524.
-LaTeX Info: Redefining \% on input line 1524.
-LaTeX Info: Redefining \. on input line 1524.
-LaTeX Info: Redefining \% on input line 1524.
- [63]
-LaTeX Info: Redefining \. on input line 1538.
-LaTeX Info: Redefining \% on input line 1538.
-LaTeX Info: Redefining \. on input line 1538.
-LaTeX Info: Redefining \% on input line 1538.
- [64]
-LaTeX Info: Redefining \. on input line 1548.
-LaTeX Info: Redefining \% on input line 1548.
-LaTeX Info: Redefining \. on input line 1548.
-LaTeX Info: Redefining \% on input line 1548.
- [65]
-LaTeX Info: Redefining \. on input line 1566.
-LaTeX Info: Redefining \% on input line 1566.
-LaTeX Info: Redefining \. on input line 1566.
-LaTeX Info: Redefining \% on input line 1566.
- [66]
-LaTeX Info: Redefining \. on input line 1578.
-LaTeX Info: Redefining \% on input line 1578.
-LaTeX Info: Redefining \. on input line 1578.
-LaTeX Info: Redefining \% on input line 1578.
- [67]
-LaTeX Info: Redefining \. on input line 1594.
-LaTeX Info: Redefining \% on input line 1594.
-LaTeX Info: Redefining \. on input line 1594.
-LaTeX Info: Redefining \% on input line 1594.
- [68]
-LaTeX Info: Redefining \. on input line 1609.
-LaTeX Info: Redefining \% on input line 1609.
-LaTeX Info: Redefining \. on input line 1609.
-LaTeX Info: Redefining \% on input line 1609.
- [69]
-LaTeX Info: Redefining \. on input line 1619.
-LaTeX Info: Redefining \% on input line 1619.
-LaTeX Info: Redefining \. on input line 1619.
-LaTeX Info: Redefining \% on input line 1619.
- [70]
-LaTeX Info: Redefining \. on input line 1636.
-LaTeX Info: Redefining \% on input line 1636.
-LaTeX Info: Redefining \. on input line 1636.
-LaTeX Info: Redefining \% on input line 1636.
- [71]
-LaTeX Info: Redefining \. on input line 1648.
-LaTeX Info: Redefining \% on input line 1648.
-LaTeX Info: Redefining \. on input line 1648.
-LaTeX Info: Redefining \% on input line 1648.
- [72]
-LaTeX Info: Redefining \. on input line 1668.
-LaTeX Info: Redefining \% on input line 1668.
-LaTeX Info: Redefining \. on input line 1668.
-LaTeX Info: Redefining \% on input line 1668.
- [73]
-LaTeX Info: Redefining \. on input line 1677.
-LaTeX Info: Redefining \% on input line 1677.
-LaTeX Info: Redefining \. on input line 1677.
-LaTeX Info: Redefining \% on input line 1677.
- [74]
-LaTeX Info: Redefining \. on input line 1691.
-LaTeX Info: Redefining \% on input line 1691.
-LaTeX Info: Redefining \. on input line 1691.
-LaTeX Info: Redefining \% on input line 1691.
- [75]
-LaTeX Info: Redefining \. on input line 1707.
-LaTeX Info: Redefining \% on input line 1707.
-LaTeX Info: Redefining \. on input line 1707.
-LaTeX Info: Redefining \% on input line 1707.
- [76]
-LaTeX Info: Redefining \. on input line 1714.
-LaTeX Info: Redefining \% on input line 1714.
-LaTeX Info: Redefining \. on input line 1714.
-LaTeX Info: Redefining \% on input line 1714.
-
-[77]
-LaTeX Info: Redefining \. on input line 1725.
-LaTeX Info: Redefining \% on input line 1725.
-LaTeX Info: Redefining \. on input line 1725.
-LaTeX Info: Redefining \% on input line 1725.
- [78]
-LaTeX Info: Redefining \. on input line 1737.
-LaTeX Info: Redefining \% on input line 1737.
-LaTeX Info: Redefining \. on input line 1737.
-LaTeX Info: Redefining \% on input line 1737.
- [79]
-LaTeX Info: Redefining \. on input line 1746.
-LaTeX Info: Redefining \% on input line 1746.
-LaTeX Info: Redefining \. on input line 1746.
-LaTeX Info: Redefining \% on input line 1746.
- [80]
-LaTeX Info: Redefining \. on input line 1755.
-LaTeX Info: Redefining \% on input line 1755.
-LaTeX Info: Redefining \. on input line 1755.
-LaTeX Info: Redefining \% on input line 1755.
- [81]
-LaTeX Info: Redefining \. on input line 1771.
-LaTeX Info: Redefining \% on input line 1771.
-LaTeX Info: Redefining \. on input line 1771.
-LaTeX Info: Redefining \% on input line 1771.
- [82]
-LaTeX Info: Redefining \. on input line 1788.
-LaTeX Info: Redefining \% on input line 1788.
-LaTeX Info: Redefining \. on input line 1788.
-LaTeX Info: Redefining \% on input line 1788.
- [83]
-! Too many }'s.
-<recently read> }
- 
-l.1796 ...avanza \textcite[][119]{@6999-SIRVEN2013}}
-                                                  :
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-LaTeX Info: Redefining \. on input line 1804.
-LaTeX Info: Redefining \% on input line 1804.
-LaTeX Info: Redefining \. on input line 1804.
-LaTeX Info: Redefining \% on input line 1804.
-[84]
-LaTeX Info: Redefining \. on input line 1810.
-LaTeX Info: Redefining \% on input line 1810.
-LaTeX Info: Redefining \. on input line 1810.
-LaTeX Info: Redefining \% on input line 1810.
- [85]
-LaTeX Info: Redefining \. on input line 1818.
-LaTeX Info: Redefining \% on input line 1818.
-LaTeX Info: Redefining \. on input line 1818.
-LaTeX Info: Redefining \% on input line 1818.
- [86]
-LaTeX Info: Redefining \. on input line 1830.
-LaTeX Info: Redefining \% on input line 1830.
-LaTeX Info: Redefining \. on input line 1830.
-LaTeX Info: Redefining \% on input line 1830.
- [87]
-LaTeX Info: Redefining \. on input line 1842.
-LaTeX Info: Redefining \% on input line 1842.
-LaTeX Info: Redefining \. on input line 1842.
-LaTeX Info: Redefining \% on input line 1842.
- [88]
-LaTeX Info: Redefining \. on input line 1870.
-LaTeX Info: Redefining \% on input line 1870.
-LaTeX Info: Redefining \. on input line 1870.
-LaTeX Info: Redefining \% on input line 1870.
- [89]
-LaTeX Info: Redefining \. on input line 1886.
-LaTeX Info: Redefining \% on input line 1886.
-LaTeX Info: Redefining \. on input line 1886.
-LaTeX Info: Redefining \% on input line 1886.
- [90]
-LaTeX Info: Redefining \. on input line 1889.
-LaTeX Info: Redefining \% on input line 1889.
-LaTeX Info: Redefining \. on input line 1889.
-LaTeX Info: Redefining \% on input line 1889.
- [91]
-LaTeX Info: Redefining \. on input line 1906.
-LaTeX Info: Redefining \% on input line 1906.
-LaTeX Info: Redefining \. on input line 1906.
-LaTeX Info: Redefining \% on input line 1906.
- [92]
-LaTeX Info: Redefining \. on input line 1922.
-LaTeX Info: Redefining \% on input line 1922.
-LaTeX Info: Redefining \. on input line 1922.
-LaTeX Info: Redefining \% on input line 1922.
- [93]
-Overfull \vbox (0.20837pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1938.
-LaTeX Info: Redefining \% on input line 1938.
-LaTeX Info: Redefining \. on input line 1938.
-LaTeX Info: Redefining \% on input line 1938.
-
-[94]
-LaTeX Info: Redefining \. on input line 1950.
-LaTeX Info: Redefining \% on input line 1950.
-LaTeX Info: Redefining \. on input line 1950.
-LaTeX Info: Redefining \% on input line 1950.
- [95]
-LaTeX Info: Redefining \. on input line 1962.
-LaTeX Info: Redefining \% on input line 1962.
-LaTeX Info: Redefining \. on input line 1962.
-LaTeX Info: Redefining \% on input line 1962.
- [96]
-LaTeX Info: Redefining \. on input line 1968.
-LaTeX Info: Redefining \% on input line 1968.
-LaTeX Info: Redefining \. on input line 1968.
-LaTeX Info: Redefining \% on input line 1968.
- [97]
-LaTeX Info: Redefining \. on input line 1980.
-LaTeX Info: Redefining \% on input line 1980.
-LaTeX Info: Redefining \. on input line 1980.
-LaTeX Info: Redefining \% on input line 1980.
- [98]
-LaTeX Info: Redefining \. on input line 1992.
-LaTeX Info: Redefining \% on input line 1992.
-LaTeX Info: Redefining \. on input line 1992.
-LaTeX Info: Redefining \% on input line 1992.
- [99]
-LaTeX Info: Redefining \. on input line 2003.
-LaTeX Info: Redefining \% on input line 2003.
-LaTeX Info: Redefining \. on input line 2003.
-LaTeX Info: Redefining \% on input line 2003.
- [100]
-LaTeX Info: Redefining \. on input line 2012.
-LaTeX Info: Redefining \% on input line 2012.
-LaTeX Info: Redefining \. on input line 2012.
-LaTeX Info: Redefining \% on input line 2012.
- [101]
-LaTeX Info: Redefining \. on input line 2022.
-LaTeX Info: Redefining \% on input line 2022.
-LaTeX Info: Redefining \. on input line 2022.
-LaTeX Info: Redefining \% on input line 2022.
- [102]
-LaTeX Info: Redefining \. on input line 2022.
-LaTeX Info: Redefining \% on input line 2022.
-LaTeX Info: Redefining \. on input line 2022.
-LaTeX Info: Redefining \% on input line 2022.
- [103]
-LaTeX Info: Redefining \. on input line 2033.
-LaTeX Info: Redefining \% on input line 2033.
-LaTeX Info: Redefining \. on input line 2033.
-LaTeX Info: Redefining \% on input line 2033.
- [104]
-LaTeX Info: Redefining \. on input line 2048.
-LaTeX Info: Redefining \% on input line 2048.
-LaTeX Info: Redefining \. on input line 2048.
-LaTeX Info: Redefining \% on input line 2048.
- [105]
-LaTeX Info: Redefining \. on input line 2056.
-LaTeX Info: Redefining \% on input line 2056.
-LaTeX Info: Redefining \. on input line 2056.
-LaTeX Info: Redefining \% on input line 2056.
- [106]
-LaTeX Info: Redefining \. on input line 2068.
-LaTeX Info: Redefining \% on input line 2068.
-LaTeX Info: Redefining \. on input line 2068.
-LaTeX Info: Redefining \% on input line 2068.
-
-[107]
-LaTeX Info: Redefining \. on input line 2090.
-LaTeX Info: Redefining \% on input line 2090.
-LaTeX Info: Redefining \. on input line 2090.
-LaTeX Info: Redefining \% on input line 2090.
- [108]
-LaTeX Info: Redefining \. on input line 2104.
-LaTeX Info: Redefining \% on input line 2104.
-LaTeX Info: Redefining \. on input line 2104.
-LaTeX Info: Redefining \% on input line 2104.
- [109]
-LaTeX Info: Redefining \. on input line 2118.
-LaTeX Info: Redefining \% on input line 2118.
-LaTeX Info: Redefining \. on input line 2118.
-LaTeX Info: Redefining \% on input line 2118.
- [110]
-LaTeX Info: Redefining \. on input line 2124.
-LaTeX Info: Redefining \% on input line 2124.
-LaTeX Info: Redefining \. on input line 2124.
-LaTeX Info: Redefining \% on input line 2124.
- [111]
-LaTeX Info: Redefining \. on input line 2146.
-LaTeX Info: Redefining \% on input line 2146.
-LaTeX Info: Redefining \. on input line 2146.
-LaTeX Info: Redefining \% on input line 2146.
- [112]
-LaTeX Info: Redefining \. on input line 2160.
-LaTeX Info: Redefining \% on input line 2160.
-LaTeX Info: Redefining \. on input line 2160.
-LaTeX Info: Redefining \% on input line 2160.
- [113]
-LaTeX Info: Redefining \. on input line 2172.
-LaTeX Info: Redefining \% on input line 2172.
-LaTeX Info: Redefining \. on input line 2172.
-LaTeX Info: Redefining \% on input line 2172.
- [114]
-LaTeX Info: Redefining \. on input line 2192.
-LaTeX Info: Redefining \% on input line 2192.
-LaTeX Info: Redefining \. on input line 2192.
-LaTeX Info: Redefining \% on input line 2192.
- [115]
-LaTeX Info: Redefining \. on input line 2208.
-LaTeX Info: Redefining \% on input line 2208.
-LaTeX Info: Redefining \. on input line 2208.
-LaTeX Info: Redefining \% on input line 2208.
- [116]
-LaTeX Info: Redefining \. on input line 2217.
-LaTeX Info: Redefining \% on input line 2217.
-LaTeX Info: Redefining \. on input line 2217.
-LaTeX Info: Redefining \% on input line 2217.
- [117]
-LaTeX Info: Redefining \. on input line 2232.
-LaTeX Info: Redefining \% on input line 2232.
-LaTeX Info: Redefining \. on input line 2232.
-LaTeX Info: Redefining \% on input line 2232.
- [118]
-LaTeX Info: Redefining \. on input line 2250.
-LaTeX Info: Redefining \% on input line 2250.
-LaTeX Info: Redefining \. on input line 2250.
-LaTeX Info: Redefining \% on input line 2250.
-
-[119]
-LaTeX Info: Redefining \. on input line 2267.
-LaTeX Info: Redefining \% on input line 2267.
-LaTeX Info: Redefining \. on input line 2267.
-LaTeX Info: Redefining \% on input line 2267.
- [120]
-LaTeX Info: Redefining \. on input line 2274.
-LaTeX Info: Redefining \% on input line 2274.
-LaTeX Info: Redefining \. on input line 2274.
-LaTeX Info: Redefining \% on input line 2274.
- [121]
-LaTeX Info: Redefining \. on input line 2280.
-LaTeX Info: Redefining \% on input line 2280.
-LaTeX Info: Redefining \. on input line 2280.
-LaTeX Info: Redefining \% on input line 2280.
- [122]
-LaTeX Info: Redefining \. on input line 2293.
-LaTeX Info: Redefining \% on input line 2293.
-LaTeX Info: Redefining \. on input line 2293.
-LaTeX Info: Redefining \% on input line 2293.
- [123]
-LaTeX Info: Redefining \. on input line 2308.
-LaTeX Info: Redefining \% on input line 2308.
-LaTeX Info: Redefining \. on input line 2308.
-LaTeX Info: Redefining \% on input line 2308.
- [124]
-LaTeX Info: Redefining \. on input line 2326.
-LaTeX Info: Redefining \% on input line 2326.
-LaTeX Info: Redefining \. on input line 2326.
-LaTeX Info: Redefining \% on input line 2326.
- [125]
-LaTeX Info: Redefining \. on input line 2338.
-LaTeX Info: Redefining \% on input line 2338.
-LaTeX Info: Redefining \. on input line 2338.
-LaTeX Info: Redefining \% on input line 2338.
- [126]
-LaTeX Info: Redefining \. on input line 2344.
-LaTeX Info: Redefining \% on input line 2344.
-LaTeX Info: Redefining \. on input line 2344.
-LaTeX Info: Redefining \% on input line 2344.
- [127]
-LaTeX Info: Redefining \. on input line 2350.
-LaTeX Info: Redefining \% on input line 2350.
-LaTeX Info: Redefining \. on input line 2350.
-LaTeX Info: Redefining \% on input line 2350.
- [128]
-LaTeX Info: Redefining \. on input line 2368.
-LaTeX Info: Redefining \% on input line 2368.
-LaTeX Info: Redefining \. on input line 2368.
-LaTeX Info: Redefining \% on input line 2368.
- [129]
-LaTeX Info: Redefining \. on input line 2385.
-LaTeX Info: Redefining \% on input line 2385.
-LaTeX Info: Redefining \. on input line 2385.
-LaTeX Info: Redefining \% on input line 2385.
- [130]
-LaTeX Info: Redefining \. on input line 2390.
-LaTeX Info: Redefining \% on input line 2390.
-LaTeX Info: Redefining \. on input line 2390.
-LaTeX Info: Redefining \% on input line 2390.
-
-[131]
-LaTeX Info: Redefining \. on input line 2414.
-LaTeX Info: Redefining \% on input line 2414.
-LaTeX Info: Redefining \. on input line 2414.
-LaTeX Info: Redefining \% on input line 2414.
- [132]
-LaTeX Info: Redefining \. on input line 2434.
-LaTeX Info: Redefining \% on input line 2434.
-LaTeX Info: Redefining \. on input line 2434.
-LaTeX Info: Redefining \% on input line 2434.
- [133]
-LaTeX Info: Redefining \. on input line 2442.
-LaTeX Info: Redefining \% on input line 2442.
-LaTeX Info: Redefining \. on input line 2442.
-LaTeX Info: Redefining \% on input line 2442.
- [134]
-LaTeX Info: Redefining \. on input line 2456.
-LaTeX Info: Redefining \% on input line 2456.
-LaTeX Info: Redefining \. on input line 2456.
-LaTeX Info: Redefining \% on input line 2456.
- [135]
-LaTeX Info: Redefining \. on input line 2472.
-LaTeX Info: Redefining \% on input line 2472.
-LaTeX Info: Redefining \. on input line 2472.
-LaTeX Info: Redefining \% on input line 2472.
- [136]
-LaTeX Info: Redefining \. on input line 2484.
-LaTeX Info: Redefining \% on input line 2484.
-LaTeX Info: Redefining \. on input line 2484.
-LaTeX Info: Redefining \% on input line 2484.
- [137]
-LaTeX Info: Redefining \. on input line 2491.
-LaTeX Info: Redefining \% on input line 2491.
-LaTeX Info: Redefining \. on input line 2491.
-LaTeX Info: Redefining \% on input line 2491.
- [138]
-LaTeX Info: Redefining \. on input line 2497.
-LaTeX Info: Redefining \% on input line 2497.
-LaTeX Info: Redefining \. on input line 2497.
-LaTeX Info: Redefining \% on input line 2497.
- [139]
-LaTeX Info: Redefining \. on input line 2508.
-LaTeX Info: Redefining \% on input line 2508.
-LaTeX Info: Redefining \. on input line 2508.
-LaTeX Info: Redefining \% on input line 2508.
- [140]
-LaTeX Info: Redefining \. on input line 2520.
-LaTeX Info: Redefining \% on input line 2520.
-LaTeX Info: Redefining \. on input line 2520.
-LaTeX Info: Redefining \% on input line 2520.
- [141]
-LaTeX Info: Redefining \. on input line 2526.
-LaTeX Info: Redefining \% on input line 2526.
-LaTeX Info: Redefining \. on input line 2526.
-LaTeX Info: Redefining \% on input line 2526.
- [142]
-LaTeX Info: Redefining \. on input line 2535.
-LaTeX Info: Redefining \% on input line 2535.
-LaTeX Info: Redefining \. on input line 2535.
-LaTeX Info: Redefining \% on input line 2535.
-
-[143]
-LaTeX Info: Redefining \. on input line 2551.
-LaTeX Info: Redefining \% on input line 2551.
-LaTeX Info: Redefining \. on input line 2551.
-LaTeX Info: Redefining \% on input line 2551.
- [144]
-LaTeX Info: Redefining \. on input line 2558.
-LaTeX Info: Redefining \% on input line 2558.
-LaTeX Info: Redefining \. on input line 2558.
-LaTeX Info: Redefining \% on input line 2558.
- [145]
-LaTeX Info: Redefining \. on input line 2570.
-LaTeX Info: Redefining \% on input line 2570.
-LaTeX Info: Redefining \. on input line 2570.
-LaTeX Info: Redefining \% on input line 2570.
- [146]
-LaTeX Info: Redefining \. on input line 2582.
-LaTeX Info: Redefining \% on input line 2582.
-LaTeX Info: Redefining \. on input line 2582.
-LaTeX Info: Redefining \% on input line 2582.
- [147]
-LaTeX Info: Redefining \. on input line 2594.
-LaTeX Info: Redefining \% on input line 2594.
-LaTeX Info: Redefining \. on input line 2594.
-LaTeX Info: Redefining \% on input line 2594.
- [148]
-LaTeX Info: Redefining \. on input line 2594.
-LaTeX Info: Redefining \% on input line 2594.
-LaTeX Info: Redefining \. on input line 2594.
-LaTeX Info: Redefining \% on input line 2594.
- [149]
-LaTeX Info: Redefining \. on input line 2608.
-LaTeX Info: Redefining \% on input line 2608.
-LaTeX Info: Redefining \. on input line 2608.
-LaTeX Info: Redefining \% on input line 2608.
- [150]
-LaTeX Info: Redefining \. on input line 2622.
-LaTeX Info: Redefining \% on input line 2622.
-LaTeX Info: Redefining \. on input line 2622.
-LaTeX Info: Redefining \% on input line 2622.
- [151]
-LaTeX Info: Redefining \. on input line 2632.
-LaTeX Info: Redefining \% on input line 2632.
-LaTeX Info: Redefining \. on input line 2632.
-LaTeX Info: Redefining \% on input line 2632.
- [152]
-LaTeX Info: Redefining \. on input line 2644.
-LaTeX Info: Redefining \% on input line 2644.
-LaTeX Info: Redefining \. on input line 2644.
-LaTeX Info: Redefining \% on input line 2644.
- [153]
-LaTeX Info: Redefining \. on input line 2652.
-LaTeX Info: Redefining \% on input line 2652.
-LaTeX Info: Redefining \. on input line 2652.
-LaTeX Info: Redefining \% on input line 2652.
- [154]
-LaTeX Info: Redefining \. on input line 2668.
-LaTeX Info: Redefining \% on input line 2668.
-LaTeX Info: Redefining \. on input line 2668.
-LaTeX Info: Redefining \% on input line 2668.
-
-[155]
-LaTeX Info: Redefining \. on input line 2673.
-LaTeX Info: Redefining \% on input line 2673.
-LaTeX Info: Redefining \. on input line 2673.
-LaTeX Info: Redefining \% on input line 2673.
- [156]
-Package biblatex Info: Resetting trackers on input line 2675.
-LaTeX Info: Redefining \. on input line 2684.
-LaTeX Info: Redefining \% on input line 2684.
-LaTeX Info: Redefining \. on input line 2684.
-LaTeX Info: Redefining \% on input line 2684.
- [157
-
-
-]
-LaTeX Info: Redefining \. on input line 2691.
-LaTeX Info: Redefining \% on input line 2691.
-LaTeX Info: Redefining \. on input line 2691.
-LaTeX Info: Redefining \% on input line 2691.
- [158]
-LaTeX Info: Redefining \. on input line 2703.
-LaTeX Info: Redefining \% on input line 2703.
-LaTeX Info: Redefining \. on input line 2703.
-LaTeX Info: Redefining \% on input line 2703.
- [159]
-LaTeX Info: Redefining \. on input line 2713.
-LaTeX Info: Redefining \% on input line 2713.
-LaTeX Info: Redefining \. on input line 2713.
-LaTeX Info: Redefining \% on input line 2713.
- [160]
-LaTeX Info: Redefining \. on input line 2720.
-LaTeX Info: Redefining \% on input line 2720.
-LaTeX Info: Redefining \. on input line 2720.
-LaTeX Info: Redefining \% on input line 2720.
- [161]
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
- [162]
-LaTeX Info: Redefining \. on input line 2737.
-LaTeX Info: Redefining \% on input line 2737.
-LaTeX Info: Redefining \. on input line 2737.
-LaTeX Info: Redefining \% on input line 2737.
- [163]
-LaTeX Info: Redefining \. on input line 2755.
-LaTeX Info: Redefining \% on input line 2755.
-LaTeX Info: Redefining \. on input line 2755.
-LaTeX Info: Redefining \% on input line 2755.
- [164]
-LaTeX Info: Redefining \. on input line 2768.
-LaTeX Info: Redefining \% on input line 2768.
-LaTeX Info: Redefining \. on input line 2768.
-LaTeX Info: Redefining \% on input line 2768.
- [165]
-LaTeX Info: Redefining \. on input line 2780.
-LaTeX Info: Redefining \% on input line 2780.
-LaTeX Info: Redefining \. on input line 2780.
-LaTeX Info: Redefining \% on input line 2780.
- [166]
-LaTeX Info: Redefining \. on input line 2796.
-LaTeX Info: Redefining \% on input line 2796.
-LaTeX Info: Redefining \. on input line 2796.
-LaTeX Info: Redefining \% on input line 2796.
-
-[167]
-LaTeX Info: Redefining \. on input line 2805.
-LaTeX Info: Redefining \% on input line 2805.
-LaTeX Info: Redefining \. on input line 2805.
-LaTeX Info: Redefining \% on input line 2805.
- [168] 
-AED: pageslts setting LastPage 
-LaTeX Info: Redefining \. on input line 2825.
-LaTeX Info: Redefining \% on input line 2825.
-LaTeX Info: Redefining \. on input line 2825.
-LaTeX Info: Redefining \% on input line 2825.
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [169]
+) [10]
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 7.84827pt on input line 688.
+
+Runaway argument?
+{l | S[table-format=2.1] | S[table-format=2.1] | S[table-format=2.0] \ETC.
+! Paragraph ended before \@@array was complete.
+<to be read again> 
+\par 
+l.699 
+    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.699 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 5.8862pt on input line 702.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
+(Font)              scaled to size 7.75806pt on input line 702.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
+(Font)              scaled to size 7.84827pt on input line 713.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.719 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.719 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.719 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
+(Font)              scaled to size 9.81033pt on input line 720.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.721 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.721 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.721 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.725 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.725 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.725 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.727 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.727 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.727 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.731 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.731 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.731 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.733 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.733 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.733 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.738 \subsection{El período dorado}
+                                    %1.3.2
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.738 \subsection{El período dorado}
+                                    %1.3.2
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.738 \subsection{El período dorado}
+                                    %1.3.2
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.750 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.757 \subsection{Fin de la época dorada}
+                                         %1.3.3
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.767 \begin{quote}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.769 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.769 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.769 \end{quote}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.789   P
+       roveedores del canal de circulación, conectividad y servidores (Movi...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791   S
+       uperplataformas de accesibilidad y redes sociales (Google, Facebook, ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.793   P
+       osibilidad de desarrollo de múltiples productores y emisores de info...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.795   C
+       onsumidores de la instantaneidad
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.796 \end{enumerate}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.796 \end{enumerate}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.796 \end{enumerate}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.798 \section{Abordaje Metodológico}
+                                     %1.4
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+! Improper \prevdepth.
+\newpage ...everypar {}\fi \par \ifdim \prevdepth 
+                                                  >\z@ \vskip -\ifdim \prevd...
+l.822 \chapter
+            {Estado de la cuestión y consideraciones teórico-metodológica...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.822 \chapter
+            {Estado de la cuestión y consideraciones teórico-metodológica...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Capítulo 2.
+Package biblatex Info: Resetting trackers on input line 822.
+
+LaTeX Font Warning: Font shape `TU/IBMPlexSansCondensed(0)/m/sc' undefined
+(Font)              using `TU/IBMPlexSansCondensed(0)/m/n' instead on input lin
+e 822.
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/sc' will be
+(Font)              scaled to size 14.12686pt on input line 822.
+
+LaTeX Warning: Citation '@6962-AMADO2016' on page 11 undefined on input line 83
+7.
+
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
+(Font)              scaled to size 9.43994pt on input line 837.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/it' will be
+(Font)              scaled to size 7.75806pt on input line 948.
+Capítulo 3.
+Package biblatex Info: Resetting trackers on input line 1135.
+Capítulo 4.
+Package biblatex Info: Resetting trackers on input line 1320.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
+(Font)              scaled to size 16.95224pt on input line 1320.
+! Extra }, or forgotten \endgroup.
+<recently read> }
+ 
+l.1796 ...avanza \textcite[][119]{@6999-SIRVEN2013}}
+                                                  :
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Package biblatex Info: Resetting trackers on input line 2675.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
+(Font)              scaled to size 10.61993pt on input line 2778.
+
+AED: pageslts setting LastPage 
 
 Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
  found. (Remove \makenoidxglossaries if you don't want any glossaries.)
 This document will not have a glossary.
+
+
+! LaTeX Error: \begin{tabular} on input line 690 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2825 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 \c@pagesLTS.arabic.1.local.count=\count615
 
@@ -4069,7 +3779,7 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is odd.
+Package pageslts Info: Total number of pages is even.
 
 
 (./pdf-20250518TPUMAUROB.aux
@@ -4081,129 +3791,56 @@ LaTeX Info: Redefining \% on input line 20.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `pdf-20250518TPUMAUROB.out' has not changed.
-(rerunfilecheck)             Checksum: D77B07502A013882D98B5EEEC6806B9C;1481.
+(rerunfilecheck)             Checksum: 4EE4DB570F1B1F7E56667ED2FFDD12AF;317.
 Package logreq Info: Writing requests to 'pdf-20250518TPUMAUROB.run.xml'.
 
 \openout1 = pdf-20250518TPUMAUROB.run.xml
+! You can't use `\end' in internal vertical mode.
+\enddocument ...cument/end}\deadcycles \z@ \@@end 
+                                                  
+l.2825 \end{document}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{tabular} on input line 690 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2825 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 )
+! Emergency stop.
+<*> pdf-20250518TPUMAUROB.tex
+                          
+*** (job aborted, no legal \end found)
+
+
 
 Here is how much of LuaTeX's memory you used:
- 67163 strings out of 476553
- 5557603,2848258 words of node,token memory allocated
- 5348822 words of node memory still in use:
-   9782 hlist, 9 vlist, 2086 rule, 171 ins, 1 adjust, 73269 disc, 3851 local_par
-, 305 math, 85088 glue, 55625 kern, 7997 penalty, 694 margin_kern, 464703 glyph,
- 85696 attribute, 7458 glue_spec, 12254 attribute_list, 451 write, 46 pdf_litera
-l, 349 pdf_start_link, 353 pdf_end_link, 330 pdf_dest, 255 pdf_action, 3206 pdf_
-colorstack nodes
-   avail lists: 1:11,2:412,3:84,4:509,5:327,6:18,7:5116,8:136,9:140,10:31,11:730
-
- 87120 multiletter control sequences out of 65536+600000
- 98 fonts using 26500399 bytes
- 117i,8n,123p,5849b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6989-LEVINAS
-2015'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6995-GONZALE
-Z2011'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6979-JORNET2
-014'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6969-BLAUSTE
-IN2013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6975-CAPASSO
-2013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6974-PAENZA2
-013'
-
-warning  (pdf backend): unreferenced destination with name '_bookmark8'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6997-MUCHNIK
-2012'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6988-LEVINAS
-2013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6999-SIRVEN2
-013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6978-CECCHIN
-I2010'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6998-SIRVEN2
-011'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6973-BUCHER1
-917'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6977-HABERMA
-S2006'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6976-CASTELL
-S1998'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6991-GILBELL
-OTA2012'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6986-MAJUL19
-99'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6985-BELIZ19
-98'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6984-FRAGA19
-97'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6961-ALTHEID
-E1976'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6987-GANS197
-9'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6994-OLDINGE
-LLIOTT1979'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6993-GLASER1
-967'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6990-BOURDIE
-U1997'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6996-HUMPHRE
-YS2008'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6981-DONSBAC
-H2014'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6983-DIARIO2
-018'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6980-DIAZ200
-9'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6992-GINDIN2
-014'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6972-BOURDIE
-U2008'
-</usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
-Serif-BoldItalic.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMP
-lexSansCondensed-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public
-/libertinus-fonts/LibertinusSerif-Bold.otf></usr/share/texlive/texmf-dist/fonts/
-opentype/public/libertinus-fonts/LibertinusSerif-Italic.otf></usr/share/texlive/
-texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share
-/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regul
-ar.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondens
-ed-Regular.otf>
-Output written on pdf-20250518TPUMAUROB.pdf (173 pages, 691042 bytes).
-
-PDF statistics: 1400 PDF objects out of 1440 (max. 8388607)
- 1059 compressed objects within 11 object streams
- 357 named destinations out of 1000 (max. 131072)
- 317 words of extra memory for PDF output out of 10000 (max. 100000000)
-
+ 66746 strings out of 476553
+ 10854735,2848258 words of node,token memory allocated 9789463 words of node memory still in use:
+   15397 hlist, 12 vlist, 3194 rule, 273 ins, 128 mark, 10 adjust, 133941 disc, 
+3643 local_par, 3 dir, 585 math, 153311 glue, 166636 kern, 9439 penalty, 1410 ma
+rgin_kern, 842164 glyph, 1 page_insert, 94285 attribute, 6066 glue_spec, 13481 a
+ttribute_list, 2 temp, 622 write, 196 pdf_literal, 605 pdf_start_link, 609 pdf_e
+nd_link, 492 pdf_dest, 254 pdf_action, 5897 pdf_colorstack nodes
+   avail lists: 1:14,2:177,3:1,4:24,5:6,7:21,8:136,9:1,10:37
+ 87028 multiletter control sequences out of 65536+600000
+ 102 fonts using 27026875 bytes
+ 117i,10n,123p,5849b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
