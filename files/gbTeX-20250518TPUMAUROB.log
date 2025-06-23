@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  23 JUN 2025 16:41
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  23 JUN 2025 17:15
  restricted system commands enabled.
 **pdf-20250518TPUMAUROB.tex
 (./pdf-20250518TPUMAUROB.tex
@@ -3841,6 +3841,6 @@ ttribute_list, 2 temp, 622 write, 196 pdf_literal, 605 pdf_start_link, 609 pdf_e
 nd_link, 492 pdf_dest, 254 pdf_action, 5897 pdf_colorstack nodes
    avail lists: 1:14,2:177,3:1,4:24,5:6,7:21,8:136,9:1,10:37
  87028 multiletter control sequences out of 65536+600000
- 102 fonts using 27026875 bytes
+ 102 fonts using 27026739 bytes
  117i,10n,123p,5849b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
