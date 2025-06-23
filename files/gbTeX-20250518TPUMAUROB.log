@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  23 JUN 2025 19:39
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  23 JUN 2025 20:40
  restricted system commands enabled.
 **pdf-20250518TPUMAUROB.tex
 (./pdf-20250518TPUMAUROB.tex
@@ -4102,7 +4102,7 @@ colorstack nodes
    avail lists: 1:11,2:412,3:84,4:509,5:327,6:18,7:5116,8:136,9:140,10:31,11:730
 
  87122 multiletter control sequences out of 65536+600000
- 99 fonts using 26610099 bytes
+ 99 fonts using 26610235 bytes
  117i,8n,123p,5849b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6989-LEVINAS
