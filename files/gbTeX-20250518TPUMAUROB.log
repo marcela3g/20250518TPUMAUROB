@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  27 JUN 2025 11:23
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  28 JUN 2025 03:04
  restricted system commands enabled.
 **pdf-20250518TPUMAUROB.tex
 (./pdf-20250518TPUMAUROB.tex
@@ -2499,6 +2499,18 @@ Package siunitx Info: Option "detect-all" has been deprecated in this release.
 (siunitx)             as a replacement.
 
 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.433 r
+     eferencias
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 (./files/gbTeXglo-20250518TPUMAUROB.tex)
 (./files/gbTeXseparata-20250518TPUMAUROB.tex
 \c@PrimPag=\count581
@@ -2756,15 +2768,18 @@ Package csquotes Info: ... found 'babel' package.
  (./pdf-20250518TPUMAUROB.aux
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
-\c@pagesLTS.roman.1.local.cnt=\count599
+\c@pagesLTS.arabic.1.local.cnt=\count599
 
+<Reading QR code for "https://www.edicionesimagomundi.com/" at level 3-M from a
+ux file.>
+\c@pagesLTS.roman.1.local.cnt=\count600
 
 LaTeX Warning: Label `cuadroX' multiply defined.
 
 
 LaTeX Warning: Label `cuadroX' multiply defined.
 
-\c@pagesLTS.arabic.1.local.cnt=\count600
+\c@pagesLTS.arabic.2.local.cnt=\count601
 )
 \openout1 = pdf-20250518TPUMAUROB.aux
 
@@ -2865,16 +2880,16 @@ Package pageslts Warning: Package pdfpages detected.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count601
+\scratchcounter=\count602
 \scratchdimen=\dimen364
 \scratchbox=\box154
-\nofMPsegments=\count602
-\nofMParguments=\count603
+\nofMPsegments=\count603
+\nofMParguments=\count604
 \everyMPshowfont=\toks74
-\MPscratchCnt=\count604
+\MPscratchCnt=\count605
 \MPscratchDim=\dimen365
-\MPnumerator=\count605
-\makeMPintoPDFobject=\count606
+\MPnumerator=\count606
+\makeMPintoPDFobject=\count607
 \everyMPtoPDFconversion=\toks75
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2910,7 +2925,7 @@ Package caption Info: scrextend package is loaded.
 \caption@addmargin@linewidth=\dimen367
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count607
+\c@lstlisting=\count608
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-philosophy
 '...
 Package biblatex Info: ... file 'spanish-philosophy.lbx' found.
@@ -3045,6 +3060,13 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                @7019-SIVAK2015keylist
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
 Package biblatex Info: Reference section=0 on input line 465.
 Package biblatex Info: Reference segment=0 on input line 465.
@@ -3089,802 +3111,3175 @@ Package hyperref Info: Link coloring ON on input line 465.
 \@outlinefile=\write10
 
 \openout10 = pdf-20250518TPUMAUROB.out
-\c@pagesLTS.pnc.roman=\count608
-\c@pagesLTS.double.roman=\count609
-\c@pagesLTS.current.local.roman=\count610
-Package biblatex Info: Resetting trackers on input line 515.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 16.99188pt on input line 515.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 14.12686pt on input line 515.
+(Font)              scaled to size 9.81033pt on input line 467.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `IBMPlexSansCondensed' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 16.95224pt on input line 515.
-LaTeX Info: Redefining \. on input line 528.
-LaTeX Info: Redefining \% on input line 528.
-LaTeX Info: Redefining \. on input line 528.
-LaTeX Info: Redefining \% on input line 528.
-
-[1
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-]
-Package biblatex Info: Resetting trackers on input line 528.
-LaTeX Info: Redefining \. on input line 535.
-LaTeX Info: Redefining \% on input line 535.
-LaTeX Info: Redefining \. on input line 535.
-LaTeX Info: Redefining \% on input line 535.
- [3]
-LaTeX Info: Redefining \. on input line 536.
-LaTeX Info: Redefining \% on input line 536.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 9.81033pt on input line 536.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 9.69757pt on input line 536.
-LaTeX Info: Redefining \. on input line 536.
-LaTeX Info: Redefining \% on input line 536.
- [4]
-\c@pagesLTS.roman.1.local.count=\count611
-\c@pagesLTS.pnc.arabic=\count612
-\c@pagesLTS.double.arabic=\count613
-\c@pagesLTS.current.local.arabic=\count614
-Package biblatex Info: Resetting trackers on input line 538.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 10.61993pt on input line 550.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 10.61993pt on input line 550.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusMath' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 5.89996pt on input line 550.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 10.61993pt on input line 550.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 5.89996pt on input line 550.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 10.61993pt on input line 550.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 5.89996pt on input line 550.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
-(Font)              scaled to size 10.61993pt on input line 550.
-LaTeX Info: Redefining \. on input line 552.
-LaTeX Info: Redefining \% on input line 552.
-LaTeX Info: Redefining \. on input line 552.
-LaTeX Info: Redefining \% on input line 552.
- [1
+(Font)              scaled to size 9.69757pt on input line 467.
+\c@pagesLTS.pnc.arabic=\count609
+\c@pagesLTS.double.arabic=\count610
+\c@pagesLTS.current.local.arabic=\count611
 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
 
 ]
-Capítulo 1.
-Package biblatex Info: Resetting trackers on input line 552.
+\c@pagesLTS.arabic.1.local.count=\count612
+\c@pagesLTS.pnc.roman=\count613
+\c@pagesLTS.double.roman=\count614
+\c@pagesLTS.current.local.roman=\count615
+
+(./artcap/inicio-frontmatter.tex [1] [2]
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 20.39026pt on input line 19.
+ [3] [4]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
-(Font)              scaled to size 16.99188pt on input line 552.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 11.63708pt on input line 554.
+(Font)              scaled to size 11.79993pt on input line 31.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
+(Font)              scaled to size 14.15991pt on input line 31.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 9.43994pt on input line 594.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 8.25995pt on input line 594.
+(Font)              scaled to size 16.99188pt on input line 39.
+<./media/logo-imago-ByW.png, id=98, 85.2786pt x 42.1575pt>
+File: ./media/logo-imago-ByW.png Graphic file (type png)
+<use ./media/logo-imago-ByW.png>
+Package luatex.def Info: ./media/logo-imago-ByW.png  used on input line 46.
+(luatex.def)             Requested size: 56.9055pt x 28.1315pt.
+ [5<./media/logo-imago-ByW.png>]
+<./media/desconocido.png, id=105, 85.2786pt x 98.0463pt>
+File: ./media/desconocido.png Graphic file (type png)
+<use ./media/desconocido.png>
+Package luatex.def Info: ./media/desconocido.png  used on input line 55.
+(luatex.def)             Requested size: 56.9055pt x 65.42586pt.
+
+
+
+<QR code requested for "https://www.edicionesimagomundi.com/" in version 0-M.>
+
+<Copying the QR code for "https://www.edicionesimagomundi.com/" in version 3-M 
+as previously calculated.>
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LibertinusMath' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+! Too many }'s.
+l.481 }
+     
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[6<./media/desconocido.png>]
+Package biblatex Info: Resetting trackers on input line 501.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 6.86723pt on input line 594.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
-(Font)              scaled to size 11.79993pt on input line 599.
-LaTeX Info: Redefining \. on input line 602.
-LaTeX Info: Redefining \% on input line 602.
-LaTeX Info: Redefining \. on input line 602.
-LaTeX Info: Redefining \% on input line 602.
-[3]
-LaTeX Info: Redefining \. on input line 612.
-LaTeX Info: Redefining \% on input line 612.
-LaTeX Info: Redefining \. on input line 612.
-LaTeX Info: Redefining \% on input line 612.
- [4]
-LaTeX Info: Redefining \. on input line 632.
-LaTeX Info: Redefining \% on input line 632.
-LaTeX Info: Redefining \. on input line 632.
-LaTeX Info: Redefining \% on input line 632.
- [5]
-LaTeX Info: Redefining \. on input line 640.
-LaTeX Info: Redefining \% on input line 640.
-LaTeX Info: Redefining \. on input line 640.
-LaTeX Info: Redefining \% on input line 640.
- [6]
-LaTeX Info: Redefining \. on input line 653.
-LaTeX Info: Redefining \% on input line 653.
-LaTeX Info: Redefining \. on input line 653.
-LaTeX Info: Redefining \% on input line 653.
- [7]
-LaTeX Info: Redefining \. on input line 663.
-LaTeX Info: Redefining \% on input line 663.
-LaTeX Info: Redefining \. on input line 663.
-LaTeX Info: Redefining \% on input line 663.
- [8]
+(Font)              scaled to size 14.12686pt on input line 501.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 11.7724pt on input line 674.
-LaTeX Info: Redefining \. on input line 677.
-LaTeX Info: Redefining \% on input line 677.
-LaTeX Info: Redefining \. on input line 677.
-LaTeX Info: Redefining \% on input line 677.
+(Font)              scaled to size 16.95224pt on input line 501.
+LaTeX Info: Redefining \. on input line 514.
+LaTeX Info: Redefining \% on input line 514.
+LaTeX Info: Redefining \. on input line 514.
+LaTeX Info: Redefining \% on input line 514.
+ [7
+
+] [8
+
+]
+Package biblatex Info: Resetting trackers on input line 514.
+LaTeX Info: Redefining \. on input line 521.
+LaTeX Info: Redefining \% on input line 521.
+LaTeX Info: Redefining \. on input line 521.
+LaTeX Info: Redefining \% on input line 521.
  [9]
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 11.79993pt on input line 684.
-LaTeX Info: Redefining \. on input line 685.
-LaTeX Info: Redefining \% on input line 685.
-LaTeX Info: Redefining \. on input line 685.
-LaTeX Info: Redefining \% on input line 685.
+LaTeX Info: Redefining \. on input line 522.
+LaTeX Info: Redefining \% on input line 522.
+LaTeX Info: Redefining \. on input line 522.
+LaTeX Info: Redefining \% on input line 522.
  [10]
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 7.84827pt on input line 690.
+\c@pagesLTS.roman.1.local.count=\count616
+Package biblatex Info: Resetting trackers on input line 524.
+LaTeX Info: Redefining \. on input line 539.
+LaTeX Info: Redefining \% on input line 539.
+LaTeX Info: Redefining \. on input line 539.
+LaTeX Info: Redefining \% on input line 539.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 539.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 539.
+
+[3
+
+
+]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.539 \chapter
+            {Introducción} %1
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 539.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 539.
+
+[4
+
+]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.539 \chapter
+            {Introducción} %1
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+Capítulo 1.
+Package biblatex Info: Resetting trackers on input line 539.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
+(Font)              scaled to size 16.99188pt on input line 539.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 7.75806pt on input line 694.
+(Font)              scaled to size 11.63708pt on input line 541.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 9.43994pt on input line 544.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 8.25995pt on input line 544.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 6.86723pt on input line 544.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 10.61993pt on input line 544.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 11.79993pt on input line 548.
+LaTeX Info: Redefining \. on input line 551.
+LaTeX Info: Redefining \% on input line 551.
+LaTeX Info: Redefining \. on input line 551.
+LaTeX Info: Redefining \% on input line 551.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 551.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 551.
+
+[5]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.551 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 561.
+LaTeX Info: Redefining \% on input line 561.
+LaTeX Info: Redefining \. on input line 561.
+LaTeX Info: Redefining \% on input line 561.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 561.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 561.
+
+[6]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.561 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 581.
+LaTeX Info: Redefining \% on input line 581.
+LaTeX Info: Redefining \. on input line 581.
+LaTeX Info: Redefining \% on input line 581.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 581.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 581.
+
+[7]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.581 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 10.61993pt on input line 588.
+LaTeX Info: Redefining \. on input line 589.
+LaTeX Info: Redefining \% on input line 589.
+LaTeX Info: Redefining \. on input line 589.
+LaTeX Info: Redefining \% on input line 589.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 589.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 589.
+
+[8]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.589 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 602.
+LaTeX Info: Redefining \% on input line 602.
+LaTeX Info: Redefining \. on input line 602.
+LaTeX Info: Redefining \% on input line 602.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 602.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 602.
+
+[9]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.602 A
+      su vez, en relación con las estrategias de protección de la legitimi...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 612.
+LaTeX Info: Redefining \% on input line 612.
+LaTeX Info: Redefining \. on input line 612.
+LaTeX Info: Redefining \% on input line 612.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 612.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 612.
+
+[10]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.612 \end{quote}
+               
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 11.7724pt on input line 623.
+LaTeX Info: Redefining \. on input line 626.
+LaTeX Info: Redefining \% on input line 626.
+LaTeX Info: Redefining \. on input line 626.
+LaTeX Info: Redefining \% on input line 626.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 626.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 626.
+
+[11]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.626 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 10.61993pt on input line 713.
-LaTeX Info: Redefining \. on input line 718.
-LaTeX Info: Redefining \% on input line 718.
-LaTeX Info: Redefining \. on input line 718.
-LaTeX Info: Redefining \% on input line 718.
- [11]
-LaTeX Info: Redefining \. on input line 775.
-LaTeX Info: Redefining \% on input line 775.
-LaTeX Info: Redefining \. on input line 775.
-LaTeX Info: Redefining \% on input line 775.
- [12]
+(Font)              scaled to size 11.79993pt on input line 633.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
+(Font)              scaled to size 10.61993pt on input line 633.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
+(Font)              scaled to size 5.89996pt on input line 633.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 10.61993pt on input line 633.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 5.89996pt on input line 633.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 10.61993pt on input line 633.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 5.89996pt on input line 633.
+LaTeX Info: Redefining \. on input line 634.
+LaTeX Info: Redefining \% on input line 634.
+LaTeX Info: Redefining \. on input line 634.
+LaTeX Info: Redefining \% on input line 634.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 634.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 634.
+
+[12]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.634 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 7.84827pt on input line 639.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
+(Font)              scaled to size 7.75806pt on input line 643.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
+(Font)              scaled to size 10.61993pt on input line 662.
+LaTeX Info: Redefining \. on input line 667.
+LaTeX Info: Redefining \% on input line 667.
+LaTeX Info: Redefining \. on input line 667.
+LaTeX Info: Redefining \% on input line 667.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 667.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 667.
+
+[13]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.667 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 724.
+LaTeX Info: Redefining \% on input line 724.
+LaTeX Info: Redefining \. on input line 724.
+LaTeX Info: Redefining \% on input line 724.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 724.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 724.
+
+[14]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.724 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
-(Font)              scaled to size 9.81033pt on input line 781.
-LaTeX Info: Redefining \. on input line 788.
-LaTeX Info: Redefining \% on input line 788.
-LaTeX Info: Redefining \. on input line 788.
-LaTeX Info: Redefining \% on input line 788.
- [13]
-LaTeX Info: Redefining \. on input line 804.
-LaTeX Info: Redefining \% on input line 804.
-LaTeX Info: Redefining \. on input line 804.
-LaTeX Info: Redefining \% on input line 804.
- [14]
-LaTeX Info: Redefining \. on input line 818.
-LaTeX Info: Redefining \% on input line 818.
-LaTeX Info: Redefining \. on input line 818.
-LaTeX Info: Redefining \% on input line 818.
- [15]
-LaTeX Info: Redefining \. on input line 827.
-LaTeX Info: Redefining \% on input line 827.
-LaTeX Info: Redefining \. on input line 827.
-LaTeX Info: Redefining \% on input line 827.
- [16]
-LaTeX Info: Redefining \. on input line 840.
-LaTeX Info: Redefining \% on input line 840.
-LaTeX Info: Redefining \. on input line 840.
-LaTeX Info: Redefining \% on input line 840.
- [17]
-LaTeX Info: Redefining \. on input line 863.
-LaTeX Info: Redefining \% on input line 863.
-LaTeX Info: Redefining \. on input line 863.
-LaTeX Info: Redefining \% on input line 863.
- [18]
-LaTeX Info: Redefining \. on input line 874.
-LaTeX Info: Redefining \% on input line 874.
-LaTeX Info: Redefining \. on input line 874.
-LaTeX Info: Redefining \% on input line 874.
+(Font)              scaled to size 9.81033pt on input line 730.
+LaTeX Info: Redefining \. on input line 737.
+LaTeX Info: Redefining \% on input line 737.
+LaTeX Info: Redefining \. on input line 737.
+LaTeX Info: Redefining \% on input line 737.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 737.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 737.
+
+[15]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.737 \end{quote}
+               
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 753.
+LaTeX Info: Redefining \% on input line 753.
+LaTeX Info: Redefining \. on input line 753.
+LaTeX Info: Redefining \% on input line 753.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 753.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 753.
+
+[16]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.753 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 767.
+LaTeX Info: Redefining \% on input line 767.
+LaTeX Info: Redefining \. on input line 767.
+LaTeX Info: Redefining \% on input line 767.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 767.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 767.
+
+[17]
+! Output routine didn't use all of \box255.
+<argument> \@secpenalty 
+             
+l.767 \subsection{Fin de la época dorada}
+                                         %1.3.3
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 776.
+LaTeX Info: Redefining \% on input line 776.
+LaTeX Info: Redefining \. on input line 776.
+LaTeX Info: Redefining \% on input line 776.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 776.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 776.
+
+[18]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.776 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 789.
+LaTeX Info: Redefining \% on input line 789.
+LaTeX Info: Redefining \. on input line 789.
+LaTeX Info: Redefining \% on input line 789.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 789.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 789.
 
 [19]
-LaTeX Info: Redefining \. on input line 883.
-LaTeX Info: Redefining \% on input line 883.
-LaTeX Info: Redefining \. on input line 883.
-LaTeX Info: Redefining \% on input line 883.
- [20]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.789 4
+     º Momento: aparición de la radiofonía, incremento de medios de distr...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 812.
+LaTeX Info: Redefining \% on input line 812.
+LaTeX Info: Redefining \. on input line 812.
+LaTeX Info: Redefining \% on input line 812.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 812.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 812.
+
+[20]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.812 E
+     n tal sentido, la construcción de los datos empíricos se realizó a t...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 823.
+LaTeX Info: Redefining \% on input line 823.
+LaTeX Info: Redefining \. on input line 823.
+LaTeX Info: Redefining \% on input line 823.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 823.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 823.
+
+[21]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.823 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 832.
+LaTeX Info: Redefining \% on input line 832.
+LaTeX Info: Redefining \. on input line 832.
+LaTeX Info: Redefining \% on input line 832.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 832.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 832.
+
+[22]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.832 \chapter
+            {Estado de la cuestión y consideraciones teórico-metodológica...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 Capítulo 2.
-Package biblatex Info: Resetting trackers on input line 883.
-LaTeX Info: Redefining \. on input line 893.
-LaTeX Info: Redefining \% on input line 893.
-LaTeX Info: Redefining \. on input line 893.
-LaTeX Info: Redefining \% on input line 893.
-[21
+Package biblatex Info: Resetting trackers on input line 832.
+LaTeX Info: Redefining \. on input line 842.
+LaTeX Info: Redefining \% on input line 842.
+LaTeX Info: Redefining \. on input line 842.
+LaTeX Info: Redefining \% on input line 842.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 842.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 842.
+
+[23
 
 ]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.842 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation '@6962-AMADO:2016' on page 22 undefined on input line 8
-96.
+The following box has been deleted: []
 
 
-LaTeX Warning: Citation '@6962-AMADO2016' on page 22 undefined on input line 89
-8.
+LaTeX Warning: Citation '@6962-AMADO:2016' on page 24 undefined on input line 8
+45.
+
+
+LaTeX Warning: Citation '@6962-AMADO2016' on page 24 undefined on input line 84
+7.
+
+LaTeX Info: Redefining \. on input line 850.
+LaTeX Info: Redefining \% on input line 850.
+LaTeX Info: Redefining \. on input line 850.
+LaTeX Info: Redefining \% on input line 850.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 850.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 850.
+
+[24]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.850 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 857.
+LaTeX Info: Redefining \% on input line 857.
+LaTeX Info: Redefining \. on input line 857.
+LaTeX Info: Redefining \% on input line 857.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 857.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 857.
+
+[25]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.857 E
+     sta limitada producción sobre el colectivo periodístico parece estar ...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 867.
+LaTeX Info: Redefining \% on input line 867.
+LaTeX Info: Redefining \. on input line 867.
+LaTeX Info: Redefining \% on input line 867.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 867.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 867.
+
+[26]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.867 \end{quote}
+               
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 878.
+LaTeX Info: Redefining \% on input line 878.
+LaTeX Info: Redefining \. on input line 878.
+LaTeX Info: Redefining \% on input line 878.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 878.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 878.
+
+[27]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.878 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 894.
+LaTeX Info: Redefining \% on input line 894.
+LaTeX Info: Redefining \. on input line 894.
+LaTeX Info: Redefining \% on input line 894.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 894.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 894.
+
+[28]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.894 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
 
 LaTeX Info: Redefining \. on input line 901.
 LaTeX Info: Redefining \% on input line 901.
 LaTeX Info: Redefining \. on input line 901.
 LaTeX Info: Redefining \% on input line 901.
-[22]
-LaTeX Info: Redefining \. on input line 909.
-LaTeX Info: Redefining \% on input line 909.
-LaTeX Info: Redefining \. on input line 909.
-LaTeX Info: Redefining \% on input line 909.
- [23]
-LaTeX Info: Redefining \. on input line 918.
-LaTeX Info: Redefining \% on input line 918.
-LaTeX Info: Redefining \. on input line 918.
-LaTeX Info: Redefining \% on input line 918.
- [24]
-LaTeX Info: Redefining \. on input line 929.
-LaTeX Info: Redefining \% on input line 929.
-LaTeX Info: Redefining \. on input line 929.
-LaTeX Info: Redefining \% on input line 929.
- [25]
-LaTeX Info: Redefining \. on input line 945.
-LaTeX Info: Redefining \% on input line 945.
-LaTeX Info: Redefining \. on input line 945.
-LaTeX Info: Redefining \% on input line 945.
- [26]
-LaTeX Info: Redefining \. on input line 952.
-LaTeX Info: Redefining \% on input line 952.
-LaTeX Info: Redefining \. on input line 952.
-LaTeX Info: Redefining \% on input line 952.
- [27]
-LaTeX Info: Redefining \. on input line 972.
-LaTeX Info: Redefining \% on input line 972.
-LaTeX Info: Redefining \. on input line 972.
-LaTeX Info: Redefining \% on input line 972.
- [28]
-LaTeX Info: Redefining \. on input line 997.
-LaTeX Info: Redefining \% on input line 997.
-LaTeX Info: Redefining \. on input line 997.
-LaTeX Info: Redefining \% on input line 997.
- [29]
-LaTeX Info: Redefining \. on input line 1006.
-LaTeX Info: Redefining \% on input line 1006.
-LaTeX Info: Redefining \. on input line 1006.
-LaTeX Info: Redefining \% on input line 1006.
- [30]
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 901.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 901.
+
+[29]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.901 C
+     omo muchos otros autores que abordan aspectos críticos del periodismo,...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 921.
+LaTeX Info: Redefining \% on input line 921.
+LaTeX Info: Redefining \. on input line 921.
+LaTeX Info: Redefining \% on input line 921.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 921.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 921.
+
+[30]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.921 \end{quote}
+               
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 946.
+LaTeX Info: Redefining \% on input line 946.
+LaTeX Info: Redefining \. on input line 946.
+LaTeX Info: Redefining \% on input line 946.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 946.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 946.
+
+[31]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.946 \end{quote}
+               
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 955.
+LaTeX Info: Redefining \% on input line 955.
+LaTeX Info: Redefining \. on input line 955.
+LaTeX Info: Redefining \% on input line 955.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 955.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 955.
+
+[32]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.955 
+    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/it' will be
-(Font)              scaled to size 11.79993pt on input line 1009.
-LaTeX Info: Redefining \. on input line 1021.
-LaTeX Info: Redefining \% on input line 1021.
-LaTeX Info: Redefining \. on input line 1021.
-LaTeX Info: Redefining \% on input line 1021.
- [31]
-LaTeX Info: Redefining \. on input line 1044.
-LaTeX Info: Redefining \% on input line 1044.
-LaTeX Info: Redefining \. on input line 1044.
-LaTeX Info: Redefining \% on input line 1044.
- [32]
-LaTeX Info: Redefining \. on input line 1067.
-LaTeX Info: Redefining \% on input line 1067.
-LaTeX Info: Redefining \. on input line 1067.
-LaTeX Info: Redefining \% on input line 1067.
- [33]
-LaTeX Info: Redefining \. on input line 1076.
-LaTeX Info: Redefining \% on input line 1076.
-LaTeX Info: Redefining \. on input line 1076.
-LaTeX Info: Redefining \% on input line 1076.
- [34]
-LaTeX Info: Redefining \. on input line 1105.
-LaTeX Info: Redefining \% on input line 1105.
-LaTeX Info: Redefining \. on input line 1105.
-LaTeX Info: Redefining \% on input line 1105.
- [35]
-LaTeX Info: Redefining \. on input line 1114.
-LaTeX Info: Redefining \% on input line 1114.
-LaTeX Info: Redefining \. on input line 1114.
-LaTeX Info: Redefining \% on input line 1114.
- [36]
-LaTeX Info: Redefining \. on input line 1136.
-LaTeX Info: Redefining \% on input line 1136.
-LaTeX Info: Redefining \. on input line 1136.
-LaTeX Info: Redefining \% on input line 1136.
+(Font)              scaled to size 11.79993pt on input line 958.
+LaTeX Info: Redefining \. on input line 970.
+LaTeX Info: Redefining \% on input line 970.
+LaTeX Info: Redefining \. on input line 970.
+LaTeX Info: Redefining \% on input line 970.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 970.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 970.
+
+[33]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.970 \end{enumerate}
+                   
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 991.
+LaTeX Info: Redefining \% on input line 991.
+LaTeX Info: Redefining \. on input line 991.
+LaTeX Info: Redefining \% on input line 991.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 991.
+
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 991.
+
+[34]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.991 \begin{quote}
+                 
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1015.
+LaTeX Info: Redefining \% on input line 1015.
+LaTeX Info: Redefining \. on input line 1015.
+LaTeX Info: Redefining \% on input line 1015.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1015
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1015.
+
+[35]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.1015 L
+      a capacidad del establecimiento de la agenda pivotea sobre el volumen ...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1024.
+LaTeX Info: Redefining \% on input line 1024.
+LaTeX Info: Redefining \. on input line 1024.
+LaTeX Info: Redefining \% on input line 1024.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1024
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1024.
+
+[36]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.1024   L
+        a existencia, entre los dominantes, de un discurso crítico del pres...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1046.
+LaTeX Info: Redefining \% on input line 1046.
+LaTeX Info: Redefining \. on input line 1046.
+LaTeX Info: Redefining \% on input line 1046.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1046
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1046.
 
 [37]
-LaTeX Info: Redefining \. on input line 1142.
-LaTeX Info: Redefining \% on input line 1142.
-LaTeX Info: Redefining \. on input line 1142.
-LaTeX Info: Redefining \% on input line 1142.
- [38]
-LaTeX Info: Redefining \. on input line 1153.
-LaTeX Info: Redefining \% on input line 1153.
-LaTeX Info: Redefining \. on input line 1153.
-LaTeX Info: Redefining \% on input line 1153.
- [39]
-LaTeX Info: Redefining \. on input line 1161.
-LaTeX Info: Redefining \% on input line 1161.
-LaTeX Info: Redefining \. on input line 1161.
-LaTeX Info: Redefining \% on input line 1161.
- [40]
-LaTeX Info: Redefining \. on input line 1172.
-LaTeX Info: Redefining \% on input line 1172.
-LaTeX Info: Redefining \. on input line 1172.
-LaTeX Info: Redefining \% on input line 1172.
- [41]
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 7.07996pt on input line 1378.
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.1046 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-Capítulo 3.
-Package biblatex Info: Resetting trackers on input line 1378.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 8.8293pt on input line 1378.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 8.72781pt on input line 1378.
-LaTeX Info: Redefining \. on input line 1380.
-LaTeX Info: Redefining \% on input line 1380.
-LaTeX Info: Redefining \. on input line 1380.
-LaTeX Info: Redefining \% on input line 1380.
+The following box has been deleted: []
+
+
+Overfull \vbox (0.16118pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1059.
+LaTeX Info: Redefining \% on input line 1059.
+LaTeX Info: Redefining \. on input line 1059.
+LaTeX Info: Redefining \% on input line 1059.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1059
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1059.
+
+[38]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.1059 \end{enumerate}
+                    
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1081.
+LaTeX Info: Redefining \% on input line 1081.
+LaTeX Info: Redefining \. on input line 1081.
+LaTeX Info: Redefining \% on input line 1081.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1081
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1081.
+
+[39]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1081 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1091.
+LaTeX Info: Redefining \% on input line 1091.
+LaTeX Info: Redefining \. on input line 1091.
+LaTeX Info: Redefining \% on input line 1091.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1091
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1091.
+
+[40]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1091 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1101.
+LaTeX Info: Redefining \% on input line 1101.
+LaTeX Info: Redefining \. on input line 1101.
+LaTeX Info: Redefining \% on input line 1101.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1101
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1101.
+
+[41]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1101 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1110.
+LaTeX Info: Redefining \% on input line 1110.
+LaTeX Info: Redefining \. on input line 1110.
+LaTeX Info: Redefining \% on input line 1110.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1110
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1110.
+
 [42]
-LaTeX Info: Redefining \. on input line 1380.
-LaTeX Info: Redefining \% on input line 1380.
-LaTeX Info: Redefining \. on input line 1380.
-LaTeX Info: Redefining \% on input line 1380.
- [43]
-Overfull \vbox (3.21939pt too high) has occurred while \output is active []
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1110 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Info: Redefining \. on input line 1392.
-LaTeX Info: Redefining \% on input line 1392.
-LaTeX Info: Redefining \. on input line 1392.
-LaTeX Info: Redefining \% on input line 1392.
+The following box has been deleted: []
 
-[44
+LaTeX Info: Redefining \. on input line 1121.
+LaTeX Info: Redefining \% on input line 1121.
+LaTeX Info: Redefining \. on input line 1121.
+LaTeX Info: Redefining \% on input line 1121.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1121
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1121.
+
+[43]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1121 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 7.07996pt on input line 1337.
+Capítulo 3.
+Package biblatex Info: Resetting trackers on input line 1337.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 8.8293pt on input line 1337.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
+(Font)              scaled to size 8.72781pt on input line 1337.
+
+LaTeX Warning: Citation '@7019-SIVAK2015keylist' on page 44 undefined on input 
+line 1337.
+
+
+Overfull \vbox (1.46121pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1339.
+LaTeX Info: Redefining \% on input line 1339.
+LaTeX Info: Redefining \. on input line 1339.
+LaTeX Info: Redefining \% on input line 1339.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1339
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1339.
+
+[44]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.1339 \textbf{Los predicadores}
+                              
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1339.
+LaTeX Info: Redefining \% on input line 1339.
+LaTeX Info: Redefining \. on input line 1339.
+LaTeX Info: Redefining \% on input line 1339.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1339
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1339.
+
+[45]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.1339 \textbf{Los predicadores}
+                              
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+
+Overfull \vbox (5.14502pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1352.
+LaTeX Info: Redefining \% on input line 1352.
+LaTeX Info: Redefining \. on input line 1352.
+LaTeX Info: Redefining \% on input line 1352.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1352
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1352.
+
+[46]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1352 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
+
+[47
 
 ]
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
- [45]
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
- [46
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+
+Overfull \vbox (3.4pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
+
+[48
 
 ]
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
- [47]
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
- [48]
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
- [49]
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
- [50]
-Overfull \vbox (0.41493pt too high) has occurred while \output is active []
+! Output routine didn't use all of \box255.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
+
+[49
+
+]
+! Output routine didn't use all of \box255.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
+
+[50]
+! Output routine didn't use all of \box255.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
 
 [51]
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
- [52
+! Output routine didn't use all of \box255.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
+
+[52]
+! Output routine didn't use all of \box255.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
+
+[53]
+! Output routine didn't use all of \box255.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+
+Overfull \vbox (0.41493pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
+
+[54]
+! Output routine didn't use all of \box255.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
+
+[55
 
 ]
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
- [53] [54
+! Output routine didn't use all of \box255.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-]
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+LaTeX Info: Redefining \. on input line 1359.
+LaTeX Info: Redefining \% on input line 1359.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1359
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1359.
+
+[56]
+! Output routine didn't use all of \box255.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.1359 \chapter
+             {Análisis de Contenido del \emph{Corpus} Bibliográfico} % 4
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 Capítulo 4.
-Package biblatex Info: Resetting trackers on input line 1399.
+Package biblatex Info: Resetting trackers on input line 1359.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
-(Font)              scaled to size 16.95224pt on input line 1399.
-LaTeX Info: Redefining \. on input line 1521.
-LaTeX Info: Redefining \% on input line 1521.
-LaTeX Info: Redefining \. on input line 1521.
-LaTeX Info: Redefining \% on input line 1521.
-[55]
-LaTeX Info: Redefining \. on input line 1535.
-LaTeX Info: Redefining \% on input line 1535.
-LaTeX Info: Redefining \. on input line 1535.
-LaTeX Info: Redefining \% on input line 1535.
- [56
-Missing character: There is no ʹ (U+02B9) in font [IBMPlexSansCondensed-Italic.
-otf]:mode=node;script=latn;language=dflt;+tlig;!
-]
-LaTeX Info: Redefining \. on input line 1550.
-LaTeX Info: Redefining \% on input line 1550.
-LaTeX Info: Redefining \. on input line 1550.
-LaTeX Info: Redefining \% on input line 1550.
- [57]
-LaTeX Info: Redefining \. on input line 1556.
-LaTeX Info: Redefining \% on input line 1556.
-LaTeX Info: Redefining \. on input line 1556.
-LaTeX Info: Redefining \% on input line 1556.
- [58]
-LaTeX Info: Redefining \. on input line 1570.
-LaTeX Info: Redefining \% on input line 1570.
-LaTeX Info: Redefining \. on input line 1570.
-LaTeX Info: Redefining \% on input line 1570.
- [59]
-Overfull \vbox (0.20837pt too high) has occurred while \output is active []
+(Font)              scaled to size 16.95224pt on input line 1359.
+LaTeX Info: Redefining \. on input line 1481.
+LaTeX Info: Redefining \% on input line 1481.
+LaTeX Info: Redefining \. on input line 1481.
+LaTeX Info: Redefining \% on input line 1481.
 
-LaTeX Info: Redefining \. on input line 1591.
-LaTeX Info: Redefining \% on input line 1591.
-LaTeX Info: Redefining \. on input line 1591.
-LaTeX Info: Redefining \% on input line 1591.
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1481
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1481.
+
+[57
+
+]
+! Output routine didn't use all of \box255.
+<argument> \@secpenalty 
+             
+l.1481 \subsection{Etapa Preparatoria}
+                                     %4.2.1.
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1532.
+LaTeX Info: Redefining \% on input line 1532.
+LaTeX Info: Redefining \. on input line 1532.
+LaTeX Info: Redefining \% on input line 1532.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1532
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1532.
+
+[58]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.1532 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1550.
+LaTeX Info: Redefining \% on input line 1550.
+LaTeX Info: Redefining \. on input line 1550.
+LaTeX Info: Redefining \% on input line 1550.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1550
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1550.
+
+[59]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1550 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1555.
+LaTeX Info: Redefining \% on input line 1555.
+LaTeX Info: Redefining \. on input line 1555.
+LaTeX Info: Redefining \% on input line 1555.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1555
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1555.
 
 [60]
-LaTeX Info: Redefining \. on input line 1603.
-LaTeX Info: Redefining \% on input line 1603.
-LaTeX Info: Redefining \. on input line 1603.
-LaTeX Info: Redefining \% on input line 1603.
- [61]
-LaTeX Info: Redefining \. on input line 1617.
-LaTeX Info: Redefining \% on input line 1617.
-LaTeX Info: Redefining \. on input line 1617.
-LaTeX Info: Redefining \% on input line 1617.
- [62]
-LaTeX Info: Redefining \. on input line 1627.
-LaTeX Info: Redefining \% on input line 1627.
-LaTeX Info: Redefining \. on input line 1627.
-LaTeX Info: Redefining \% on input line 1627.
- [63]
-LaTeX Info: Redefining \. on input line 1645.
-LaTeX Info: Redefining \% on input line 1645.
-LaTeX Info: Redefining \. on input line 1645.
-LaTeX Info: Redefining \% on input line 1645.
- [64]
-LaTeX Info: Redefining \. on input line 1657.
-LaTeX Info: Redefining \% on input line 1657.
-LaTeX Info: Redefining \. on input line 1657.
-LaTeX Info: Redefining \% on input line 1657.
- [65]
-LaTeX Info: Redefining \. on input line 1673.
-LaTeX Info: Redefining \% on input line 1673.
-LaTeX Info: Redefining \. on input line 1673.
-LaTeX Info: Redefining \% on input line 1673.
- [66]
-LaTeX Info: Redefining \. on input line 1688.
-LaTeX Info: Redefining \% on input line 1688.
-LaTeX Info: Redefining \. on input line 1688.
-LaTeX Info: Redefining \% on input line 1688.
- [67]
-LaTeX Info: Redefining \. on input line 1698.
-LaTeX Info: Redefining \% on input line 1698.
-LaTeX Info: Redefining \. on input line 1698.
-LaTeX Info: Redefining \% on input line 1698.
- [68]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1555 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1572.
+LaTeX Info: Redefining \% on input line 1572.
+LaTeX Info: Redefining \. on input line 1572.
+LaTeX Info: Redefining \% on input line 1572.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1572
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1572.
+
+[61]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1572 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1588.
+LaTeX Info: Redefining \% on input line 1588.
+LaTeX Info: Redefining \. on input line 1588.
+LaTeX Info: Redefining \% on input line 1588.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1588
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1588.
+
+[62]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.1588 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1605.
+LaTeX Info: Redefining \% on input line 1605.
+LaTeX Info: Redefining \. on input line 1605.
+LaTeX Info: Redefining \% on input line 1605.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1605
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1605.
+
+[63]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1605 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1614.
+LaTeX Info: Redefining \% on input line 1614.
+LaTeX Info: Redefining \. on input line 1614.
+LaTeX Info: Redefining \% on input line 1614.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1614
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1614.
+
+[64]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.1614 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1624.
+LaTeX Info: Redefining \% on input line 1624.
+LaTeX Info: Redefining \. on input line 1624.
+LaTeX Info: Redefining \% on input line 1624.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1624
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1624.
+
+[65]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1624 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1642.
+LaTeX Info: Redefining \% on input line 1642.
+LaTeX Info: Redefining \. on input line 1642.
+LaTeX Info: Redefining \% on input line 1642.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1642
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1642.
+
+[66]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.1642 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1656.
+LaTeX Info: Redefining \% on input line 1656.
+LaTeX Info: Redefining \. on input line 1656.
+LaTeX Info: Redefining \% on input line 1656.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1656
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1656.
+
+[67]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1656 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1674.
+LaTeX Info: Redefining \% on input line 1674.
+LaTeX Info: Redefining \. on input line 1674.
+LaTeX Info: Redefining \% on input line 1674.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1674
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1674.
+
+[68]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.1674 Z
+      unino denomina \emph{brulote} a la columna de Tiffenberg. Si bien pued...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1686.
+LaTeX Info: Redefining \% on input line 1686.
+LaTeX Info: Redefining \. on input line 1686.
+LaTeX Info: Redefining \% on input line 1686.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1686
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1686.
+
+[69]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.1686 D
+      e esta manera concluyó la experiencia de PERIODISTAS. Su análisis pe...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1697.
+LaTeX Info: Redefining \% on input line 1697.
+LaTeX Info: Redefining \. on input line 1697.
+LaTeX Info: Redefining \% on input line 1697.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1697
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1697.
+
+[70]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1697 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 LaTeX Info: Redefining \. on input line 1715.
 LaTeX Info: Redefining \% on input line 1715.
 LaTeX Info: Redefining \. on input line 1715.
 LaTeX Info: Redefining \% on input line 1715.
- [69]
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1715
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1715.
+
+[71]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1715 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 LaTeX Info: Redefining \. on input line 1727.
 LaTeX Info: Redefining \% on input line 1727.
 LaTeX Info: Redefining \. on input line 1727.
 LaTeX Info: Redefining \% on input line 1727.
- [70]
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1727
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1727.
+
+[72]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1727 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 LaTeX Info: Redefining \. on input line 1747.
 LaTeX Info: Redefining \% on input line 1747.
 LaTeX Info: Redefining \. on input line 1747.
 LaTeX Info: Redefining \% on input line 1747.
- [71]
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1747
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1747.
+
+[73]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1747 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 LaTeX Info: Redefining \. on input line 1756.
 LaTeX Info: Redefining \% on input line 1756.
 LaTeX Info: Redefining \. on input line 1756.
 LaTeX Info: Redefining \% on input line 1756.
- [72]
-LaTeX Info: Redefining \. on input line 1770.
-LaTeX Info: Redefining \% on input line 1770.
-LaTeX Info: Redefining \. on input line 1770.
-LaTeX Info: Redefining \% on input line 1770.
- [73]
-LaTeX Info: Redefining \. on input line 1786.
-LaTeX Info: Redefining \% on input line 1786.
-LaTeX Info: Redefining \. on input line 1786.
-LaTeX Info: Redefining \% on input line 1786.
- [74]
-LaTeX Info: Redefining \. on input line 1793.
-LaTeX Info: Redefining \% on input line 1793.
-LaTeX Info: Redefining \. on input line 1793.
-LaTeX Info: Redefining \% on input line 1793.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1756
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1756.
+
+[74]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.1756 \begin{quote}
+                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1769.
+LaTeX Info: Redefining \% on input line 1769.
+LaTeX Info: Redefining \. on input line 1769.
+LaTeX Info: Redefining \% on input line 1769.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1769
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1769.
 
 [75]
-LaTeX Info: Redefining \. on input line 1804.
-LaTeX Info: Redefining \% on input line 1804.
-LaTeX Info: Redefining \. on input line 1804.
-LaTeX Info: Redefining \% on input line 1804.
- [76]
-LaTeX Info: Redefining \. on input line 1816.
-LaTeX Info: Redefining \% on input line 1816.
-LaTeX Info: Redefining \. on input line 1816.
-LaTeX Info: Redefining \% on input line 1816.
- [77]
-LaTeX Info: Redefining \. on input line 1825.
-LaTeX Info: Redefining \% on input line 1825.
-LaTeX Info: Redefining \. on input line 1825.
-LaTeX Info: Redefining \% on input line 1825.
- [78]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1769 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1783.
+LaTeX Info: Redefining \% on input line 1783.
+LaTeX Info: Redefining \. on input line 1783.
+LaTeX Info: Redefining \% on input line 1783.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1783
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1783.
+
+[76]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1783 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1790.
+LaTeX Info: Redefining \% on input line 1790.
+LaTeX Info: Redefining \. on input line 1790.
+LaTeX Info: Redefining \% on input line 1790.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1790
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1790.
+
+[77]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.1790 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1802.
+LaTeX Info: Redefining \% on input line 1802.
+LaTeX Info: Redefining \. on input line 1802.
+LaTeX Info: Redefining \% on input line 1802.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1802
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1802.
+
+[78]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.1802 L
+      os autores realizan una petición de principios: ``Clarín se ha carac...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1813.
+LaTeX Info: Redefining \% on input line 1813.
+LaTeX Info: Redefining \. on input line 1813.
+LaTeX Info: Redefining \% on input line 1813.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1813
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1813.
+
+[79]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1813 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+
+Overfull \vbox (0.46121pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1823.
+LaTeX Info: Redefining \% on input line 1823.
+LaTeX Info: Redefining \. on input line 1823.
+LaTeX Info: Redefining \% on input line 1823.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1823
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1823.
+
+[80]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1823 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 LaTeX Info: Redefining \. on input line 1834.
 LaTeX Info: Redefining \% on input line 1834.
 LaTeX Info: Redefining \. on input line 1834.
 LaTeX Info: Redefining \% on input line 1834.
- [79]
-LaTeX Info: Redefining \. on input line 1850.
-LaTeX Info: Redefining \% on input line 1850.
-LaTeX Info: Redefining \. on input line 1850.
-LaTeX Info: Redefining \% on input line 1850.
- [80]
-LaTeX Info: Redefining \. on input line 1867.
-LaTeX Info: Redefining \% on input line 1867.
-LaTeX Info: Redefining \. on input line 1867.
-LaTeX Info: Redefining \% on input line 1867.
- [81]
-LaTeX Info: Redefining \. on input line 1883.
-LaTeX Info: Redefining \% on input line 1883.
-LaTeX Info: Redefining \. on input line 1883.
-LaTeX Info: Redefining \% on input line 1883.
- [82]
-LaTeX Info: Redefining \. on input line 1889.
-LaTeX Info: Redefining \% on input line 1889.
-LaTeX Info: Redefining \. on input line 1889.
-LaTeX Info: Redefining \% on input line 1889.
- [83]
-LaTeX Info: Redefining \. on input line 1897.
-LaTeX Info: Redefining \% on input line 1897.
-LaTeX Info: Redefining \. on input line 1897.
-LaTeX Info: Redefining \% on input line 1897.
- [84]
-LaTeX Info: Redefining \. on input line 1909.
-LaTeX Info: Redefining \% on input line 1909.
-LaTeX Info: Redefining \. on input line 1909.
-LaTeX Info: Redefining \% on input line 1909.
- [85]
-LaTeX Info: Redefining \. on input line 1921.
-LaTeX Info: Redefining \% on input line 1921.
-LaTeX Info: Redefining \. on input line 1921.
-LaTeX Info: Redefining \% on input line 1921.
- [86]
-LaTeX Info: Redefining \. on input line 1949.
-LaTeX Info: Redefining \% on input line 1949.
-LaTeX Info: Redefining \. on input line 1949.
-LaTeX Info: Redefining \% on input line 1949.
- [87]
-LaTeX Info: Redefining \. on input line 1965.
-LaTeX Info: Redefining \% on input line 1965.
-LaTeX Info: Redefining \. on input line 1965.
-LaTeX Info: Redefining \% on input line 1965.
- [88]
-LaTeX Info: Redefining \. on input line 1968.
-LaTeX Info: Redefining \% on input line 1968.
-LaTeX Info: Redefining \. on input line 1968.
-LaTeX Info: Redefining \% on input line 1968.
- [89]
-LaTeX Info: Redefining \. on input line 1985.
-LaTeX Info: Redefining \% on input line 1985.
-LaTeX Info: Redefining \. on input line 1985.
-LaTeX Info: Redefining \% on input line 1985.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1834
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1834.
+
+[81]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1834 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1847.
+LaTeX Info: Redefining \% on input line 1847.
+LaTeX Info: Redefining \. on input line 1847.
+LaTeX Info: Redefining \% on input line 1847.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1847
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1847.
+
+[82]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1847 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1870.
+LaTeX Info: Redefining \% on input line 1870.
+LaTeX Info: Redefining \. on input line 1870.
+LaTeX Info: Redefining \% on input line 1870.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1870
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1870.
+
+[83]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1870 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1882.
+LaTeX Info: Redefining \% on input line 1882.
+LaTeX Info: Redefining \. on input line 1882.
+LaTeX Info: Redefining \% on input line 1882.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1882
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1882.
+
+[84]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1882 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1888.
+LaTeX Info: Redefining \% on input line 1888.
+LaTeX Info: Redefining \. on input line 1888.
+LaTeX Info: Redefining \% on input line 1888.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1888
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1888.
+
+[85]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1888 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1894.
+LaTeX Info: Redefining \% on input line 1894.
+LaTeX Info: Redefining \. on input line 1894.
+LaTeX Info: Redefining \% on input line 1894.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1894
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1894.
+
+[86]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1894 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1906.
+LaTeX Info: Redefining \% on input line 1906.
+LaTeX Info: Redefining \. on input line 1906.
+LaTeX Info: Redefining \% on input line 1906.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1906
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1906.
+
+[87]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1906 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1924.
+LaTeX Info: Redefining \% on input line 1924.
+LaTeX Info: Redefining \. on input line 1924.
+LaTeX Info: Redefining \% on input line 1924.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1924
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1924.
+
+[88]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1924 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1947.
+LaTeX Info: Redefining \% on input line 1947.
+LaTeX Info: Redefining \. on input line 1947.
+LaTeX Info: Redefining \% on input line 1947.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1947
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1947.
+
+[89]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1947 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1962.
+LaTeX Info: Redefining \% on input line 1962.
+LaTeX Info: Redefining \. on input line 1962.
+LaTeX Info: Redefining \% on input line 1962.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1962
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1962.
 
 [90]
-LaTeX Info: Redefining \. on input line 2001.
-LaTeX Info: Redefining \% on input line 2001.
-LaTeX Info: Redefining \. on input line 2001.
-LaTeX Info: Redefining \% on input line 2001.
- [91]
-Overfull \vbox (0.20837pt too high) has occurred while \output is active []
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1962 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Info: Redefining \. on input line 2017.
-LaTeX Info: Redefining \% on input line 2017.
-LaTeX Info: Redefining \. on input line 2017.
-LaTeX Info: Redefining \% on input line 2017.
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1967.
+LaTeX Info: Redefining \% on input line 1967.
+LaTeX Info: Redefining \. on input line 1967.
+LaTeX Info: Redefining \% on input line 1967.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1967
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1967.
+
+[91]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.1967 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 1986.
+LaTeX Info: Redefining \% on input line 1986.
+LaTeX Info: Redefining \. on input line 1986.
+LaTeX Info: Redefining \% on input line 1986.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1986
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1986.
 
 [92]
-LaTeX Info: Redefining \. on input line 2029.
-LaTeX Info: Redefining \% on input line 2029.
-LaTeX Info: Redefining \. on input line 2029.
-LaTeX Info: Redefining \% on input line 2029.
- [93]
-LaTeX Info: Redefining \. on input line 2041.
-LaTeX Info: Redefining \% on input line 2041.
-LaTeX Info: Redefining \. on input line 2041.
-LaTeX Info: Redefining \% on input line 2041.
- [94]
-LaTeX Info: Redefining \. on input line 2047.
-LaTeX Info: Redefining \% on input line 2047.
-LaTeX Info: Redefining \. on input line 2047.
-LaTeX Info: Redefining \% on input line 2047.
- [95]
-LaTeX Info: Redefining \. on input line 2059.
-LaTeX Info: Redefining \% on input line 2059.
-LaTeX Info: Redefining \. on input line 2059.
-LaTeX Info: Redefining \% on input line 2059.
- [96]
-LaTeX Info: Redefining \. on input line 2071.
-LaTeX Info: Redefining \% on input line 2071.
-LaTeX Info: Redefining \. on input line 2071.
-LaTeX Info: Redefining \% on input line 2071.
- [97]
-LaTeX Info: Redefining \. on input line 2082.
-LaTeX Info: Redefining \% on input line 2082.
-LaTeX Info: Redefining \. on input line 2082.
-LaTeX Info: Redefining \% on input line 2082.
- [98]
-LaTeX Info: Redefining \. on input line 2091.
-LaTeX Info: Redefining \% on input line 2091.
-LaTeX Info: Redefining \. on input line 2091.
-LaTeX Info: Redefining \% on input line 2091.
- [99]
-LaTeX Info: Redefining \. on input line 2101.
-LaTeX Info: Redefining \% on input line 2101.
-LaTeX Info: Redefining \. on input line 2101.
-LaTeX Info: Redefining \% on input line 2101.
- [100]
-LaTeX Info: Redefining \. on input line 2101.
-LaTeX Info: Redefining \% on input line 2101.
-LaTeX Info: Redefining \. on input line 2101.
-LaTeX Info: Redefining \% on input line 2101.
- [101]
-LaTeX Info: Redefining \. on input line 2112.
-LaTeX Info: Redefining \% on input line 2112.
-LaTeX Info: Redefining \. on input line 2112.
-LaTeX Info: Redefining \% on input line 2112.
- [102]
-LaTeX Info: Redefining \. on input line 2127.
-LaTeX Info: Redefining \% on input line 2127.
-LaTeX Info: Redefining \. on input line 2127.
-LaTeX Info: Redefining \% on input line 2127.
- [103]
-LaTeX Info: Redefining \. on input line 2135.
-LaTeX Info: Redefining \% on input line 2135.
-LaTeX Info: Redefining \. on input line 2135.
-LaTeX Info: Redefining \% on input line 2135.
- [104]
-LaTeX Info: Redefining \. on input line 2147.
-LaTeX Info: Redefining \% on input line 2147.
-LaTeX Info: Redefining \. on input line 2147.
-LaTeX Info: Redefining \% on input line 2147.
- [105]
-LaTeX Info: Redefining \. on input line 2169.
-LaTeX Info: Redefining \% on input line 2169.
-LaTeX Info: Redefining \. on input line 2169.
-LaTeX Info: Redefining \% on input line 2169.
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.1986 \begin{quote}
+                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2000.
+LaTeX Info: Redefining \% on input line 2000.
+LaTeX Info: Redefining \. on input line 2000.
+LaTeX Info: Redefining \% on input line 2000.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2000
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2000.
+
+[93]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.2000 \begin{quote}
+                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2014.
+LaTeX Info: Redefining \% on input line 2014.
+LaTeX Info: Redefining \. on input line 2014.
+LaTeX Info: Redefining \% on input line 2014.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2014
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2014.
+
+[94]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2014 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2026.
+LaTeX Info: Redefining \% on input line 2026.
+LaTeX Info: Redefining \. on input line 2026.
+LaTeX Info: Redefining \% on input line 2026.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2026
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2026.
+
+[95]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2026 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2038.
+LaTeX Info: Redefining \% on input line 2038.
+LaTeX Info: Redefining \. on input line 2038.
+LaTeX Info: Redefining \% on input line 2038.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2038
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2038.
+
+[96]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2038 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2044.
+LaTeX Info: Redefining \% on input line 2044.
+LaTeX Info: Redefining \. on input line 2044.
+LaTeX Info: Redefining \% on input line 2044.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2044
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2044.
+
+[97]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.2044 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2057.
+LaTeX Info: Redefining \% on input line 2057.
+LaTeX Info: Redefining \. on input line 2057.
+LaTeX Info: Redefining \% on input line 2057.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2057
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2057.
+
+[98]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2057 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2068.
+LaTeX Info: Redefining \% on input line 2068.
+LaTeX Info: Redefining \. on input line 2068.
+LaTeX Info: Redefining \% on input line 2068.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2068
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2068.
+
+[99]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2068 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2080.
+LaTeX Info: Redefining \% on input line 2080.
+LaTeX Info: Redefining \. on input line 2080.
+LaTeX Info: Redefining \% on input line 2080.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2080
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2080.
+
+[100]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.2080 B
+      laustein se refiere al fenómeno como \emph{malentendido,} es decir, c...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2090.
+LaTeX Info: Redefining \% on input line 2090.
+LaTeX Info: Redefining \. on input line 2090.
+LaTeX Info: Redefining \% on input line 2090.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2090
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2090.
+
+[101]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.2090 \begin{quote}
+                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2098.
+LaTeX Info: Redefining \% on input line 2098.
+LaTeX Info: Redefining \. on input line 2098.
+LaTeX Info: Redefining \% on input line 2098.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2098
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2098.
+
+[102]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2098 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2098.
+LaTeX Info: Redefining \% on input line 2098.
+LaTeX Info: Redefining \. on input line 2098.
+LaTeX Info: Redefining \% on input line 2098.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2098
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2098.
+
+[103]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2098 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2110.
+LaTeX Info: Redefining \% on input line 2110.
+LaTeX Info: Redefining \. on input line 2110.
+LaTeX Info: Redefining \% on input line 2110.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2110
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2110.
+
+[104]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.2110 \begin{quote}
+                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2124.
+LaTeX Info: Redefining \% on input line 2124.
+LaTeX Info: Redefining \. on input line 2124.
+LaTeX Info: Redefining \% on input line 2124.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2124
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2124.
+
+[105]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.2124 F
+      OPEA (Foro de Periodismo Argentino)\footnote{El Foro de Periodismo Arg...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2132.
+LaTeX Info: Redefining \% on input line 2132.
+LaTeX Info: Redefining \. on input line 2132.
+LaTeX Info: Redefining \% on input line 2132.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2132
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2132.
 
 [106]
-LaTeX Info: Redefining \. on input line 2183.
-LaTeX Info: Redefining \% on input line 2183.
-LaTeX Info: Redefining \. on input line 2183.
-LaTeX Info: Redefining \% on input line 2183.
- [107]
-LaTeX Info: Redefining \. on input line 2197.
-LaTeX Info: Redefining \% on input line 2197.
-LaTeX Info: Redefining \. on input line 2197.
-LaTeX Info: Redefining \% on input line 2197.
- [108]
-LaTeX Info: Redefining \. on input line 2203.
-LaTeX Info: Redefining \% on input line 2203.
-LaTeX Info: Redefining \. on input line 2203.
-LaTeX Info: Redefining \% on input line 2203.
- [109]
-LaTeX Info: Redefining \. on input line 2225.
-LaTeX Info: Redefining \% on input line 2225.
-LaTeX Info: Redefining \. on input line 2225.
-LaTeX Info: Redefining \% on input line 2225.
- [110]
-LaTeX Info: Redefining \. on input line 2239.
-LaTeX Info: Redefining \% on input line 2239.
-LaTeX Info: Redefining \. on input line 2239.
-LaTeX Info: Redefining \% on input line 2239.
- [111]
-LaTeX Info: Redefining \. on input line 2251.
-LaTeX Info: Redefining \% on input line 2251.
-LaTeX Info: Redefining \. on input line 2251.
-LaTeX Info: Redefining \% on input line 2251.
- [112]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.2132 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation ')' on page 113 undefined on input line 2256.
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2144.
+LaTeX Info: Redefining \% on input line 2144.
+LaTeX Info: Redefining \. on input line 2144.
+LaTeX Info: Redefining \% on input line 2144.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2144
+.
 
 
-LaTeX Warning: Citation ')' on page 113 undefined on input line 2270.
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2144.
 
-LaTeX Info: Redefining \. on input line 2271.
-LaTeX Info: Redefining \% on input line 2271.
-LaTeX Info: Redefining \. on input line 2271.
-LaTeX Info: Redefining \% on input line 2271.
+[107]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2144 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2166.
+LaTeX Info: Redefining \% on input line 2166.
+LaTeX Info: Redefining \. on input line 2166.
+LaTeX Info: Redefining \% on input line 2166.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2166
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2166.
+
+[108]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.2166 \begin{quote}
+                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2180.
+LaTeX Info: Redefining \% on input line 2180.
+LaTeX Info: Redefining \. on input line 2180.
+LaTeX Info: Redefining \% on input line 2180.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2180
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2180.
+
+[109]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.2180 \begin{quote}
+                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2194.
+LaTeX Info: Redefining \% on input line 2194.
+LaTeX Info: Redefining \. on input line 2194.
+LaTeX Info: Redefining \% on input line 2194.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2194
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2194.
+
+[110]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2194 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2200.
+LaTeX Info: Redefining \% on input line 2200.
+LaTeX Info: Redefining \. on input line 2200.
+LaTeX Info: Redefining \% on input line 2200.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2200
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2200.
+
+[111]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2200 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2222.
+LaTeX Info: Redefining \% on input line 2222.
+LaTeX Info: Redefining \. on input line 2222.
+LaTeX Info: Redefining \% on input line 2222.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2222
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2222.
+
+[112]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.2222 \begin{quote}
+                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2236.
+LaTeX Info: Redefining \% on input line 2236.
+LaTeX Info: Redefining \. on input line 2236.
+LaTeX Info: Redefining \% on input line 2236.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2236
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2236.
+
 [113]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2236 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation ')' on page 114 undefined on input line 2276.
+The following box has been deleted: []
 
-LaTeX Info: Redefining \. on input line 2287.
-LaTeX Info: Redefining \% on input line 2287.
-LaTeX Info: Redefining \. on input line 2287.
-LaTeX Info: Redefining \% on input line 2287.
+LaTeX Info: Redefining \. on input line 2248.
+LaTeX Info: Redefining \% on input line 2248.
+LaTeX Info: Redefining \. on input line 2248.
+LaTeX Info: Redefining \% on input line 2248.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2248
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2248.
+
 [114]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.2248 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation ')' on page 115 undefined on input line 2292.
+The following box has been deleted: []
 
-LaTeX Info: Redefining \. on input line 2296.
-LaTeX Info: Redefining \% on input line 2296.
-LaTeX Info: Redefining \. on input line 2296.
-LaTeX Info: Redefining \% on input line 2296.
+
+LaTeX Warning: Citation ')' on page 115 undefined on input line 2253.
+
+
+LaTeX Warning: Citation ')' on page 115 undefined on input line 2267.
+
+LaTeX Info: Redefining \. on input line 2268.
+LaTeX Info: Redefining \% on input line 2268.
+LaTeX Info: Redefining \. on input line 2268.
+LaTeX Info: Redefining \% on input line 2268.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2268
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2268.
+
 [115]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2268 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation ')' on page 116 undefined on input line 2300.
+The following box has been deleted: []
 
 
-LaTeX Warning: Citation ')' on page 116 undefined on input line 2306.
+LaTeX Warning: Citation ')' on page 116 undefined on input line 2273.
 
-LaTeX Info: Redefining \. on input line 2311.
-LaTeX Info: Redefining \% on input line 2311.
-LaTeX Info: Redefining \. on input line 2311.
-LaTeX Info: Redefining \% on input line 2311.
+LaTeX Info: Redefining \. on input line 2284.
+LaTeX Info: Redefining \% on input line 2284.
+LaTeX Info: Redefining \. on input line 2284.
+LaTeX Info: Redefining \% on input line 2284.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2284
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2284.
+
 [116]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2284 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation ')' on page 117 undefined on input line 2311.
+The following box has been deleted: []
 
 
-LaTeX Warning: Citation ')' on page 117 undefined on input line 2322.
+LaTeX Warning: Citation ')' on page 117 undefined on input line 2289.
+
+LaTeX Info: Redefining \. on input line 2293.
+LaTeX Info: Redefining \% on input line 2293.
+LaTeX Info: Redefining \. on input line 2293.
+LaTeX Info: Redefining \% on input line 2293.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2293
+.
 
 
-LaTeX Warning: Citation ')' on page 117 undefined on input line 2328.
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2293.
 
-LaTeX Info: Redefining \. on input line 2329.
-LaTeX Info: Redefining \% on input line 2329.
-LaTeX Info: Redefining \. on input line 2329.
-LaTeX Info: Redefining \% on input line 2329.
 [117]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2293 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation ')' on page 118 undefined on input line 2336.
+The following box has been deleted: []
 
 
-LaTeX Warning: Citation ')' on page 118 undefined on input line 2342.
+LaTeX Warning: Citation ')' on page 118 undefined on input line 2297.
 
-LaTeX Info: Redefining \. on input line 2346.
-LaTeX Info: Redefining \% on input line 2346.
-LaTeX Info: Redefining \. on input line 2346.
-LaTeX Info: Redefining \% on input line 2346.
+
+LaTeX Warning: Citation ')' on page 118 undefined on input line 2303.
+
+LaTeX Info: Redefining \. on input line 2308.
+LaTeX Info: Redefining \% on input line 2308.
+LaTeX Info: Redefining \. on input line 2308.
+LaTeX Info: Redefining \% on input line 2308.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2308
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2308.
+
 [118]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.2308 E
+      n el párrafo siguiente \textcite[][83]){@7012-BLAUSTEIN2014}) afirma:
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation ')' on page 119 undefined on input line 2352.
+The following box has been deleted: []
 
-LaTeX Info: Redefining \. on input line 2353.
-LaTeX Info: Redefining \% on input line 2353.
-LaTeX Info: Redefining \. on input line 2353.
-LaTeX Info: Redefining \% on input line 2353.
+
+LaTeX Warning: Citation ')' on page 119 undefined on input line 2308.
+
+
+LaTeX Warning: Citation ')' on page 119 undefined on input line 2319.
+
+
+LaTeX Warning: Citation ')' on page 119 undefined on input line 2325.
+
+LaTeX Info: Redefining \. on input line 2326.
+LaTeX Info: Redefining \% on input line 2326.
+LaTeX Info: Redefining \. on input line 2326.
+LaTeX Info: Redefining \% on input line 2326.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2326
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2326.
+
 [119]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2326 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation ')' on page 120 undefined on input line 2358.
+The following box has been deleted: []
 
-LaTeX Info: Redefining \. on input line 2359.
-LaTeX Info: Redefining \% on input line 2359.
-LaTeX Info: Redefining \. on input line 2359.
-LaTeX Info: Redefining \% on input line 2359.
+
+LaTeX Warning: Citation ')' on page 120 undefined on input line 2333.
+
+
+LaTeX Warning: Citation ')' on page 120 undefined on input line 2339.
+
+LaTeX Info: Redefining \. on input line 2343.
+LaTeX Info: Redefining \% on input line 2343.
+LaTeX Info: Redefining \. on input line 2343.
+LaTeX Info: Redefining \% on input line 2343.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2343
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2343.
+
 [120]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2343 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
 
-LaTeX Warning: Citation ')' on page 121 undefined on input line 2364.
+The following box has been deleted: []
 
-LaTeX Info: Redefining \. on input line 2372.
-LaTeX Info: Redefining \% on input line 2372.
-LaTeX Info: Redefining \. on input line 2372.
-LaTeX Info: Redefining \% on input line 2372.
+
+LaTeX Warning: Citation ')' on page 121 undefined on input line 2349.
+
+LaTeX Info: Redefining \. on input line 2350.
+LaTeX Info: Redefining \% on input line 2350.
+LaTeX Info: Redefining \. on input line 2350.
+LaTeX Info: Redefining \% on input line 2350.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2350
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2350.
+
 [121]
-LaTeX Info: Redefining \. on input line 2387.
-LaTeX Info: Redefining \% on input line 2387.
-LaTeX Info: Redefining \. on input line 2387.
-LaTeX Info: Redefining \% on input line 2387.
- [122]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2350 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+
+LaTeX Warning: Citation ')' on page 122 undefined on input line 2355.
+
+LaTeX Info: Redefining \. on input line 2356.
+LaTeX Info: Redefining \% on input line 2356.
+LaTeX Info: Redefining \. on input line 2356.
+LaTeX Info: Redefining \% on input line 2356.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2356
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2356.
+
+[122]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.2356 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+
+LaTeX Warning: Citation ')' on page 123 undefined on input line 2361.
+
+LaTeX Info: Redefining \. on input line 2369.
+LaTeX Info: Redefining \% on input line 2369.
+LaTeX Info: Redefining \. on input line 2369.
+LaTeX Info: Redefining \% on input line 2369.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2369
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2369.
+
+[123]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2369 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2384.
+LaTeX Info: Redefining \% on input line 2384.
+LaTeX Info: Redefining \. on input line 2384.
+LaTeX Info: Redefining \% on input line 2384.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2384
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2384.
+
+[124]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.2384 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 ! Undefined control sequence.
-l.2404 ...es el horizonte al que aspirar (\textxcite
+l.2401 ...es el horizonte al que aspirar (\textxcite
                                                   [][12]{@6964-BARGACH2014}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3892,13 +6287,32 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Info: Redefining \. on input line 2405.
-LaTeX Info: Redefining \% on input line 2405.
-LaTeX Info: Redefining \. on input line 2405.
-LaTeX Info: Redefining \% on input line 2405.
-[123]
+LaTeX Info: Redefining \. on input line 2402.
+LaTeX Info: Redefining \% on input line 2402.
+LaTeX Info: Redefining \. on input line 2402.
+LaTeX Info: Redefining \% on input line 2402.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2402
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2402.
+
+[125]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2402 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 ! Undefined control sequence.
-l.2410 ...del mercado de la información (\textxcite
+l.2407 ...del mercado de la información (\textxcite
                                                   [][49]{@6964-BARGACH2014}).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3907,7 +6321,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.2416 ...cipio de libertad informativa} (\textxcite
+l.2413 ...cipio de libertad informativa} (\textxcite
                                                   [][55]{@6964-BARGACH2014})...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3915,13 +6329,32 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Info: Redefining \. on input line 2417.
-LaTeX Info: Redefining \% on input line 2417.
-LaTeX Info: Redefining \. on input line 2417.
-LaTeX Info: Redefining \% on input line 2417.
-[124]
+LaTeX Info: Redefining \. on input line 2414.
+LaTeX Info: Redefining \% on input line 2414.
+LaTeX Info: Redefining \. on input line 2414.
+LaTeX Info: Redefining \% on input line 2414.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2414
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2414.
+
+[126]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2414 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 ! Undefined control sequence.
-l.2422 ... de prensa". La SIP no cambió (\textxcite
+l.2419 ... de prensa". La SIP no cambió (\textxcite
                                                   [][58-59, 65, 85, 135, 148...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3929,33 +6362,128 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Info: Redefining \. on input line 2423.
-LaTeX Info: Redefining \% on input line 2423.
-LaTeX Info: Redefining \. on input line 2423.
-LaTeX Info: Redefining \% on input line 2423.
-[125]
-LaTeX Info: Redefining \. on input line 2430.
-LaTeX Info: Redefining \% on input line 2430.
-LaTeX Info: Redefining \. on input line 2430.
-LaTeX Info: Redefining \% on input line 2430.
- [126]
-LaTeX Info: Redefining \. on input line 2447.
-LaTeX Info: Redefining \% on input line 2447.
-LaTeX Info: Redefining \. on input line 2447.
-LaTeX Info: Redefining \% on input line 2447.
- [127]
-LaTeX Info: Redefining \. on input line 2464.
-LaTeX Info: Redefining \% on input line 2464.
-LaTeX Info: Redefining \. on input line 2464.
-LaTeX Info: Redefining \% on input line 2464.
- [128]
-LaTeX Info: Redefining \. on input line 2469.
-LaTeX Info: Redefining \% on input line 2469.
-LaTeX Info: Redefining \. on input line 2469.
-LaTeX Info: Redefining \% on input line 2469.
- [129]
+LaTeX Info: Redefining \. on input line 2420.
+LaTeX Info: Redefining \% on input line 2420.
+LaTeX Info: Redefining \. on input line 2420.
+LaTeX Info: Redefining \% on input line 2420.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2420
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2420.
+
+[127]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2420 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2427.
+LaTeX Info: Redefining \% on input line 2427.
+LaTeX Info: Redefining \. on input line 2427.
+LaTeX Info: Redefining \% on input line 2427.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2427
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2427.
+
+[128]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2427 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2444.
+LaTeX Info: Redefining \% on input line 2444.
+LaTeX Info: Redefining \. on input line 2444.
+LaTeX Info: Redefining \% on input line 2444.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2444
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2444.
+
+[129]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2444 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2461.
+LaTeX Info: Redefining \% on input line 2461.
+LaTeX Info: Redefining \. on input line 2461.
+LaTeX Info: Redefining \% on input line 2461.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2461
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2461.
+
+[130]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2461 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2466.
+LaTeX Info: Redefining \% on input line 2466.
+LaTeX Info: Redefining \. on input line 2466.
+LaTeX Info: Redefining \% on input line 2466.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2466
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2466.
+
+[131]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2466 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 ! Undefined control sequence.
-l.2489 \higlhligh
+l.2486 \higlhligh
                {Marcos Novaro (2014: 43)NO LO ENCUENTRO}, en un intento por ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3963,144 +6491,636 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Info: Redefining \. on input line 2493.
-LaTeX Info: Redefining \% on input line 2493.
-LaTeX Info: Redefining \. on input line 2493.
-LaTeX Info: Redefining \% on input line 2493.
-[130]
-LaTeX Info: Redefining \. on input line 2513.
-LaTeX Info: Redefining \% on input line 2513.
-LaTeX Info: Redefining \. on input line 2513.
-LaTeX Info: Redefining \% on input line 2513.
- [131]
-LaTeX Info: Redefining \. on input line 2521.
-LaTeX Info: Redefining \% on input line 2521.
-LaTeX Info: Redefining \. on input line 2521.
-LaTeX Info: Redefining \% on input line 2521.
- [132]
-LaTeX Info: Redefining \. on input line 2535.
-LaTeX Info: Redefining \% on input line 2535.
-LaTeX Info: Redefining \. on input line 2535.
-LaTeX Info: Redefining \% on input line 2535.
- [133]
-LaTeX Info: Redefining \. on input line 2551.
-LaTeX Info: Redefining \% on input line 2551.
-LaTeX Info: Redefining \. on input line 2551.
-LaTeX Info: Redefining \% on input line 2551.
- [134]
-LaTeX Info: Redefining \. on input line 2563.
-LaTeX Info: Redefining \% on input line 2563.
-LaTeX Info: Redefining \. on input line 2563.
-LaTeX Info: Redefining \% on input line 2563.
- [135]
-LaTeX Info: Redefining \. on input line 2570.
-LaTeX Info: Redefining \% on input line 2570.
-LaTeX Info: Redefining \. on input line 2570.
-LaTeX Info: Redefining \% on input line 2570.
- [136]
-LaTeX Info: Redefining \. on input line 2576.
-LaTeX Info: Redefining \% on input line 2576.
-LaTeX Info: Redefining \. on input line 2576.
-LaTeX Info: Redefining \% on input line 2576.
- [137]
-LaTeX Info: Redefining \. on input line 2587.
-LaTeX Info: Redefining \% on input line 2587.
-LaTeX Info: Redefining \. on input line 2587.
-LaTeX Info: Redefining \% on input line 2587.
- [138]
-LaTeX Info: Redefining \. on input line 2599.
-LaTeX Info: Redefining \% on input line 2599.
-LaTeX Info: Redefining \. on input line 2599.
-LaTeX Info: Redefining \% on input line 2599.
- [139]
-LaTeX Info: Redefining \. on input line 2605.
-LaTeX Info: Redefining \% on input line 2605.
-LaTeX Info: Redefining \. on input line 2605.
-LaTeX Info: Redefining \% on input line 2605.
- [140]
-LaTeX Info: Redefining \. on input line 2614.
-LaTeX Info: Redefining \% on input line 2614.
-LaTeX Info: Redefining \. on input line 2614.
-LaTeX Info: Redefining \% on input line 2614.
- [141]
-LaTeX Info: Redefining \. on input line 2630.
-LaTeX Info: Redefining \% on input line 2630.
-LaTeX Info: Redefining \. on input line 2630.
-LaTeX Info: Redefining \% on input line 2630.
+LaTeX Info: Redefining \. on input line 2490.
+LaTeX Info: Redefining \% on input line 2490.
+LaTeX Info: Redefining \. on input line 2490.
+LaTeX Info: Redefining \% on input line 2490.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2490
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2490.
+
+[132]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.2490 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2510.
+LaTeX Info: Redefining \% on input line 2510.
+LaTeX Info: Redefining \. on input line 2510.
+LaTeX Info: Redefining \% on input line 2510.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2510
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2510.
+
+[133]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2510 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2518.
+LaTeX Info: Redefining \% on input line 2518.
+LaTeX Info: Redefining \. on input line 2518.
+LaTeX Info: Redefining \% on input line 2518.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2518
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2518.
+
+[134]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2518 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2532.
+LaTeX Info: Redefining \% on input line 2532.
+LaTeX Info: Redefining \. on input line 2532.
+LaTeX Info: Redefining \% on input line 2532.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2532
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2532.
+
+[135]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.2532 Í
+        talo Pisani (2014: 127), en \emph{Tolerancia cómplice}, se preguntaba:
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2548.
+LaTeX Info: Redefining \% on input line 2548.
+LaTeX Info: Redefining \. on input line 2548.
+LaTeX Info: Redefining \% on input line 2548.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2548
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2548.
+
+[136]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2548 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2560.
+LaTeX Info: Redefining \% on input line 2560.
+LaTeX Info: Redefining \. on input line 2560.
+LaTeX Info: Redefining \% on input line 2560.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2560
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2560.
+
+[137]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2560 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2567.
+LaTeX Info: Redefining \% on input line 2567.
+LaTeX Info: Redefining \. on input line 2567.
+LaTeX Info: Redefining \% on input line 2567.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2567
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2567.
+
+[138]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2567 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2573.
+LaTeX Info: Redefining \% on input line 2573.
+LaTeX Info: Redefining \. on input line 2573.
+LaTeX Info: Redefining \% on input line 2573.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2573
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2573.
+
+[139]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2573 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2584.
+LaTeX Info: Redefining \% on input line 2584.
+LaTeX Info: Redefining \. on input line 2584.
+LaTeX Info: Redefining \% on input line 2584.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2584
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2584.
+
+[140]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2584 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2596.
+LaTeX Info: Redefining \% on input line 2596.
+LaTeX Info: Redefining \. on input line 2596.
+LaTeX Info: Redefining \% on input line 2596.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2596
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2596.
+
+[141]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2596 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2602.
+LaTeX Info: Redefining \% on input line 2602.
+LaTeX Info: Redefining \. on input line 2602.
+LaTeX Info: Redefining \% on input line 2602.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2602
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2602.
 
 [142]
-LaTeX Info: Redefining \. on input line 2637.
-LaTeX Info: Redefining \% on input line 2637.
-LaTeX Info: Redefining \. on input line 2637.
-LaTeX Info: Redefining \% on input line 2637.
- [143]
-LaTeX Info: Redefining \. on input line 2649.
-LaTeX Info: Redefining \% on input line 2649.
-LaTeX Info: Redefining \. on input line 2649.
-LaTeX Info: Redefining \% on input line 2649.
- [144]
-LaTeX Info: Redefining \. on input line 2661.
-LaTeX Info: Redefining \% on input line 2661.
-LaTeX Info: Redefining \. on input line 2661.
-LaTeX Info: Redefining \% on input line 2661.
- [145]
-LaTeX Info: Redefining \. on input line 2673.
-LaTeX Info: Redefining \% on input line 2673.
-LaTeX Info: Redefining \. on input line 2673.
-LaTeX Info: Redefining \% on input line 2673.
- [146]
-LaTeX Info: Redefining \. on input line 2673.
-LaTeX Info: Redefining \% on input line 2673.
-LaTeX Info: Redefining \. on input line 2673.
-LaTeX Info: Redefining \% on input line 2673.
- [147]
-LaTeX Info: Redefining \. on input line 2687.
-LaTeX Info: Redefining \% on input line 2687.
-LaTeX Info: Redefining \. on input line 2687.
-LaTeX Info: Redefining \% on input line 2687.
- [148]
-LaTeX Info: Redefining \. on input line 2699.
-LaTeX Info: Redefining \% on input line 2699.
-LaTeX Info: Redefining \. on input line 2699.
-LaTeX Info: Redefining \% on input line 2699.
- [149]
-LaTeX Info: Redefining \. on input line 2711.
-LaTeX Info: Redefining \% on input line 2711.
-LaTeX Info: Redefining \. on input line 2711.
-LaTeX Info: Redefining \% on input line 2711.
- [150]
-LaTeX Info: Redefining \. on input line 2723.
-LaTeX Info: Redefining \% on input line 2723.
-LaTeX Info: Redefining \. on input line 2723.
-LaTeX Info: Redefining \% on input line 2723.
- [151]
-LaTeX Info: Redefining \. on input line 2731.
-LaTeX Info: Redefining \% on input line 2731.
-LaTeX Info: Redefining \. on input line 2731.
-LaTeX Info: Redefining \% on input line 2731.
- [152]
-LaTeX Info: Redefining \. on input line 2747.
-LaTeX Info: Redefining \% on input line 2747.
-LaTeX Info: Redefining \. on input line 2747.
-LaTeX Info: Redefining \% on input line 2747.
- [153]
-LaTeX Info: Redefining \. on input line 2752.
-LaTeX Info: Redefining \% on input line 2752.
-LaTeX Info: Redefining \. on input line 2752.
-LaTeX Info: Redefining \% on input line 2752.
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2602 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2608.
+LaTeX Info: Redefining \% on input line 2608.
+LaTeX Info: Redefining \. on input line 2608.
+LaTeX Info: Redefining \% on input line 2608.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2608
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2608.
+
+[143]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.2608 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2624.
+LaTeX Info: Redefining \% on input line 2624.
+LaTeX Info: Redefining \. on input line 2624.
+LaTeX Info: Redefining \% on input line 2624.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2624
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2624.
+
+[144]
+! Output routine didn't use all of \box255.
+<argument> \@endparpenalty 
+                
+l.2624 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2634.
+LaTeX Info: Redefining \% on input line 2634.
+LaTeX Info: Redefining \. on input line 2634.
+LaTeX Info: Redefining \% on input line 2634.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2634
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2634.
+
+[145]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2634 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2646.
+LaTeX Info: Redefining \% on input line 2646.
+LaTeX Info: Redefining \. on input line 2646.
+LaTeX Info: Redefining \% on input line 2646.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2646
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2646.
+
+[146]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2646 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2658.
+LaTeX Info: Redefining \% on input line 2658.
+LaTeX Info: Redefining \. on input line 2658.
+LaTeX Info: Redefining \% on input line 2658.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2658
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2658.
+
+[147]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2658 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2670.
+LaTeX Info: Redefining \% on input line 2670.
+LaTeX Info: Redefining \. on input line 2670.
+LaTeX Info: Redefining \% on input line 2670.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2670
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2670.
+
+[148]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2670 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2670.
+LaTeX Info: Redefining \% on input line 2670.
+LaTeX Info: Redefining \. on input line 2670.
+LaTeX Info: Redefining \% on input line 2670.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2670
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2670.
+
+[149]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2670 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2683.
+LaTeX Info: Redefining \% on input line 2683.
+LaTeX Info: Redefining \. on input line 2683.
+LaTeX Info: Redefining \% on input line 2683.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2683
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2683.
+
+[150]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2683 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2695.
+LaTeX Info: Redefining \% on input line 2695.
+LaTeX Info: Redefining \. on input line 2695.
+LaTeX Info: Redefining \% on input line 2695.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2695
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2695.
+
+[151]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2695 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2708.
+LaTeX Info: Redefining \% on input line 2708.
+LaTeX Info: Redefining \. on input line 2708.
+LaTeX Info: Redefining \% on input line 2708.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2708
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2708.
+
+[152]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2708 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2720.
+LaTeX Info: Redefining \% on input line 2720.
+LaTeX Info: Redefining \. on input line 2720.
+LaTeX Info: Redefining \% on input line 2720.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2720
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2720.
+
+[153]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2720 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2728.
+LaTeX Info: Redefining \% on input line 2728.
+LaTeX Info: Redefining \. on input line 2728.
+LaTeX Info: Redefining \% on input line 2728.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2728
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2728.
 
 [154]
-Package biblatex Info: Resetting trackers on input line 2754.
-LaTeX Info: Redefining \. on input line 2763.
-LaTeX Info: Redefining \% on input line 2763.
-LaTeX Info: Redefining \. on input line 2763.
-LaTeX Info: Redefining \% on input line 2763.
- [155
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2728 \end{quote}
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2742.
+LaTeX Info: Redefining \% on input line 2742.
+LaTeX Info: Redefining \. on input line 2742.
+LaTeX Info: Redefining \% on input line 2742.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2742
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2742.
+
+[155]
+! Output routine didn't use all of \box255.
+<argument> \@beginparpenalty 
+                  
+l.2742 \begin{quote}
+                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2749.
+LaTeX Info: Redefining \% on input line 2749.
+LaTeX Info: Redefining \. on input line 2749.
+LaTeX Info: Redefining \% on input line 2749.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2749
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2749.
+
+[156]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.2749 \backmatter
+                
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+Package biblatex Info: Resetting trackers on input line 2751.
+LaTeX Info: Redefining \. on input line 2760.
+LaTeX Info: Redefining \% on input line 2760.
+LaTeX Info: Redefining \. on input line 2760.
+LaTeX Info: Redefining \% on input line 2760.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2760
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2760.
+
+[157
 
 
 ]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2760 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 ! Undefined control sequence.
-l.2766 ...al. En el ya clásico trabajo de \highligh
+l.2763 ...al. En el ya clásico trabajo de \highligh
                                                   {Blaustein y Zubieta (1999...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4111,93 +7131,371 @@ and I'll forget about whatever was undefined.
 
 Overfull \vbox (0.16118pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2769.
-LaTeX Info: Redefining \% on input line 2769.
-LaTeX Info: Redefining \. on input line 2769.
-LaTeX Info: Redefining \% on input line 2769.
+LaTeX Info: Redefining \. on input line 2766.
+LaTeX Info: Redefining \% on input line 2766.
+LaTeX Info: Redefining \. on input line 2766.
+LaTeX Info: Redefining \% on input line 2766.
 
-[156]
-LaTeX Info: Redefining \. on input line 2782.
-LaTeX Info: Redefining \% on input line 2782.
-LaTeX Info: Redefining \. on input line 2782.
-LaTeX Info: Redefining \% on input line 2782.
- [157]
-LaTeX Info: Redefining \. on input line 2792.
-LaTeX Info: Redefining \% on input line 2792.
-LaTeX Info: Redefining \. on input line 2792.
-LaTeX Info: Redefining \% on input line 2792.
- [158]
-LaTeX Info: Redefining \. on input line 2799.
-LaTeX Info: Redefining \% on input line 2799.
-LaTeX Info: Redefining \. on input line 2799.
-LaTeX Info: Redefining \% on input line 2799.
- [159]
-LaTeX Info: Redefining \. on input line 2804.
-LaTeX Info: Redefining \% on input line 2804.
-LaTeX Info: Redefining \. on input line 2804.
-LaTeX Info: Redefining \% on input line 2804.
- [160]
-LaTeX Info: Redefining \. on input line 2816.
-LaTeX Info: Redefining \% on input line 2816.
-LaTeX Info: Redefining \. on input line 2816.
-LaTeX Info: Redefining \% on input line 2816.
- [161]
-LaTeX Info: Redefining \. on input line 2834.
-LaTeX Info: Redefining \% on input line 2834.
-LaTeX Info: Redefining \. on input line 2834.
-LaTeX Info: Redefining \% on input line 2834.
- [162]
-LaTeX Info: Redefining \. on input line 2847.
-LaTeX Info: Redefining \% on input line 2847.
-LaTeX Info: Redefining \. on input line 2847.
-LaTeX Info: Redefining \% on input line 2847.
- [163]
-LaTeX Info: Redefining \. on input line 2859.
-LaTeX Info: Redefining \% on input line 2859.
-LaTeX Info: Redefining \. on input line 2859.
-LaTeX Info: Redefining \% on input line 2859.
- [164]
-LaTeX Info: Redefining \. on input line 2875.
-LaTeX Info: Redefining \% on input line 2875.
-LaTeX Info: Redefining \. on input line 2875.
-LaTeX Info: Redefining \% on input line 2875.
- [165]
-LaTeX Info: Redefining \. on input line 2884.
-LaTeX Info: Redefining \% on input line 2884.
-LaTeX Info: Redefining \. on input line 2884.
-LaTeX Info: Redefining \% on input line 2884.
- [166]
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2766
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2766.
+
+[158]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2766 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2779.
+LaTeX Info: Redefining \% on input line 2779.
+LaTeX Info: Redefining \. on input line 2779.
+LaTeX Info: Redefining \% on input line 2779.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2779
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2779.
+
+[159]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2779 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2788.
+LaTeX Info: Redefining \% on input line 2788.
+LaTeX Info: Redefining \. on input line 2788.
+LaTeX Info: Redefining \% on input line 2788.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2788
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2788.
+
+[160]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.2788 C
+      on respecto a los periodistas, estos sólo adquieren la condición de ...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2796.
+LaTeX Info: Redefining \% on input line 2796.
+LaTeX Info: Redefining \. on input line 2796.
+LaTeX Info: Redefining \% on input line 2796.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2796
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2796.
+
+[161]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.2796 R
+      etomando la idea central, el ser del periodista está dado por su adsc...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2801.
+LaTeX Info: Redefining \% on input line 2801.
+LaTeX Info: Redefining \. on input line 2801.
+LaTeX Info: Redefining \% on input line 2801.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2801
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2801.
+
+[162]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2801 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2813.
+LaTeX Info: Redefining \% on input line 2813.
+LaTeX Info: Redefining \. on input line 2813.
+LaTeX Info: Redefining \% on input line 2813.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2813
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2813.
+
+[163]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.2813 E
+      l segundo eje, que agrupa la mayor cantidad de argumentaciones, es el ...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2831.
+LaTeX Info: Redefining \% on input line 2831.
+LaTeX Info: Redefining \. on input line 2831.
+LaTeX Info: Redefining \% on input line 2831.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2831
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2831.
+
+[164]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2831 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2843.
+LaTeX Info: Redefining \% on input line 2843.
+LaTeX Info: Redefining \. on input line 2843.
+LaTeX Info: Redefining \% on input line 2843.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2843
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2843.
+
+[165]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2843 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2855.
+LaTeX Info: Redefining \% on input line 2855.
+LaTeX Info: Redefining \. on input line 2855.
+LaTeX Info: Redefining \% on input line 2855.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2855
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2855.
+
+[166]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2855 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2871.
+LaTeX Info: Redefining \% on input line 2871.
+LaTeX Info: Redefining \. on input line 2871.
+LaTeX Info: Redefining \% on input line 2871.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2871
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2871.
+
+[167]
+! Output routine didn't use all of \box255.
+<everypar> 
+\g__para_standard_everypar_tl 
+l.2871 L
+      a independencia económica fue argumentada enfáticamente por parte de...
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2880.
+LaTeX Info: Redefining \% on input line 2880.
+LaTeX Info: Redefining \. on input line 2880.
+LaTeX Info: Redefining \% on input line 2880.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2880
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2880.
+
+[168]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2880 
+     
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+
+! Package pageslts Error: pagenumbering scheme missing.
+
+See the pageslts package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2900 \end{document}
+                   
+The pageslts package was used, but
+\pagenumbering
+was not called at the beginning of the document
+(maybe earlier or later).
+Please use \pagenumbering
+(with an argument like arabic, roman, Roman,
+fnsymbol, alph, or Alph) at the beginning
+of your document! Otherwise your document
+will probably compile, but the pageslts
+package might not be able to get all labels
+for the references to the respective pages
+right.
+
+
 
 AED: pageslts setting LastPage 
-LaTeX Info: Redefining \. on input line 2903.
-LaTeX Info: Redefining \% on input line 2903.
-LaTeX Info: Redefining \. on input line 2903.
-LaTeX Info: Redefining \% on input line 2903.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
+[169]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.2900 \end{document}
+                   
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [167]
+) [170]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.2900 \end{document}
+                   
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 
 Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
  found. (Remove \makenoidxglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-\c@pagesLTS.arabic.1.local.count=\count615
+\c@pagesLTS.arabic.2.local.count=\count617
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
 
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is odd.
+Package pageslts Info: Total number of pages is even.
 
 
 (./pdf-20250518TPUMAUROB.aux
 LaTeX Info: Redefining \sptext on input line 20.
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
+
+<Reading QR code for "https://www.edicionesimagomundi.com/" at level 3-M from a
+ux file.>
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -4208,25 +7506,26 @@ L3 programming layer <2024-01-22>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `pdf-20250518TPUMAUROB.out' has not changed.
-(rerunfilecheck)             Checksum: E84BF5578D4255B744AEE1E5B6D1898F;1481.
+(rerunfilecheck)             Checksum: AF23A0162050798B24E2CD924496915C;1483.
 Package logreq Info: Writing requests to 'pdf-20250518TPUMAUROB.run.xml'.
 
 \openout1 = pdf-20250518TPUMAUROB.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 67276 strings out of 476553
- 6947051,3417909 words of node,token memory allocated
- 6018444 words of node memory still in use:
-   20475 hlist, 40 vlist, 4292 rule, 180 ins, 28 mark, 2 adjust, 78258 disc, 314
-8 local_par, 395 math, 115700 glue, 62654 kern, 7128 penalty, 786 margin_kern, 4
-99804 glyph, 91996 attribute, 6266 glue_spec, 13154 attribute_list, 746 write, 6
-2 pdf_literal, 503 pdf_start_link, 507 pdf_end_link, 350 pdf_dest, 348 pdf_actio
-n, 2447 pdf_colorstack nodes
-   avail lists: 1:14,2:412,3:84,4:36,5:327,6:18,7:5116,8:138,9:140,10:31,11:730
- 87213 multiletter control sequences out of 65536+600000
- 102 fonts using 27252499 bytes
- 117i,11n,123p,5849b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67414 strings out of 476553
+ 8684232,3417909 words of node,token memory allocated
+ 6197852 words of node memory still in use:
+   24419 hlist, 38 vlist, 7048 rule, 180 ins, 28 mark, 2 adjust, 78425 disc, 377
+6 local_par, 395 math, 118572 glue, 62975 kern, 8255 penalty, 797 margin_kern, 5
+02560 glyph, 117920 attribute, 7132 glue_spec, 16858 attribute_list, 955 write, 
+62 pdf_literal, 609 pdf_start_link, 613 pdf_end_link, 350 pdf_dest, 419 pdf_acti
+on, 3234 pdf_colorstack, 4 pdf_setmatrix, 4 pdf_save, 4 pdf_restore nodes
+   avail lists: 1:12,2:412,3:87,4:161,5:335,6:17,7:5237,8:138,9:251,10:31,11:750
+
+ 87317 multiletter control sequences out of 65536+600000
+ 105 fonts using 28520611 bytes
+ 117i,11n,123p,5843b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@7003-MASTRIN
 I2017'
@@ -4252,6 +7551,9 @@ IN2014'
 warning  (pdf backend): unreferenced destination with name 'cite.0@@7008-MORALES
 2014'
 
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7028-ZUNINO2
+014'
+
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6969-BLAUSTE
 IN2013'
 
@@ -4271,6 +7573,9 @@ warning  (pdf backend): unreferenced destination with name 'cite.0@@6988-LEVINAS
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6999-SIRVEN2
 013'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7027-ZUNINO2
+011'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6978-CECCHIN
 I2010'
@@ -4293,6 +7598,9 @@ warning  (pdf backend): unreferenced destination with name 'Hfootnote.28'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@7010-NOVARO2
 015'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7019-SIVAK20
+15'
 
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.27'
 
@@ -4320,11 +7628,17 @@ warning  (pdf backend): unreferenced destination with name 'cite.0@@7004-MAUSS20
 warning  (pdf backend): unreferenced destination with name 'cite.0@@7007-MERCADO
 2012'
 
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7022-VERON19
+87'
+
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6977-HABERMA
 S2006'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6976-CASTELL
 S1998'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7024-WEBER19
+92'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6991-GILBELL
 OTA2012'
@@ -4334,6 +7648,12 @@ FERNANDEZ2008'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@7005-MENESES
 FERNANDEZ2010'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7021-URE2014
+'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7020-STEFONI
+2013'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@7002-MARTINI
 2004'
@@ -4355,6 +7675,12 @@ warning  (pdf backend): unreferenced destination with name 'cite.0@@6987-GANS197
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6994-OLDINGE
 LLIOTT1979'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7017-SCHLESI
+NGER1978'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7026-WOLF200
+4'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6993-GLASER1
 967'
@@ -4389,6 +7715,12 @@ warning  (pdf backend): unreferenced destination with name 'cite.0@@6992-GINDIN2
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6963-ARRUETA
 2013'
 
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7016-SAFERST
+EIN2016'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@7023-VOMMARO
+2012'
+
 warning  (pdf backend): unreferenced destination with name 'cite.0@@6972-BOURDIE
 U2008'
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
@@ -4396,14 +7728,14 @@ Serif-BoldItalic.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMP
 lexSansCondensed-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public
 /libertinus-fonts/LibertinusSerif-Bold.otf></usr/share/texlive/texmf-dist/fonts/
 opentype/public/libertinus-fonts/LibertinusSerif-Italic.otf></usr/share/texlive/
-texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share
-/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regul
-ar.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondens
-ed-Regular.otf>
-Output written on pdf-20250518TPUMAUROB.pdf (171 pages, 697086 bytes).
+texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/
+texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regula
+r.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondense
+d-SemiBold.otf>
+Output written on pdf-20250518TPUMAUROB.pdf (180 pages, 742548 bytes).
 
-PDF statistics: 1525 PDF objects out of 1728 (max. 8388607)
- 1156 compressed objects within 12 object streams
- 377 named destinations out of 1000 (max. 131072)
+PDF statistics: 1653 PDF objects out of 1728 (max. 8388607)
+ 1260 compressed objects within 13 object streams
+ 399 named destinations out of 1000 (max. 131072)
  317 words of extra memory for PDF output out of 10000 (max. 100000000)
 
