@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  29 JUN 2025 19:28
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.16)  29 JUN 2025 20:38
  restricted system commands enabled.
 **pdf-20250518TPUMAUROB.tex
 (./pdf-20250518TPUMAUROB.tex
@@ -2773,6 +2773,7 @@ LaTeX Info: Redefining \% on input line 20.
 <Reading QR code for "https://www.edicionesimagomundi.com/" at level 3-M from a
 ux file.>
 \c@pagesLTS.roman.1.local.cnt=\count600
+(./artcap/colofon.aux)
 \c@pagesLTS.arabic.2.local.cnt=\count601
 )
 \openout1 = pdf-20250518TPUMAUROB.aux
@@ -7462,6 +7463,284 @@ Proceed; I'll discard its present contents.
 
 The following box has been deleted: []
 
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
+[173]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.2900 ...raphy[title={Referencias bibliográficas}]
+                                                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
+[174]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.2900 ...raphy[title={Referencias bibliográficas}]
+                                                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+Package biblatex Info: Resetting trackers on input line 2900.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
+(Font)              scaled to size 10.61993pt on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
+[175
+
+]
+! Output routine didn't use all of \box255.
+<argument> ...ype:D \tex_hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.2900 ...raphy[title={Referencias bibliográficas}]
+                                                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
+[176]
+! Output routine didn't use all of \box255.
+<argument> \@itempenalty 
+              
+l.2900 ...raphy[title={Referencias bibliográficas}]
+                                                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
+[177]
+! Output routine didn't use all of \box255.
+<argument> \@itempenalty 
+              
+l.2900 ...raphy[title={Referencias bibliográficas}]
+                                                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
+[178]
+! Output routine didn't use all of \box255.
+<argument> \@itempenalty 
+              
+l.2900 ...raphy[title={Referencias bibliográficas}]
+                                                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
+[179]
+! Output routine didn't use all of \box255.
+<argument> \@itempenalty 
+              
+l.2900 ...raphy[title={Referencias bibliográficas}]
+                                                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+LaTeX Info: Redefining \. on input line 2900.
+LaTeX Info: Redefining \% on input line 2900.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2900.
+
+[180]
+! Output routine didn't use all of \box255.
+<argument> \@itempenalty 
+              
+l.2900 ...raphy[title={Referencias bibliográficas}]
+                                                  
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+LaTeX Info: Redefining \. on input line 2902.
+LaTeX Info: Redefining \% on input line 2902.
+LaTeX Info: Redefining \. on input line 2902.
+LaTeX Info: Redefining \% on input line 2902.
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2902
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2902.
+
+[181]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.2902 \include{./artcap/colofon.tex}
+                                   
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+
+\openout2 = ./artcap/colofon.aux
+(./artcap/colofon.tex
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 1.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 1.
+
+[182
+
+
+]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.1 \chapter
+          *{Colofón}
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
+Package biblatex Info: Resetting trackers on input line 1.
+)
+LaTeX Info: Redefining \. on input line 2902.
+LaTeX Info: Redefining \% on input line 2902.
+LaTeX Info: Redefining \. on input line 2902.
+LaTeX Info: Redefining \% on input line 2902.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2902
+.
+
+
+Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
+e 2902.
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf32be.def
+File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
+)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+) [183]
+! Output routine didn't use all of \box255.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.2902 \include{./artcap/colofon.tex}
+                                   
+Your \output commands should empty \box\outputbox,
+e.g., by saying `\shipout\box\outputbox'.
+Proceed; I'll discard its present contents.
+
+The following box has been deleted: []
+
 
 ! Package pageslts Error: pagenumbering scheme missing.
 
@@ -7469,7 +7748,7 @@ See the pageslts package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2900 \end{document}
+l.2904 \end{document}
                    
 The pageslts package was used, but
 \pagenumbering
@@ -7487,59 +7766,6 @@ right.
 
 
 AED: pageslts setting LastPage 
-LaTeX Info: Redefining \. on input line 2900.
-LaTeX Info: Redefining \% on input line 2900.
-LaTeX Info: Redefining \. on input line 2900.
-LaTeX Info: Redefining \% on input line 2900.
-
-Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
-.
-
-
-Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
-e 2900.
-
-[173]
-! Output routine didn't use all of \box255.
-\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
-                                                  
-l.2900 \end{document}
-                   
-Your \output commands should empty \box\outputbox,
-e.g., by saying `\shipout\box\outputbox'.
-Proceed; I'll discard its present contents.
-
-The following box has been deleted: []
-
-LaTeX Info: Redefining \. on input line 2900.
-LaTeX Info: Redefining \% on input line 2900.
-LaTeX Info: Redefining \. on input line 2900.
-LaTeX Info: Redefining \% on input line 2900.
-
-Package undolabl Warning: Label `pagesLTS.arabic' overridden on input line 2900
-.
-
-
-Package undolabl Warning: Label `pagesLTS.arabic.local' overridden on input lin
-e 2900.
-
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf32be.def
-File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-)
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [174]
-! Output routine didn't use all of \box255.
-\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
-                                                  
-l.2900 \end{document}
-                   
-Your \output commands should empty \box\outputbox,
-e.g., by saying `\shipout\box\outputbox'.
-Proceed; I'll discard its present contents.
-
-The following box has been deleted: []
-
 
 Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
  found. (Remove \makenoidxglossaries if you don't want any glossaries.)
@@ -7552,7 +7778,7 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is even.
+Package pageslts Info: Total number of pages is odd.
 
 
 (./pdf-20250518TPUMAUROB.aux
@@ -7562,7 +7788,7 @@ LaTeX Info: Redefining \% on input line 20.
 
 <Reading QR code for "https://www.edicionesimagomundi.com/" at level 3-M from a
 ux file.>
-)
+(./artcap/colofon.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -7579,209 +7805,23 @@ Package logreq Info: Writing requests to 'pdf-20250518TPUMAUROB.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 67457 strings out of 476553
+ 67699 strings out of 476553
  6947555,3417909 words of node,token memory allocated
- 5900937 words of node memory still in use:
-   23786 hlist, 414 vlist, 8086 rule, 173 ins, 2 adjust, 74181 disc, 3544 local_
-par, 409 math, 113733 glue, 60871 kern, 7774 penalty, 799 margin_kern, 476266 gl
-yph, 109058 attribute, 6512 glue_spec, 15592 attribute_list, 980 write, 42 pdf_l
-iteral, 629 pdf_start_link, 633 pdf_end_link, 331 pdf_dest, 446 pdf_action, 2523
- pdf_colorstack, 4 pdf_setmatrix, 4 pdf_save, 4 pdf_restore nodes
-   avail lists: 1:14,2:412,3:87,4:160,5:335,6:17,7:5237,8:144,9:248,10:31,11:750
-
- 87343 multiletter control sequences out of 65536+600000
- 103 fonts using 28300943 bytes
+ 6112497 words of node memory still in use:
+   24405 hlist, 414 vlist, 8102 rule, 173 ins, 2 adjust, 76258 disc, 3734 local_
+par, 426 math, 117340 glue, 61908 kern, 9120 penalty, 876 margin_kern, 490665 gl
+yph, 125347 attribute, 7023 glue_spec, 17919 attribute_list, 1238 write, 42 pdf_
+literal, 829 pdf_start_link, 834 pdf_end_link, 331 pdf_dest, 551 pdf_action, 316
+6 pdf_colorstack, 4 pdf_setmatrix, 4 pdf_save, 4 pdf_restore nodes
+   avail lists: 1:14,2:343,3:271,4:127,5:184,6:24,7:3391,8:144,9:241,10:31,11:35
+7,12:2
+ 87552 multiletter control sequences out of 65536+600000
+ 104 fonts using 28723803 bytes
  117i,15n,123p,5843b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7003-MASTRIN
-I2017'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7013-PICCONE
-2015'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7009-MORALES
-2015'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6989-LEVINAS
-2015'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6995-GONZALE
-Z2011'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6979-JORNET2
-014'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7012-BLAUSTE
-IN2014'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7008-MORALES
-2014'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7028-ZUNINO2
-014'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6969-BLAUSTE
-IN2013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6975-CAPASSO
-2013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6974-PAENZA2
-013'
 
 warning  (pdf backend): unreferenced destination with name '_bookmark8'
 
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6997-MUCHNIK
-2012'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6988-LEVINAS
-2013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6999-SIRVEN2
-013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7027-ZUNINO2
-011'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6978-CECCHIN
-I2010'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7000-MAJUL20
-12'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6965-BARONE2
-011'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7001-MARQUEZ
-2010'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6998-SIRVEN2
-011'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7010-NOVARO2
-015'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7019-SIVAK20
-15'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6966-BARRERA
-2004'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6973-BUCHER1
-917'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7004-MAUSS20
-09'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7007-MERCADO
-2012'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7022-VERON19
-87'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6977-HABERMA
-S2006'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6976-CASTELL
-S1998'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7024-WEBER19
-92'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6991-GILBELL
-OTA2012'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7006-MENESES
-FERNANDEZ2008'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7005-MENESES
-FERNANDEZ2010'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7021-URE2014
-'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7020-STEFONI
-2013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7002-MARTINI
-2004'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6986-MAJUL19
-99'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6985-BELIZ19
-98'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6984-FRAGA19
-97'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7029-AMADO20
-16'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6961-ALTHEID
-E1976'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6987-GANS197
-9'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6994-OLDINGE
-LLIOTT1979'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7017-SCHLESI
-NGER1978'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7026-WOLF200
-4'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6993-GLASER1
-967'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6990-BOURDIE
-U1997'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6996-HUMPHRE
-YS2008'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6981-DONSBAC
-H2014'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6983-DIARIO2
-018'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7011-OLIVAN2
-010'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6980-DIAZ200
-9'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6967-BENHAMO
-U2015'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7014-RAMONET
-2011'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6992-GINDIN2
-014'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6963-ARRUETA
-2013'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7016-SAFERST
-EIN2016'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7031-BALDONI
-2018'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7023-VOMMARO
-2012'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@7030-DEDIEGO
-2012'
-
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@@6972-BOURDIE
-U2008'
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
 Serif-BoldItalic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libert
 inus-fonts/LibertinusSerif-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentyp
@@ -7791,10 +7831,10 @@ texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/
 texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regula
 r.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondense
 d-SemiBold.otf>
-Output written on pdf-20250518TPUMAUROB.pdf (186 pages, 745595 bytes).
+Output written on pdf-20250518TPUMAUROB.pdf (195 pages, 773265 bytes).
 
-PDF statistics: 1720 PDF objects out of 1728 (max. 8388607)
- 1318 compressed objects within 14 object streams
- 409 named destinations out of 1000 (max. 131072)
+PDF statistics: 1884 PDF objects out of 2073 (max. 8388607)
+ 1530 compressed objects within 16 object streams
+ 421 named destinations out of 1000 (max. 131072)
  317 words of extra memory for PDF output out of 10000 (max. 100000000)
 
